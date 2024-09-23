@@ -1,0 +1,1 @@
+# plugins-currency-converter-widget
