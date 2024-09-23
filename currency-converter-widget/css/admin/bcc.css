@@ -1,0 +1,120 @@
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.col-md-6 {
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+}
+.col-md-12 {
+    width: 100%;
+    float: left;
+}
+.currency-wiki-widget-input {
+    max-width: 200px;
+}
+h1.wp-heading-inline:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url(//s3-us-west-2.amazonaws.com/widget-icon/conv.png) no-repeat center #4f7ccb;
+    left: 0;
+    top: 15px;
+}
+.wrap h1.wp-heading-inline {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 20px 0 10px 45px;
+    color: inherit;
+    position: relative;
+}
+.currency-bcc-widget-label {
+    margin-right: 20px;
+    line-height: 42px;
+    font-size: 17px;
+    color: #131415;
+    font-weight: 300;
+}
+.currency-bcc-widget-input {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    border: 1px solid #dde2e4;
+    height: 41px;
+    width: 200px;
+    padding: 10px;
+    font-size: 17px;
+    color: #131415;
+    line-height: 1.235;
+    white-space: nowrap;
+    position: relative;
+}
+select.currency-bcc-widget-input {
+	width: 200px;
+    cursor: pointer;
+    border: 1px solid #dde2e4;
+    height: 41px;
+    padding: 10px;
+    font-size: 17px;
+    color: #131415;
+    line-height: 1.235;
+    white-space: nowrap;
+    position: relative;
+}
+.wp-color-result {
+    width: 159px;
+    cursor: pointer;
+    border: 1px solid rgb(221, 226, 228);
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(19, 20, 21);
+    line-height: 1.235;
+    white-space: nowrap;
+    position: relative;
+}
+.button-wiki-widget {
+	background: #D51D29 !important;
+	color: #FFFFFF !important;
+	margin-right: 6px;
+}
+.size.input-block {
+	font-family: 'Roboto', sans-serif;
+    padding: 10px 0;
+    font-size: 17px;
+    color: #131415;
+    font-weight: 300;
+    line-height: 1.235;
+}
+.size.input-block label {
+    margin-right: 15px;
+}
+/*.wp-picker-input-wrap {
+    display: none !important;
+}*/
+.shortcode-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.shortcode-wrapper #shortcode-input {    
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    background-color: #f7f7f7;
+    width: 100%;
+    display: block;
+}
+.widget-preview-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+}
