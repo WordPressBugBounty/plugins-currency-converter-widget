@@ -150,6 +150,7 @@
 
             updatePreview();
             updateShortcode();
+            updateEmbedCode();
         });
 
         // Initial visibility check
@@ -246,6 +247,7 @@
 
             updatePreview();
             updateShortcode();
+            updateEmbedCode();
         });
 
         // Handle custom width/height changes
@@ -305,6 +307,7 @@
             $(this).find('input[type="radio"]').prop('checked', true);
             updatePreview();
             updateShortcode();
+            updateEmbedCode();
         });
     }
 
@@ -316,6 +319,7 @@
             $(this).find('input[type="radio"]').prop('checked', true);
             updatePreview();
             updateShortcode();
+            updateEmbedCode();
         });
     }
 
@@ -356,6 +360,7 @@
 
             updatePreview();
             updateShortcode();
+            updateEmbedCode();
         });
     }
 
@@ -365,6 +370,7 @@
             $('#cwc_decimals_val').text($(this).val());
             updatePreview();
             updateShortcode();
+            updateEmbedCode();
         });
     }
 
@@ -495,9 +501,18 @@
             // Multi-currency widgets use display currencies
             currenciesParam = displayCurrencies;
 
-            // For viewer styles, sync dropdown with display currencies selection
-            // If "all" preset is selected, dropdown should also be "all"
-            if (viewerStyles.includes(style)) {
+            if (style === 'multi-expandable') {
+                // For multi-expandable, the "Dropdown Menu Currencies" section is hidden.
+                // Use "Add Currency Dropdown" setting for the base currency selector instead.
+                const addPreset = $('#cwc_add_dropdown_preset').val();
+                if (addPreset === 'all') {
+                    dropdownParam = 'all';
+                } else {
+                    dropdownParam = addDropdownCurrencies;
+                }
+            } else if (viewerStyles.includes(style)) {
+                // For viewer styles, sync dropdown with display currencies selection
+                // If "all" preset is selected, dropdown should also be "all"
                 const displayPreset = $('#cwc_display_preset').val();
                 if (displayPreset === 'all') {
                     dropdownParam = 'all';
@@ -792,7 +807,7 @@
         const flags = $('input[name="cwc_widget_options[show_flags]"]').is(':checked') ? '1' : '0';
         const labels = $('input[name="cwc_widget_options[show_labels]"]').is(':checked') ? '1' : '0';
         const swap = $('input[name="cwc_widget_options[show_swap]"]').is(':checked') ? '1' : '0';
-        const branding = '1';
+        const branding = $('input[name="cwc_widget_options[show_branding]"]').val() || '1';
         const brandinglink = $('input[name="cwc_widget_options[show_branding_link]"]').is(':checked') ? '1' : '0';
         const lock = $('input[name="cwc_widget_options[lock_currencies]"]').is(':checked') ? '1' : '0';
         const format = $('#cwc_format').val() || 'auto';
@@ -816,9 +831,18 @@
             // Multi-currency widgets use display currencies
             currenciesParam = displayCurrencies;
 
-            // For viewer styles, sync dropdown with display currencies selection
-            // If "all" preset is selected, dropdown should also be "all"
-            if (viewerStyles.includes(style)) {
+            if (style === 'multi-expandable') {
+                // For multi-expandable, the "Dropdown Menu Currencies" section is hidden.
+                // Use "Add Currency Dropdown" setting for the base currency selector instead.
+                const addPreset = $('#cwc_add_dropdown_preset').val();
+                if (addPreset === 'all') {
+                    dropdownParam = 'all';
+                } else {
+                    dropdownParam = addDropdownCurrencies;
+                }
+            } else if (viewerStyles.includes(style)) {
+                // For viewer styles, sync dropdown with display currencies selection
+                // If "all" preset is selected, dropdown should also be "all"
                 const displayPreset = $('#cwc_display_preset').val();
                 if (displayPreset === 'all') {
                     dropdownParam = 'all';
@@ -1176,7 +1200,7 @@
 
             const $pill = $(`
                 <span class="cwc-display-pill" data-currency="${code}" style="display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; font-size: 12px;">
-                    ${flag ? '<span>' + flag + '</span>' : ''}
+                    ${flag ? '<img src="https://cdn.currency.wiki/flags/' + flag + '.svg" alt="' + code + '" style="width: 16px; height: 12px; border-radius: 2px; object-fit: cover;">' : ''}
                     <span>${code}</span>
                 </span>
             `);

@@ -4,7 +4,7 @@ Tags: currency converter, exchange rates, currency calculator, forex, money conv
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 4.0.0
+Stable tag: 4.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -130,7 +130,11 @@ You can disable the clickable link, but the branding text is always shown.
 6. Gutenberg Block Editor - Settings Panel
 
 == Changelog ==
-
+= 4.0.1 =
+* Fixed: Embed code now properly reflects all settings changes (theme, accent color, style, size, decimals)
+* Fixed: Currency flag images now display correctly in admin dashboard currency pills
+* Fixed: Multi-Expandable base currency dropdown now syncs with Add Currency Dropdown setting
+* Fixed: Widget flags no longer show blank for currencies outside the dropdown preset
 = 4.0.0 =
 * Complete rebuild with new modern widget engine
 * Added 11 beautiful widget styles

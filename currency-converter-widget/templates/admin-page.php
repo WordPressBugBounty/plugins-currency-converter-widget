@@ -361,7 +361,7 @@ $accent_colors = [
                                         if ($currency_data) :
                                     ?>
                                     <span class="cwc-display-pill" data-currency="<?php echo esc_attr($code); ?>" style="display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; font-size: 12px;">
-                                        <?php if (!empty($currency_data['flag'])) : ?><span><?php echo esc_html($currency_data['flag']); ?></span><?php endif; ?>
+                                        <?php if (!empty($currency_data['flag'])) : ?><img src="https://cdn.currency.wiki/flags/<?php echo esc_attr($currency_data['flag']); ?>.svg" alt="<?php echo esc_attr($code); ?>" style="width: 16px; height: 12px; border-radius: 2px; object-fit: cover;"><?php endif; ?>
                                         <span><?php echo esc_html($code); ?></span>
                                     </span>
                                     <?php endif; endforeach; ?>
@@ -385,7 +385,7 @@ $accent_colors = [
                                                 class="cwc-display-currency-pill <?php echo $is_selected ? 'selected' : ''; ?>"
                                                 data-currency="<?php echo esc_attr($code); ?>"
                                                 style="display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; background: <?php echo $is_selected ? '#3B82F6' : '#fff'; ?>; color: <?php echo $is_selected ? '#fff' : '#374151'; ?>; border: 1px solid <?php echo $is_selected ? '#3B82F6' : '#e2e8f0'; ?>; border-radius: 16px; font-size: 12px; cursor: pointer;">
-                                            <?php if ($flag) : ?><span><?php echo esc_html($flag); ?></span><?php endif; ?>
+                                            <?php if ($flag) : ?><img src="https://cdn.currency.wiki/flags/<?php echo esc_attr($flag); ?>.svg" alt="<?php echo esc_attr($code); ?>" style="width: 16px; height: 12px; border-radius: 2px; object-fit: cover;"><?php endif; ?>
                                             <span><?php echo esc_html($code); ?></span>
                                             <?php if ($is_selected) : ?><span style="margin-left: 2px;">✓</span><?php endif; ?>
                                         </button>
@@ -473,7 +473,7 @@ $accent_colors = [
                                                 class="cwc-add-dropdown-currency-pill <?php echo $is_selected ? 'selected' : ''; ?>"
                                                 data-currency="<?php echo esc_attr($code); ?>"
                                                 style="display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; background: <?php echo $is_selected ? '#3B82F6' : '#fff'; ?>; color: <?php echo $is_selected ? '#fff' : '#374151'; ?>; border: 1px solid <?php echo $is_selected ? '#3B82F6' : '#e2e8f0'; ?>; border-radius: 16px; font-size: 12px; cursor: pointer;">
-                                            <?php if ($flag) : ?><span><?php echo esc_html($flag); ?></span><?php endif; ?>
+                                            <?php if ($flag) : ?><img src="https://cdn.currency.wiki/flags/<?php echo esc_attr($flag); ?>.svg" alt="<?php echo esc_attr($code); ?>" style="width: 16px; height: 12px; border-radius: 2px; object-fit: cover;"><?php endif; ?>
                                             <span><?php echo esc_html($code); ?></span>
                                             <?php if ($is_selected) : ?><span style="margin-left: 2px;">✓</span><?php endif; ?>
                                         </button>
@@ -540,7 +540,7 @@ $accent_colors = [
                                     <button type="button"
                                             class="cwc-currency-pill <?php echo $is_selected ? 'selected' : ''; ?>"
                                             data-currency="<?php echo esc_attr($code); ?>">
-                                        <?php if ($flag) : ?><span class="cwc-pill-flag"><?php echo esc_html($flag); ?></span><?php endif; ?>
+                                        <?php if ($flag) : ?><img src="https://cdn.currency.wiki/flags/<?php echo esc_attr($flag); ?>.svg" alt="<?php echo esc_attr($code); ?>" style="width: 16px; height: 12px; border-radius: 2px; object-fit: cover;"><?php endif; ?>
                                         <span class="cwc-pill-code"><?php echo esc_html($code); ?></span>
                                     </button>
                                     <?php endforeach; ?>
