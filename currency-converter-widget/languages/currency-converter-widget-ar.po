@@ -1,0 +1,1192 @@
+# Arabic translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-08 23:52+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "ويدجت محول العملات"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "الإعدادات"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "أضف ويدجت محول عملات جميل وقابل للتخصيص إلى موقع ووردبريس الخاص بك. أسعار صرف حية، 11 نمط ويدجت، أكثر من 170 عملة. مدعوم من Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "مجموعة العملات"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "محول العملات"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "عرض ويدجت محول العملات مع أسعار صرف حية."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "عملة"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "محول"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "صرف"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "أسعار"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "مال"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "نمط الويدجت"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "العملات"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "إعدادات الرسم البياني"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "المظهر"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "خيارات العرض"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "تنسيق الرقم"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "نمط"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "مضغوط"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "صغير"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "مربع"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "طويل"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "متداخل"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "رسم بياني صغير"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "صغير + رسم بياني"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "محول متعدد"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "قابل للتوسيع المتعدد"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "ثابت متعدد"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "أسعار الصرف"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "أسعار الصرف + كلاسيكي"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "أسعار الصرف - مضغوط"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "أسعار مضغوطة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "عارض الأسعار"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "عرض الرسوم البيانية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "عرض الرسوم البيانية - مضغوط"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "عارض الأسعار المضغوط"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "شريط جانبي طويل + كلاسيكي"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "الحجم"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "صغير"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "متوسط"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "كبير"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "مخصص"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "افتراضي"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "العرض (بكسل)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "الارتفاع (بكسل)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "أبعاد مخصصة"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "من العملة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "إلى العملة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "المبلغ الافتراضي"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "قفل اختيار العملة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "قفل العملات (لا يمكن للمستخدمين التغيير)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "منع المستخدمين من تغيير العملات"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "عرض العملات"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "إعداد مسبق"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "أفضل 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "أفضل 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "أفضل 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "جميع العملات"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "جميع (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "الجميع"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "حد أقصى 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "عملات مخصصة (مفصولة بفواصل)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "مثل: EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "مثل: USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "اختر حتى 10 عملات."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "حد أقصى 10 عملات لمحول متعدد"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "إضافة قائمة منسدلة للعملة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "عملات قائمة منسدلة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "العملات المتاحة في قائمة \"+ إضافة عملة\" المنسدلة"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "أفضل 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "أكثر العملات شعبية"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "أكثر العملات شعبية: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "ابحث عن العملات..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d عملة متاحة"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "أفضل 10 عملات: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "أفضل 20 عملة بما في ذلك BRL, KRW, SGD, HKD, NZD، إلخ."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "جميع العملات الـ 170+ مع وظيفة البحث"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "اختيار مخصص من العملات"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "الفترة الافتراضية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "الفترة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 أيام"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 يومًا"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 يومًا"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 يومًا"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "المظهر"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "فاتح"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "داكن"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "تلقائي"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "تلقائي (النظام)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "تلقائي (المتصفح)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "لون التمييز"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "اللغة"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "لغة الودجت"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "عرض الأعلام"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "عرض أعلام الدول"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "عرض التسميات"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "عرض التسميات (من/إلى)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "عرض تسميات \\"من\\" و\\"إلى\\" فوق قوائم العملات"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "عرض زر التبديل"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "عرض زر التبديل"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "عرض العلامة التجارية"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "عرض العلامة التجارية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "علامة تجارية قابلة للنقر"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "اجعل \\"مدعوم بواسطة Currency.Wiki\\" قابلاً للنقر"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "عرض رابط \\"مدعوم بواسطة Currency.Wiki\\""
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"مدعوم بواسطة Currency.Wiki\\" سيتم عرضه دائماً. تعطيل هذا الخيار يزيل فقط الرابط القابل للنقر. عند التمكين، يستخدم الرابط rel=\\"nofollow\\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "عرض رمز العملة"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "عرض رمز العملة بدلاً من رمز ISO"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "تنسيق عرض العملة"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "رمز ISO"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "رمز"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "اختر كيف يتم عرض العملات في الودجت. رموز ISO (USD، EUR) عالمية، بينما الرموز ($، €) قد تكون أكثر ألفة للمستخدمين."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "أماكن عشرية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (أمريكي)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "أمريكي (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (أوروبي)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "أوروبي (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (فرنسي)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "فرنسي (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (هندي)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "الهندي (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "إعدادات أداة تحويل العملات"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "أدوات تحويل العملات الجميلة لووردبريس"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "الباني المتقدم"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "التوثيق"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "إعدادات العملة"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "الإعدادات السريعة"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "بسيط"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "حد أدنى"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "شريط جانبي"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "عملات متعددة"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "رسم بياني"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "قفل اختيار العملة"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "عرض أعلام العملات"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "عرض تسميات العملات"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "تمكين رابط العلامة التجارية"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "معاينة حية"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "رمز قصير"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "نسخ"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "تم النسخ!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "انسخ هذا الرمز القصير والصقه في أي منشور أو صفحة أو منطقة أداة:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "توافق السمة:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "بعض سمات ووردبريس قد تتعارض مع سكربت الأداة. إذا واجهت مشاكل في العرض، حاول استخدام وضع iframe:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "قيود iframe:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "تحتوي قوائم السحب على المحتوى داخل منطقة الأداة"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "قد تتطلب قوائم العملات الطويلة التمرير داخل الأداة"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "الأفضل للاستخدام في عرض العملات المقفلة أو أدوات نمط المشاهد"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "الأفضل للاستخدام في العملات المقفلة أو أدوات نمط المشاهد"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "أمثلة على الرموز القصيرة"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "أساسي:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "اسم مختصر:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "عملات مخصصة:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "ثيم داكن:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "أسلوب مصغر:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "مع الرسم البياني:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "كود التضمين (المواقع الخارجية)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "للتضمين على مواقع غير ووردبريس (HTML، Shopify، Wix، إلخ)، استخدم الكود أدناه:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "سكريبت (موصى به)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "إطار (خيار احتياطي)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "تضمين السكريبت (موصى به)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "ويدجت كامل الميزات مع قوائم منسدلة تظهر أمام المحتوى المحيط. الأفضل للاختيار التفاعلي للعملات."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "تضمين إطار (خيار احتياطي)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "استخدم هذا إذا كان تضمين السكريبت يسبب تعارضات مع موقعك. يعمل في صندوق الرمل المعزول."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "القيود:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "قوائم العملات الطويلة تتطلب التمرير داخل الويدجت"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "كتلة غوتنبرغ"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "يمكنك أيضًا إضافة الويدجت باستخدام محرر الكتل غوتنبرغ:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "افتح محرر الكتل في أي منشور أو صفحة"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "اضغط على زر + لإضافة كتلة جديدة"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "ابحث عن \"محول العملات\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "قم بتكوين الويدجت في شريط إعدادات الكتلة"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "تحتاج إلى مساعدة؟"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "قم بزيارة وثائقنا أو اتصل بالدعم للحصول على المساعدة."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "عرض الوثائق"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "هل تستمتع بويدجت محول العملات؟"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "ملاحظاتك تساعدنا على التحسين! يستغرق الأمر لحظة فقط."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "قيم الآن"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "ربما لاحقًا"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "المساعدة والدعم"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "احصل على المساعدة مع Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "تعلم كيفية استخدام Currency Kit لإضافة أدوات تحويل العملات الجميلة إلى موقع WordPress الخاص بك."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "استخدم الشيفرة القصيرة <strong>[currencywiki_converter]</strong> لإضافة الأدوات إلى المشاركات والصفحات"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "خصص نمط الأداة، والثيم، والألوان من لوحة التحكم"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "استخدم كتلة Currency Kit في محرر Gutenberg للتحرير المرئي"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "انسخ كود التضمين لاستخدامه على المواقع الخارجية"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "الأسئلة الشائعة"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "كيف أضيف محول عملات إلى صفحتي؟"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "استخدم الشيفرة القصيرة [currencywiki_converter] أو أضف كتلة Currency Kit في محرر Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "هل يمكنني تخصيص ألوان الأداة؟"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "نعم! انتقل إلى Currency Kit → لوحة التحكم واختر لونك المفضل من لوحة الألوان."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "كم مرة يتم تحديث أسعار الصرف؟"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "يتم تحديث أسعار الصرف في الوقت الحقيقي من واجهة برمجة تطبيقات Currency.Wiki."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "هل تحتاج إلى مزيد من المساعدة؟"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "اتصل بفريق الدعم لدينا أو قم بزيارة الوثائق الخاصة بنا لمزيد من المعلومات."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "احصل على الدعم"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "عرض محول العملات في الشريط الجانبي الخاص بك. (أداة قديمة V2 - يُفضل استخدام كتلة Gutenberg بدلاً من ذلك)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "أداة محول العملات (قديمة)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "الأداة القديمة"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "هذه أداة قديمة V2. للحصول على المزيد من الميزات وتخصيص أفضل، استخدم كتلة محول العملات الجديدة في محرر Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "العنوان:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "من العملة:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "إلى العملة:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "الإعدادات المتقدمة"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "المبلغ"
+
+#: Widget Frontend
+msgid "From"
+msgstr "من"
+
+#: Widget Frontend
+msgid "To"
+msgstr "إلى"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "النتيجة"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "تبديل العملات"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "مدعوم من Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ إضافة عملة"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count من :max عملات"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "آخر تحديث:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7 أيام"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14 يوم"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30 يوم"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90 يوم"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "شائع"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "ابحث عن عملة..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "إزالة"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "الإنجليزية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "الإسبانية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "الفرنسية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "الألمانية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "الإيطالية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "البرتغالية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "البرتغالية (البرازيل)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "الروسية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "اليابانية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "الصينية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "الصينية (المبسطة)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "الصينية (التقليدية)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "العربية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "الهندية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "البنغالية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "الكورية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "الهولندية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "البولندية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "التركية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "الفيتنامية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "التايلاندية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "الإندونيسية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "الملايوية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "الأوكرانية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "التشيكية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "اليونانية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "العبرية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "المجرية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "الرومانية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "السويدية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "الدنماركية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "الفنلندية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "النرويجية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "السلوفاكية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "البلغارية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "الكرواتية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "الصربية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "السلوفينية"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "الفلبينية"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "الأفريكانية"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "الأمهرية"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "البوسنية"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "البورمية"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "الإستونية"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "الجورجية"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "الأيسلندية"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "الأيرلندية"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "الكازاخية"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "الخميرية"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "لاتفي"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "ليتواني"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "مالطي"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "منغولي"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "نيبالي"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "فارسي"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "سنهالي"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "سواحلي"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "تاميل"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "تيلوجو"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "أردو"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "أوزبكي"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "أرمني"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "أزرق"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "أخضر"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "أرجواني"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "أحمر"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "برتقالي"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "رمادي"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "وردي"

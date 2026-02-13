@@ -1,0 +1,1192 @@
+# Basque translation for Currency Converter Widget
+# Copyright (C) 2025 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2025-12-22 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-23 00:45+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Basque\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Moneta Aldatzaile Widget"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Gehitu zure WordPress gunean edertasun eta pertsonalizagarria den moneta aldaketarako widget bat. Denbora errealean truke-tasak, 11 widget estilo, 170+ moneta. Currency.Wiki-k emanda"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Moneta Kit"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Moneta Aldatzailea"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Moneta aldaketa widget bat erakutsi denbora erreko truke-tasarekin."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "moneta"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "aldatzailea"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "truke"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "tasa"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "dirua"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Widget Estiloa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Monetak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Grafiko Ezarpenak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Itxura"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Erakusteko Aukerak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Zenbaki Formatua"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Estiloa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Konpaktoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Karratua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Luzera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Inline"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Mini Grafikoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mini + Grafikoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Multi-Aldatzailea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Multi Hedakorra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Multi Finkoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Truke Tasak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Truke Tasak + Klasikoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Trukaketa Tasak - Konpaktua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Tasa Konpaktua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Tasa Ikuslea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Grafikoak Erakutsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Grafikoak Erakutsi - Konpaktua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Tasa Ikuslea Konpaktua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Altu Sidebar + Klasikoa"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Tamaina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Txikia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Erdikoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Handia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Pertsonalizatua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Lehena"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Zabalera (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Altuera (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Dimentsio Pertsonalizatuak"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Moneta Jatorria"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Moneta Helburua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Lehenetsitako Kantitatea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Blokeatu Moneta Aukeraketa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Blokeatu moneta (erabiltzaileek ezin dute aldatu)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Erabiltzaileek moneta aldatzea saihestu"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Monetak Erakutsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Lehenetsia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Gailurreko 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Gailurreko 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Gailurreko 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Moneta Guztiak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Guztiak (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Guztiak"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Max 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Moneta Pertsonalizatuak (komaz bereizita)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "adib., EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "adib., USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Hautatu 10 moneta arte."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Max 10 moneta Multi-Converterrako"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Gehitu Moneta Errolatzailea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Errolatzailean Moneta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Monetak eskuragarri daude \\"+ Gehitu Moneta\\" errolatzailean"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Gailurrak 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Moneta ezagunenak"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Moneta ezagunenak: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Bilatu moneta..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d moneta eskuragarri"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Gailurrak 10 moneta: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Gailurrak 20 moneta BRL, KRW, SGD, HKD, NZD, etab. barne"
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "170+ moneta guztiak bilaketa funtzionalitatearekin"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Moneten hautaketa pertsonalizatua"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Lehenetsitako Epea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Epea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 Egunean"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 Egunean"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 Egunean"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 Egunean"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Gaia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Argia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Iluna"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Automatikoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Automatikoa (Sistema)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Automatikoa (Nabigatzailea)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Akzentu Kolorea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Hizkuntza"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Widget Hizkuntza"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Irudiak Erakutsi"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Herrialde irudiak erakutsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Etiketak Erakutsi"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Etiketak erakutsi (From/To)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Moneta dropdownen gainean \\"From\\" eta \\"To\\" etiketak erakutsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Aldaketa Botoia Erakutsi"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Aldaketa botoia erakutsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Markatzea Erakutsi"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Markatzea erakutsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Klikatzeko Markatzea"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "\\"Powered by Currency.Wiki\\" klikatzeko egin"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "\\"Powered by Currency.Wiki\\" lotura erakutsi"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Powered by Currency.Wiki\\" beti erakutsiko da. Aukera hau desgaitzeak klikatzeko lotura bakarrik kentzen du. Aktibatuta, loturak rel=\\"nofollow\\" erabiltzen du."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Moneta Sinboloa Erakutsi"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Moneta sinboloa ISO kodearen ordez erakutsi"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Moneta Erakusteko Formatua"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO Kodea"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Sinboloa"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Aukeratu nola erakusten diren moneta widgetean. ISO kodeak (USD, EUR) unibertsalak dira, sinboloak ($, €) erabiltzaileentzat ohikoagoak izan daitezke."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Hamartarrak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (AEB)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "AEB (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EB)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EB (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Frantziako)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Frantziako (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Indiako)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indiako (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Moneta Bihurgailu Widgeten Ezarpenak"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "WordPress-erako moneta bihurgailu ederrak"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Aurreratua Eraikitzailea"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Dokumentazioa"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Moneta Ezarpenak"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Azkar Hasierako Aurrekonfigurazioak"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Sinplea"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Minimala"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Alboko Barra"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Anizkoitz-Moneta"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Grafikoa"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Moneta hautaketa blokeatu"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Moneta bandera erakutsi"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Moneta etiketa erakutsi"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Markatze lotura aktibatu"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Ezarpenak Gorde"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Bizitzako Aurrebista"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Laburpen Kodea"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Kopiatuta!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Kopiatu laburpen kode hau eta itsatsi edozein iruzkin, orrialde edo widget eremutan:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Gaia bateragarritasuna:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Zenbait WordPress gaiek widget scriptarekin gatazka izan dezakete. Irudi arazoak izanez gero, saiatu iframe modua erabiltzen:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe Mugak:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Erorketa-menuak widget eremuan daude"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Moneta zerrenda luzeek widget barruan irristatzea eskatzen ahal dute"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Moneta blokeatuen erakuspenetarako edo ikusle estiloako widgetetarako egokiena"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Moneta blokeatuetarako edo ikusle estiloako widgetetarako egokiena"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Laburpen Kodearen Adibideak"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Oinarrizko:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Laburpen alias:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Moneta pertsonalizatuak:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Ilun gaia:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Mini estiloa:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Grafikoarekin:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Txertatze Kodea (Kanpoaldeko Webguneak)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "WordPress ez diren webguneetan (HTML, Shopify, Wix, etab.) txertatzeko, erabili beheko kodea:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Script (gomendatua)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (alternatiba)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Script Txertatzea (gomendatua)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Edukien inguruan agertzen diren menu desberdinekin funtzionalitate osoa duen widgeta. Moneta interaktiboen hautaketa egiteko onena."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe Txertatzea (alternatiba aukera)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Erabili hau script txertatzeak zure webgunearekin gatazkak sortzen baditu. Sand box isolatuan funtzionatzen du."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Mugak:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Moneta zerrenda luzeek widgetaren barruan irristatzea eskatzen dute"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg Blokea"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Widgeta Gutenberg bloke editorearen bidez ere gehitu dezakezu:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Ireki bloke editorea edozein post edo orrialdetan"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Egin klik + botoian bloke berri bat gehitzeko"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Bilatu \"Moneta Bihurgailua\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Konfiguratu widgeta bloke ezarpenen alboan"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Laguntza behar?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Bisitatu gure dokumentazioa edo jarri harremanetan laguntza lortzeko."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Ikusi Dokumentazioa"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Moneta Bihurgailu Widgeta gozatzen?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Zure iritzia hobetzen laguntzen digu! Une bat besterik ez da behar."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Ezarri Orain"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Agian Geroxeago"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Baztertu"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Laguntza eta Etxeko"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Lortu laguntza Currency Kit-ekin"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Ikasi nola erabili Currency Kit zure WordPress gunean edertasunarekin diru-tasa bihurgailu widget-ak gehitzeko."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Erabili <strong>[currencywiki_converter]</strong> shortcode-a widget-ak postetan eta orrietan gehitzeko"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Pertsonalizatu widget estiloa, gaia eta koloreak Etxeko paneletik"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Erabili Currency Kit blokea Gutenberg editorean editatzeko ikusizko moduan"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Kopiatu txertatzeko kodea kanpoko webguneetan erabiltzeko"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Maiz galdetzen diren galderak"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Nola gehitzen dut diru-tasa bihurgailu bat nire orrian?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Erabili [currencywiki_converter] shortcode-a edo gehitu Currency Kit blokea Gutenberg editorean."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Widget koloreak pertsonalizatu ditzaket?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Bai! Joan Currency Kit → Etxeko panelera eta hautatu zure gustuko azentu kolorea kolore paletatik."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Zenbat aldiz eguneratzen dira diru-tasa?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Diru-tasa Currency.Wiki API-tik benetako denboran eguneratzen dira."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Laguntza gehiago behar duzu?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Jarri harremanetan gure laguntza taldearekin edo bisitatu gure dokumentazioa informazio gehiago lortzeko."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Lortu Laguntza"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Erakutsi diru-tasa bihurgailua zure alboan. (Legatu V2 widget - kontuan hartu Gutenberg blokea erabiltzea)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Diru-tasa Bihurgailu Widget (Legatu)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Legatu Widget"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Hau legatu V2 widget bat da. Ezaugarri gehiago eta pertsonalizazio hobea lortzeko, erabili Currency Converter bloke berria Gutenberg editorean."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Izenburua:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Diru-tasa:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Diru-tasa:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Aurreratuko Ezarpenak"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Kantitatea"
+
+#: Widget Frontend
+msgid "From"
+msgstr "From"
+
+#: Widget Frontend
+msgid "To"
+msgstr "To"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Emaitza"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Aldatu Diru-tasa"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Currency.Wiki-k emandua"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Gehitu Moneta"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count :max monetetatik"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Azken eguneratzea:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7E"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14E"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30E"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90E"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "EZAGUNA"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Bilatu moneta..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Kendu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Ingelesa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Espainiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Frantsesa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Alemaniera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Italianoa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portuguese (Brasil)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Errusiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Japoniera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Txinera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Txinera (Sinplifikatua)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Txinera (Tradizionala)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Arabiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hindi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengaliera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Koreera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Herbeherea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Poloniera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Turkiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Thai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Indonesiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Malai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Ukrainiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Txekiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Greziarra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Hebreera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Hungariera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Errumaniera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Suediarra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Danimarkarra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Finlandiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Norvegiarra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Eslovakiarra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Bulgariera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Kroaziera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Serbiera"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Esloveniarra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Filipinera"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Afrikáans"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Amharikoa"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Bosniarra"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Birmaniera"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Estoniera"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Georgiera"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Islandiarrera"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Irlandarra"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Khmer"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Letoiar"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Lituaniar"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Maltatar"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mongoliar"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Nepalier"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Persier"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sinhaler"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Swahilier"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Tamiler"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Teluguer"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Urdu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Armeniar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Urdina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Berdea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Morea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Gorria"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Laranja"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Harrizkoa"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Arrosa"

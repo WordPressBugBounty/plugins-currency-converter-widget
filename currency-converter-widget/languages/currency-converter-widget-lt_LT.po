@@ -1,0 +1,1192 @@
+# Lithuanian translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:20+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Lithuanian\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Valiutos keitiklio valdiklis"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Nustatymai"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Pridėkite gražų, pritaikomą valiutos keitiklio valdiklį prie savo WordPress svetainės. Realaus laiko valiutų kursai, 11 valdiklio stilių, 170+ valiutų. Palaiko Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Valiutos rinkinys"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Valiutos keitiklis"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Rodyti valiutos keitiklio valdiklį su gyvais valiutų kursais."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "valiuta"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "keitiklis"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "kursai"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "kainos"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "pinigai"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Valdiklio stilius"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Valiutos"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Diagramos nustatymai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Išvaizda"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Rodymo parinktys"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Skaičiaus formatas"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Stilius"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Kompaktiškas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Kvadratinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Aukštas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Inline"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Mini diagrama"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mini + diagrama"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Daugiavaldis keitiklis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Daugiaplatis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Daugiakietis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Valiutų kursai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Valiutų kursai + klasikinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Valiutų kursai - Kompaktiškas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Kursai Kompaktiškas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Kursų Peržiūros"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Rodyti Diagramas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Rodyti Diagramas - Kompaktiškas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Kursų Peržiūros Kompaktiškas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Aukštas Šoninis Baras + Klasikinis"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Dydis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Mažas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Vidutinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Didelis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Pasirinktinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Numatytasis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Plotis (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Aukštis (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Pasirinktini Išmatavimai"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Iš Valutos"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Į Valutą"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Numatytasis Kiekis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Užrakinti Valutos Pasirinkimą"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Užrakinti valiutas (naudotojai negali keisti)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Užkirsti kelią naudotojams keisti valiutas"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Rodyti Valiutas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Išankstinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Top 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Top 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Top 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Visos Valiutos"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Visos (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Visos"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Max 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Pasirinktinos valiutos (atskirtos kableliais)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "pvz., EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "pvz., USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Pasirinkite iki 10 valiutų."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Max 10 valiutų Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Pridėti valiutos išskleidžiamąjį meniu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Išskleidžiamojo meniu valiutos"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Valiutos, prieinamos \\"+ Pridėti valiutą\\" išskleidžiamajame meniu"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "3 geriausios (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Populiariausios valiutos"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Populiariausios valiutos: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Ieškoti valiutų..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d valiutų prieinama"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "10 geriausių valiutų: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "20 geriausių valiutų, įskaitant BRL, KRW, SGD, HKD, NZD ir kt."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Visos 170+ valiutų su paieškos funkcija"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Pasirinktinė valiutų atranka"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Numatytasis laikotarpis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Laikotarpis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 dienos"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 dienų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 dienų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 dienų"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Tema"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Šviesi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Tamsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Automatinė"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Automatinė (sistema)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Automatinė (naršyklė)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Akcento spalva"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Kalba"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Widget kalba"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Rodyti vėliavas"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Rodyti šalių vėliavas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Rodyti etiketes"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Rodyti etiketes (Iš/Iš)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Rodyti \\"Iš\\" ir \\"Į\\" etiketes virš valiutų išskleidžiamųjų sąrašų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Rodyti keitimo mygtuką"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Rodyti keitimo mygtuką"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Rodyti prekės ženklą"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Rodyti prekės ženklą"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Paspaudžiamas prekės ženklas"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Padaryti \\"Powered by Currency.Wiki\\" paspaudžiamu"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Rodyti \\"Powered by Currency.Wiki\\" nuorodą"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Powered by Currency.Wiki\\" visada bus rodoma. Išjungus šią parinktį, pašalinama tik paspaudžiama nuoroda. Įjungus, nuoroda naudoja rel=\\"nofollow\\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Rodyti valiutos simbolį"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Rodyti valiutos simbolį vietoj ISO kodo"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Valiutos rodymo formatas"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO kodas"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Simbolis"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Pasirinkite, kaip valiutos rodomos widget'e. ISO kodai (USD, EUR) yra universalūs, o simboliai ($, €) gali būti pažįstamesni vartotojams."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Po dešimtainio kablelio"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (JAV)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "JAV (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (ES)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "ES (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Prancūzų)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Prancūzų (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Indų)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indų (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Valiutos keitiklio valdymo nustatymai"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Gražūs valiutos keitiklio valdikliai WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Išplėstinis kūrėjas"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Valiutos nustatymai"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Greito starto nustatymai"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Paprastas"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Minimalus"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Šoninis"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Daugiavalutis"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Diagrama"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Užrakinti valiutos pasirinkimą"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Rodyti valiutos vėliavas"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Rodyti valiutos etiketes"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Įjungti prekės ženklo nuorodą"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Išsaugoti nustatymus"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Gyvas peržiūra"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Trumpasis kodas"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Kopijuota!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Kopijuokite šį trumpąjį kodą ir įklijuokite jį į bet kurį įrašą, puslapį ar valdiklio sritį:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Temos suderinamumas:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Kai kurios WordPress temos gali konfliktuoti su valdiklio skriptu. Jei patiriate rodymo problemų, pabandykite naudoti iframe režimą:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe apribojimai:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Išskleidžiami meniu yra valdiklio srityje"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Ilgos valiutų sąrašai gali reikalauti slinkimo viduje valdiklio"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Geriausiai tinka užrakintiems valiutų rodiniams arba žiūrovo stiliaus valdikliams"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Geriausiai tinka užrakintoms valiutoms arba žiūrovo stiliaus valdikliams"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Trumpųjų kodų pavyzdžiai"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Pagrindinis:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Trumpas aliasas:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Pritaikytos valiutos:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Tamsus režimas:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Mini stilius:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Su grafiku:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Įterpimo kodas (Išorinės svetainės)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Norint įterpti į ne-WordPress svetaines (HTML, Shopify, Wix ir kt.), naudokite žemiau pateiktą kodą:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Scenarijus (Rekomenduojama)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Atsarginis variantas)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Scenarijaus įterpimas (Rekomenduojama)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Visapusiškas valdiklis su išskleidžiamaisiais meniu, kurie rodomi prieš aplinkinius turinius. Geriausiai tinka interaktyviam valiutos pasirinkimui."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe įterpimas (Atsarginis variantas)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Naudokite tai, jei scenarijaus įterpimas sukelia konfliktus su jūsų svetaine. Veikia izoliuotoje smėlio dėžėje."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Apribojimai:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Ilgos valiutų sąrašai reikalauja slinkti viduje valdiklio"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg blokas"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Taip pat galite pridėti valdiklį naudodami Gutenberg blokų redaktorių:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Atidarykite blokų redaktorių bet kuriame įraše ar puslapyje"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Paspauskite + mygtuką, kad pridėtumėte naują bloką"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Ieškokite \"Valiutos konverteris\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Konfigūruokite valdiklį blokų nustatymų šoninėje juostoje"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Reikia pagalbos?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Apsilankykite mūsų dokumentacijoje arba susisiekite su palaikymo tarnyba dėl pagalbos."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Peržiūrėti dokumentaciją"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Mėgstate Valiutos konverterio valdiklį?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Jūsų atsiliepimai padeda mums tobulėti! Tam reikia tik akimirkos."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Įvertinkite dabar"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Galbūt vėliau"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Užrakinti"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Pagalba ir parama"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Gaukite pagalbos su Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Sužinokite, kaip naudoti Currency Kit, kad pridėtumėte gražius valiutos konverterių valdiklius prie savo WordPress svetainės."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Naudokite <strong>[currencywiki_converter]</strong> trumpinį, kad pridėtumėte valdiklius į įrašus ir puslapius"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Pridėkite valdiklio stilių, temą ir spalvas iš valdymo pulto"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Naudokite Currency Kit bloką Gutenberg redaktoriuje vizualiam redagavimui"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Kopijuokite įterpimo kodą, kad naudotumėte išorinėse svetainėse"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Dažnai užduodami klausimai"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Kaip pridėti valiutos konverterį prie savo puslapio?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Naudokite trumpinį [currencywiki_converter] arba pridėkite Currency Kit bloką Gutenberg redaktoriuje."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Ar galiu pritaikyti valdiklio spalvas?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Taip! Eikite į Currency Kit → Valdymo pultas ir pasirinkite pageidaujamą akcento spalvą iš spalvų paletės."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Kaip dažnai atnaujinamos valiutų kursai?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Valiutų kursai atnaujinami realiu laiku iš Currency.Wiki API."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Reikia daugiau pagalbos?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Susisiekite su mūsų palaikymo komanda arba apsilankykite mūsų dokumentacijoje, kad gautumėte daugiau informacijos."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Gauti pagalbą"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Rodyti valiutos konverterį savo šoninėje juostoje. (Paveldimas V2 valdiklis - apsvarstykite galimybę naudoti Gutenberg bloką vietoj jo)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Valiutos konverterio valdiklis (paveldimas)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Paveldimas valdiklis"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Tai paveldimas V2 valdiklis. Dėl daugiau funkcijų ir geresnio pritaikymo naudokite naują valiutos konverterio bloką Gutenberg redaktoriuje."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Pavadinimas:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Iš valiutos:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Į valiutą:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Išplėstiniai nustatymai"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Suma"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Iš"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Į"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Rezultatas"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Keisti valiutas"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Teikia Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Pridėti valiutą"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count iš :max valiutų"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Paskutinį kartą atnaujinta:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7D"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14D"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30D"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90D"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "POPULIARI"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Ieškoti valiutos..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Pašalinti"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Anglų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Ispanų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Prancūzų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Vokiečių"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Italų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portugalų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portugalų (Brazilija)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Rusų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Japonų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Kinų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Kinų (supaprastinta)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Kinų (tradicinė)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Arabų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hindų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengalų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Korėjiečių"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Nyderlandų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Lenkų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Turkų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Vietnamiečių"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Tajų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Indoneziečių"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Malaiziečių"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Ukrainiečių"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Čekų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Graikų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Hebrajų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Vengrų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Rumunų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Švedų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Danų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Suomių"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Norvegų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Slovakų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Bulgarų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Kroatų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Serbų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Slovėnų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Filipiniečių"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Afrikiečių"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Amharų"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Bosnių"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Birmiečių"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Estų"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Gruzinių"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Islandų"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Airių"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Kazachų"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Khmerų"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Latvių"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Lietuvių"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Maltiečių"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mongolų"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Nepaliečių"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Persų"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sinhaliečių"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Svahelio"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Tamilų"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Telugų"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Urdu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Uzbekų"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Armėnų"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Mėlyna"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Žalia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Violetinė"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Raudona"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Oranžinė"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Juodai pilka"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Rožinė"

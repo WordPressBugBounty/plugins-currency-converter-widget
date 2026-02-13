@@ -1,0 +1,1192 @@
+# Irish translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:23+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Gníomhaire Conraithe Airgeadra"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Socruithe"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Cuir gníomhaire conraithe airgeadra álainn, inathraithe le do shuíomh WordPress. Rátaí malartaithe i bhfíor-am, 11 stíl gníomhaire, 170+ airgeadra. Treoraithe ag Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Conradh Airgeadra"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Gníomhaire Conraithe Airgeadra"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Taispeáin gníomhaire conraithe airgeadra le rátaí malartaithe beo."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "airgeadra"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "conraitheoir"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "malartú"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "rátaí"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "airgead"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Stíl Gníomhaire"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Airgeadraí"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Socruithe Graif"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Cuma"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Roghaí Taispeána"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Foirmle Uimhreacha"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Stíl"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Comhoiriúnach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mion"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Cearnóg"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Ard"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Laistigh"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Graif Mion"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mion + Graif"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Il-Conraitheoir"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Il-Expandáil"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Il-Dhíreach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Rátaí Malartaithe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Rátaí Malartaithe + Clasaiceach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Rátaí Malartaithe - Comhoiriúnach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Rátaí Comhoiriúnach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Léitheoir Rátaí"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Taispeáin Graif"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Taispeáin Graif - Comhoiriúnach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Léitheoir Rátaí Comhoiriúnach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Bord Taobh Ard + Clasaiceach"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Méid"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Beag"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Meán"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Mór"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Saincheaptha"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Réamhshocraithe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Leithead (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Airde (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Toisí Saincheaptha"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Ó Airgeadra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Chun Airgeadra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Méid Réamhshocraithe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Dún Roghnú Airgeadra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Dún airgeadra (ní féidir le húsáideoirí a athrú)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Cosain úsáideoirí ó athrú airgeadra"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Taispeáin Airgeadraí"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Réamhshocraithe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "3 Barr"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "10 Barr"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "20 Barr"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Gach Airgeadra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Gach (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Gach"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Uasmhéad 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Airgeadraí Saincheaptha (comhoiriúnachtaí le comhoiriúnachtaí)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "m.sh., EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "m.sh., USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Roghnaigh suas le 10 airgeadraí."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Uasmhéad 10 airgeadraí do Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Cuir Liosta Airgeadraí leis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Liosta Tíleanna Airgeadraí"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Airgeadraí ar fáil sa \\"+ Cuir Airgeadra leis\\" liosta"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "3 Barr (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Na h-airgeadraí is coitianta"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Na h-airgeadraí is coitianta: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Cuardaigh airgeadraí..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d airgeadraí ar fáil"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "10 Barr airgeadraí: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "20 Barr airgeadraí lena n-áirítear BRL, KRW, SGD, HKD, NZD, srl."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Gach 170+ airgeadraí le feidhmiúlacht cuardaigh"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Rogha shaincheaptha airgeadraí"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Tréimhse Réamhshocraithe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Tréimhse"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 Lá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 Lá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 Lá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 Lá"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Téama"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Éadrom"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Dorcha"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Uathoibríoch"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Uathoibríoch (Córas)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Uathoibríoch (Brabhsálaí)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Dath aibhsí"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Teanga"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Teanga an widget"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Taispeáin bratacha"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Taispeáin bratacha tíre"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Taispeáin lipéid"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Taispeáin lipéid (Ó/Go)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Taispeáin lipéid \\"Ó\\" agus \\"Go\\" os cionn na roghanna airgeadra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Taispeáin cnaipe malartaithe"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Taispeáin cnaipe malartaithe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Taispeáin branda"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Taispeáin branda"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Branda inrochtana"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Déanaigh \\"Tacaítear ag Currency.Wiki\\" inrochtana"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Taispeáin naisc \\"Tacaítear ag Currency.Wiki\\""
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Tacaítear ag Currency.Wiki\\" beidh sé i gcónaí le feiceáil. Má dhéantar an rogha seo a dhíchumasú, baintear ach an nasc inrochtana. Nuair a bhíonn sé gníomhach, úsáidtear rel=\\"nofollow\\" don nasc."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Taispeáin siombail airgeadra"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Taispeáin siombail airgeadra seachas cód ISO"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Formáid Taispeána Airgeadra"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "Cód ISO"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Siombail"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Roghnaigh conas a thaispeántar airgeadraí sa widget. Tá cóid ISO (USD, EUR) uilíoch, cé go bhféadfadh siombailí ($, €) a bheith níos eolach do na húsáideoirí."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Áiteanna deachúla"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (US)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "US (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (AE)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "AE (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Frainc)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Frainc (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (India)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indiach (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Socruithe Gníomhaire Converteora Airgeadra"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Gníomhaire comhoibrithe airgeadra álainn do WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Tógálaí Casta"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Doiciméadú"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Socruithe Airgeadra"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Réamhshocruithe Tús Tapa"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Simplí"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Íosta"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Bóthar Taobh"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Il-Airgeadra"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Graif"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Cuir rogha airgeadra i gcuimhne"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Taispeáin bratacha airgeadra"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Taispeáin lipéid airgeadra"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Cuir nasc brandaíochta ar chumas"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Sábháil Socruithe"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Réamhamharc Beo"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Cód Gearr"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Cóip"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Cóipithe!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Cóipigh an cód gearr seo agus greamaigh é isteach in aon phost, leathanach, nó limistéar gníomhaire:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Comhoiriúnacht Téama:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "D'fhéadfadh go mbeadh coimhlint ag roinnt téamaí WordPress leis an script gníomhaire. Má tá fadhbanna taispeána agat, bain triail as mód iframe:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Teorainneacha Iframe:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Tá na comhoibrithe anuas faoi réir laistigh den limistéar gníomhaire"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "D'fhéadfadh go mbeadh gá le scrolláil laistigh den gníomhaire le liostaí airgeadra fada"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Is fearr oiriúnach do thaispeántais airgeadra greamaithe nó gníomhaire stíl lucht féachana"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Is fearr oiriúnach do airgeadra greamaithe nó gníomhaire stíl lucht féachana"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Samplaí Cód Gearr"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Básach:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Ainm gearr:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Airgeadraí saincheaptha:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Téama dorcha:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Stíl mini:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Le graif:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Cód Embed (Suímh Sheachtracha)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Chun é a embedáil ar shuímh nach WordPress é (HTML, Shopify, Wix, etc.), bain úsáid as an gcód thíos:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Script (Moltar)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Rogha Tacaíochta)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Cód Embed Script (Moltar)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Gníomhaire iomlán le comhoibriú a thaispeánann os comhair ábhair thimpeall. Is fearr le haghaidh roghnú airgeadra idirghníomhach."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe Embed (Rogha Tacaíochta)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Bain úsáid as seo má dhéanann an cód embed script comhoibrithe le do shuíomh. Oibríonn sé i sandbox aonair."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Teorainneacha:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Liostaí airgeadra fada ag teastáil scrolla laistigh den gníomhaire"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Bloc Gutenberg"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Is féidir leat an gníomhaire a chur leis an eagarthóir bloc Gutenberg:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Oscail an t-eagarthóir bloc in aon phoist nó leathanach"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Cliceáil ar an gcnaipe + chun bloc nua a chur leis"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Cuardaigh ar \\"Converteoir Airgeadra\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Confighuraigh an gníomhaire i gcluaisín socruithe an bloc"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Teastaíonn Cabhair?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Tabhair cuairt ar ár dhoiciméad nó déan teagmháil le tacaíocht le haghaidh cúnamh."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Féach ar Doiciméad"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "An bhfuil tú ag baint taitneamh as Gníomhaire Converteoir Airgeadra?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Cuireann do thuairimí le feabhsú! Ní thógann sé ach nóiméad."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Ráta anois"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "B'fhéidir níos déanaí"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Díscaoileadh"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Cabhair & Tacaíocht"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Faigh cabhair le Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Foghlaim conas Currency Kit a úsáid chun widgets áille comhoiriúnóra airgeadra a chur leis do shuíomh WordPress."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Úsáid an <strong>[currencywiki_converter]</strong> shortcode chun widgets a chur le postanna agus le leathanach"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Saincheap an stíl widget, téama, agus dathanna óna Painéal Rialaithe"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Úsáid an bloc Currency Kit san eagarthóir Gutenberg le haghaidh eagarthóireacht fhisiciúil"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Cóipeáil an cód embed le húsáid ar shuímh ghréasáin sheachtracha"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Ceisteanna a Chuirtear Go Minic"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Conas a chuirim comhoiriúnóir airgeadra ar mo leathanach?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Úsáid an shortcode [currencywiki_converter] nó cuir an bloc Currency Kit san eagarthóir Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "An féidir liom dathanna an widget a shaincheapadh?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Sea! Téigh chuig Currency Kit → Painéal Rialaithe agus roghnaigh do dhath accent is fearr ón phailéad dathanna."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Cén minic a nuashonraítear na rátaí malairte?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Nuashonraítear na rátaí malairte i bhfíor-am ó API Currency.Wiki."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Teastaíonn Tuilleadh Cabhair?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Déan teagmháil lenár bhfoireann tacaíochta nó tabhair cuairt ar ár ndoiciméadacht le haghaidh tuilleadh eolais."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Faigh Tacaíocht"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Taispeáin comhoiriúnóir airgeadra ar do thaobh. (Widget Oidhreachta V2 - smaoinigh ar úsáid an bloc Gutenberg in ionad é)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Widget Comhoiriúnóra Airgeadra (Oidhreachta)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Widget Oidhreachta"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Is widget Oidhreachta V2 é seo. Le haghaidh níos mó gnéithe agus níos fearr saincheaptha, bain úsáid as an bloc Comhoiriúnóra Airgeadra nua san eagarthóir Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Teideal:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Ó Airgeadra:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Chun Airgeadra:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Socruithe Casta"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Méid"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Ó"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Chun"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Torthaí"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Malartigh Airgeadra"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Tacaítear le Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Cuir Airgeadra Leis"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count de :max airgeadra"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Nuashonraithe deireanach:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7D"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14D"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30D"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90D"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "COITIANTA"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Cuardaigh airgeadra..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Bain"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Béarla"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Spáinnis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Fraincis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Gearmáinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Iodáilis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portaingéilis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portaingéilis (An Bhrasaíl)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Rúisis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Seapáinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Sínis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Sínis (Simplí)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Sínis (Traidisiúnta)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Araibis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hiondúis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengálais"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Cóiréis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Dúitsis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Polainnis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Tuircis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Vítneamais"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Téarma Thai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Indonéisis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Malaise"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Úcráinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Seicis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Gréigis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Heabhróinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Ungáiris"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Rómáinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Sualannach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Dánach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Fionnlannach"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Iorua"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Slóvaicis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Bulgáiris"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Cróitis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Seirbias"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Slóivéinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Filipínis"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Afraicigh"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Amhairic"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Bosnaigh"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Birmigh"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Eistónach"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Seoirsia"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Oileán Íosla"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Gaeilge"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Cásac"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Khmer"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Laitvis"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Liotuáinis"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Máltais"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mongóilis"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Neapaileach"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Pearsis"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sínhalese"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Swahili"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Taimil"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Telegu"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Úrdú"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Úzbék"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Airméinis"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Gorm"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Glas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Corcra"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Dearg"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Oráiste"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Slate"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Rós"

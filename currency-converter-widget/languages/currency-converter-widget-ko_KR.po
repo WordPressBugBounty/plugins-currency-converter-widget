@@ -1,0 +1,1192 @@
+# Korean translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-08 23:55+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "통화 변환기 위젯"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "설정"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "당신의 WordPress 사이트에 아름답고 사용자 정의 가능한 통화 변환기 위젯을 추가하세요. 실시간 환율, 11개 위젯 스타일, 170개 이상의 통화. Currency.Wiki에서 제공"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "통화 키트"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "통화 변환기"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "실시간 환율로 통화 변환기 위젯을 표시합니다."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "통화"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "변환기"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "환전"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "환율"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "돈"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "위젯 스타일"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "통화"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "차트 설정"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "모양"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "표시 옵션"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "숫자 형식"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "스타일"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "컴팩트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "미니"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "정사각형"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "길쭉한"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "인라인"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "미니 차트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "미니 + 차트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "다중 변환기"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "다중 확장 가능"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "다중 고정"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "환율"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "환율 + 클래식"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "환율 - 컴팩트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "환율 컴팩트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "환율 뷰어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "차트 표시"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "차트 표시 - 컴팩트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "환율 뷰어 컴팩트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "긴 사이드바 + 클래식"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "크기"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "작음"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "중간"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "큼"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "기본"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "너비 (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "높이 (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "사용자 정의 크기"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "통화 선택"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "대상 통화"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "기본 금액"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "통화 선택 잠금"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "통화 잠금 (사용자가 변경할 수 없음)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "사용자가 통화를 변경하지 못하도록 방지"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "통화 표시"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "미리 설정"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "상위 3개"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "상위 10개"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "상위 20개"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "모든 통화"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "모두 (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "모두"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "최대 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "사용자 정의 통화 (쉼표로 구분)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "예: EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "예: USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "최대 10개의 통화를 선택하세요."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "멀티 변환기에 대한 최대 10개 통화"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "통화 드롭다운 추가"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "드롭다운 메뉴 통화"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "\\"+ 통화 추가\\" 드롭다운에서 사용 가능한 통화"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "상위 3개 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "가장 인기 있는 통화"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "가장 인기 있는 통화: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "통화 검색..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d개의 통화가 사용 가능합니다"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "상위 10개 통화: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "BRL, KRW, SGD, HKD, NZD 등을 포함한 상위 20개 통화"
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "170개 이상의 모든 통화와 검색 기능"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "사용자 정의 통화 선택"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "기본 기간"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "기간"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7일"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14일"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30일"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90일"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "테마"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "라이트"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "다크"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "자동"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "자동 (시스템)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "자동 (브라우저)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "강조 색상"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "언어"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "위젯 언어"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "국기 표시"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "국기 표시"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "레이블 표시"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "레이블 표시 (보내는 곳/받는 곳)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "통화 드롭다운 위에 \\"보내는 곳\\" 및 \\"받는 곳\\" 레이블 표시"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "스왑 버튼 표시"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "스왑 버튼 표시"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "브랜딩 표시"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "브랜딩 표시"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "클릭 가능한 브랜딩"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "\\"Currency.Wiki\\"를 클릭 가능하게 만들기"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "\\"Currency.Wiki\\" 링크 표시"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Currency.Wiki\\"는 항상 표시됩니다. 이 옵션을 비활성화하면 클릭 가능한 링크만 제거됩니다. 활성화하면 링크는 rel=\\"nofollow\\"를 사용합니다."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "통화 기호 표시"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "ISO 코드 대신 통화 기호 표시"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "통화 표시 형식"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO 코드"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "기호"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "위젯에서 통화가 표시되는 방식을 선택하세요. ISO 코드는 보편적이며 (USD, EUR), 기호 ($, €)는 사용자에게 더 친숙할 수 있습니다."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "소수점 자리"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (미국)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "미국 (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (유럽)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "유럽 (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (프랑스어)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "프랑스어 (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (인도)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "인도 (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "통화 변환기 위젯 설정"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "워드프레스용 아름다운 통화 변환기 위젯"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "고급 빌더"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "문서"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "통화 설정"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "빠른 시작 프리셋"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "간단한"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "미니멀"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "다중 통화"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "차트"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "통화 선택 잠금"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "통화 플래그 표시"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "통화 레이블 표시"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "브랜딩 링크 활성화"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "설정 저장"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "실시간 미리보기"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "쇼트코드"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "복사"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "복사됨!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "이 쇼트코드를 복사하여 모든 게시물, 페이지 또는 위젯 영역에 붙여넣으세요:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "테마 호환성:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "일부 워드프레스 테마는 위젯 스크립트와 충돌할 수 있습니다. 표시 문제가 발생하면 iframe 모드를 사용해 보세요:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe 제한 사항:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "드롭다운 메뉴는 위젯 영역 내에 포함됩니다"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "긴 통화 목록은 위젯 내에서 스크롤이 필요할 수 있습니다"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "잠금된 통화 표시 또는 뷰어 스타일 위젯에 가장 적합"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "잠금된 통화 또는 뷰어 스타일 위젯에 가장 적합"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "쇼트코드 예시"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "기본:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "짧은 별칭:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "사용자 정의 통화:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "어두운 테마:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "미니 스타일:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "차트 포함:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "임베드 코드 (외부 사이트)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "비워드프레스 웹사이트(HTML, Shopify, Wix 등)에 임베드하려면 아래 코드를 사용하세요:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "스크립트 (권장)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "아이프레임 (대체)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "스크립트 임베드 (권장)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "주변 콘텐츠 앞에 표시되는 드롭다운 메뉴가 있는 풀 기능 위젯. 상호작용 통화 선택에 가장 적합합니다."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "아이프레임 임베드 (대체 옵션)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "스크립트 임베드가 웹사이트와 충돌을 일으키는 경우 사용하세요. 격리된 샌드박스에서 작동합니다."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "제한 사항:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "긴 통화 목록은 위젯 내에서 스크롤이 필요합니다."
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "구텐베르크 블록"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "구텐베르크 블록 편집기를 사용하여 위젯을 추가할 수도 있습니다:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "모든 포스트 또는 페이지에서 블록 편집기를 엽니다."
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "새 블록을 추가하려면 + 버튼을 클릭하세요."
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "‘통화 변환기’를 검색하세요."
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "블록 설정 사이드바에서 위젯을 구성하세요."
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "도움이 필요하신가요?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "문서를 방문하거나 지원팀에 문의하여 도움을 받으세요."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "문서 보기"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "통화 변환기 위젯을 즐기고 계신가요?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "귀하의 피드백은 저희가 개선하는 데 도움이 됩니다! 잠시만 시간을 내주세요."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "지금 평가하기"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "나중에 할게요"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "닫기"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "도움 및 지원"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Currency Kit에 대한 도움 받기"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Currency Kit을 사용하여 WordPress 사이트에 아름다운 통화 변환기 위젯을 추가하는 방법을 알아보세요."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "<strong>[currencywiki_converter]</strong> 단축코드를 사용하여 게시물 및 페이지에 위젯을 추가하세요."
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "대시보드에서 위젯 스타일, 테마 및 색상을 사용자 정의하세요."
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Gutenberg 편집기에서 시각적 편집을 위해 Currency Kit 블록을 사용하세요."
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "외부 웹사이트에서 사용할 임베드 코드를 복사하세요."
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "자주 묻는 질문"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "페이지에 통화 변환기를 추가하려면 어떻게 하나요?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "[currencywiki_converter] 단축코드를 사용하거나 Gutenberg 편집기에서 Currency Kit 블록을 추가하세요."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "위젯 색상을 사용자 정의할 수 있나요?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "네! Currency Kit → 대시보드로 이동하여 색상 팔레트에서 원하는 강조 색상을 선택하세요."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "환율은 얼마나 자주 업데이트되나요?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "환율은 Currency.Wiki API에서 실시간으로 업데이트됩니다."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "더 많은 도움이 필요하신가요?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "지원 팀에 문의하시거나 더 많은 정보를 위해 문서를 방문하세요."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "지원 받기"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "사이드바에 통화 변환기를 표시하세요. (레거시 V2 위젯 - 대신 Gutenberg 블록 사용 고려)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "통화 변환기 위젯 (레거시)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "레거시 위젯"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "이것은 레거시 V2 위젯입니다. 더 많은 기능과 더 나은 사용자 지정을 위해 Gutenberg 편집기에서 새로운 통화 변환기 블록을 사용하세요."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "제목:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "통화 선택:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "변환할 통화:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "고급 설정"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "금액"
+
+#: Widget Frontend
+msgid "From"
+msgstr "에서"
+
+#: Widget Frontend
+msgid "To"
+msgstr "까지"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "결과"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "통화 바꾸기"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Currency.Wiki 제공"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ 통화 추가"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count / :max 통화"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "마지막 업데이트:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7일"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14일"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30일"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90일"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "인기"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "통화 검색..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "제거"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "영어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "스페인어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "프랑스어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "독일어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "이탈리아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "포르투갈어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "포르투갈어 (브라질)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "러시아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "일본어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "중국어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "중국어 (간체)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "중국어 (번체)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "아랍어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "힌디어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "벵골어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "한국어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "네덜란드어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "폴란드어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "터키어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "베트남어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "태국어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "인도네시아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "말레이어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "우크라이나어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "체코어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "그리스어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "히브리어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "헝가리어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "루마니아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "스웨덴어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "덴마크어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "핀란드어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "노르웨이어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "슬로바키아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "불가리아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "크로아티아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "세르비아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "슬로베니아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "필리핀어"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "아프리칸스어"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "암하라어"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "보스니아어"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "버마어"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "에스토니아어"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "조지아어"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "아이슬란드어"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "아일랜드어"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "카자흐어"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "크메르어"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "라트비아어"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "리투아니아어"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "몰타어"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "몽골어"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "네팔어"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "페르시아어"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "신할라어"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "스와힐리어"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "타밀어"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "텔루구어"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "우르두어"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "우즈벡어"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "아르메니아어"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "파랑"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "초록"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "보라"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "빨강"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "주황"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "슬레이트"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "핑크"

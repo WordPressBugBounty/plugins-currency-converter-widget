@@ -1,0 +1,1192 @@
+# Armenian translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:39+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Armenian\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Վալյուտայի փոխարկիչի վիջետ"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Կարգավորումներ"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Ավելացրեք գեղեցիկ, հարմարեցվող վալյուտայի փոխարկիչի վիջետ ձեր WordPress կայքում: Իրական ժամանակի փոխարժեքներ, 11 վիջետների ոճ, 170+ վալյուտա: Աջակցում է Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Վալյուտայի հավաքածու"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Վալյուտայի փոխարկիչ"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Ցույց տվեք վալյուտայի փոխարկիչի վիջետ կենդանի փոխարժեքներով:"
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "վալյուտա"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "փոխարկիչ"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "փոխարժեք"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "փոխարժեքներ"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "փող"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Վիջետի ոճ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Վալյուտաներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Գծապատկերների կարգավորումներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Մերևույթ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Ցուցադրման տարբերակներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Համարների ձևաչափ"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Ոճ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Համակարգված"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Մինի"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Քառակուսի"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Բարձր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Ինլայն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Մինի գծապատկեր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Մինի + Գծապատկեր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Բազմակի-փոխարկիչ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Բազմակի ընդլայնվող"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Բազմակի ֆիքսված"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Փոխարժեքներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Փոխարժեքներ + Կլասիկ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Փոխարժեքներ - Հակիրճ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Հակիրճ Փոխարժեքներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Փոխարժեքների դիտարկիչ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Ցուցադրել գծապատկերներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Ցուցադրել գծապատկերներ - Հակիրճ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Փոխարժեքների դիտարկիչ Հակիրճ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Բարձր կողային վահանակ + Կլասիկ"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Չափը"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Փոքր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Միջին"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Մեծ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Անհատական"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Հիմնական"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Լայնություն (պիքսել)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Բարձրություն (պիքսել)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Անհատական չափսեր"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Դրամական միավորից"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Դրամական միավորին"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Հիմնական գումար"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Փակել դրամական ընտրությունը"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Փակել դրամական միավորները (օգտագործողները չեն կարող փոխել)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Կանխել օգտվողներին դրամական միավորները փոխելուց"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Ցուցադրել դրամական միավորները"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Նախընտրելի"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Առաջին 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Առաջին 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Առաջին 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Բոլոր դրամական միավորները"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Բոլորը (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Բոլորը"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Ամենաշատը 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Անհատական արժույթներ (կոմայով բաժանված)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "օրինակ՝ EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "օրինակ՝ USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Ընտրեք մինչև 10 արժույթ:"
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Ամենաշատը 10 արժույթ Multi-Converter-ի համար"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Ավելացնել արժույթի ընտրացանկ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Ընտրացանկի արժույթներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Արժույթներ, որոնք հասանելի են \" + Ավելացնել արժույթ\" ընտրացանկում"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Առաջին 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Ամենատարածված արժույթներ"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Ամենատարածված արժույթներ՝ USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Որոնել արժույթներ..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d արժույթ հասանելի"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Առաջին 10 արժույթներ՝ USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Առաջին 20 արժույթներ՝ ներառյալ BRL, KRW, SGD, HKD, NZD և այլն:"
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Բոլոր 170+ արժույթները որոնման գործառույթով"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Անհատական արժույթների ընտրություն"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Զանգվածային ժամանակահատված"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Ժամանակահատված"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 օր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 օր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 օր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 օր"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Թեմա"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Լուսավոր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Մութ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Ավտոմատ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Ավտոմատ (համակարգ)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Ավտոմատ (բրաուզեր)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Ակցենտի գույն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Լեզու"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Վիդջեթի լեզու"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Ցուցադրել դրոշներ"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Ցուցադրել երկրի դրոշներ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Ցուցադրել պիտակներ"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Ցուցադրել պիտակներ (Մինչ/Հետո)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Ցուցադրել \"Մինչ\" և \"Հետո\" պիտակները արժույթների ընտրացանկերի վերևում"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Ցուցադրել փոխանակման կոճակ"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Ցուցադրել փոխանակման կոճակը"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Ցուցադրել բրենդինգ"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Ցուցադրել բրենդինգը"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Կլիկաբել բրենդինգ"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Ավելացնել \"Currency.Wiki-ի կողմից\" կլիկաբել"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Ցուցադրել \"Currency.Wiki-ի կողմից\" հղումը"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\"Currency.Wiki-ի կողմից\" միշտ կցուցադրվի։ Այս ընտրանքը անջատելը միայն հեռացնում է կլիկաբել հղումը։ Երբ ակտիվացված է, հղումը օգտագործում է rel=\"nofollow\"։"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Ցուցադրել արժույթի խորհրդանիշ"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Ցուցադրել արժույթի խորհրդանիշը ISO կոդի փոխարեն"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Արժույթի ցուցադրման ձևաչափ"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO կոդ"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Խորհրդանիշ"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Ընտրեք, թե ինչպես պետք է ցուցադրվեն արժույթները վիդջեթում։ ISO կոդերը (USD, EUR) համընդհանուր են, մինչդեռ խորհրդանիշները ($, €) կարող են ավելի ծանոթ լինել օգտվողներին։"
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Տասնորդական տեղեր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (ԱՄՆ)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "ԱՄՆ (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (Եվրոպա)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "Եվրոպա (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Ֆրանսիական)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Ֆրանսիական (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Հնդկական)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Հնդկական (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Արժույթի փոխարկիչի վիջետի կարգավորումներ"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Beautiful currency converter widgets for WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Գործառնական կառուցող"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Փաստաթղթավորում"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Արժույթի կարգավորումներ"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Արագ սկսելու նախադրյալներ"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Հեշտ"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Նվազագույն"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Կողային վահանակ"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Բազմաարժույթ"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Գրաֆիկ"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Փակել արժույթի ընտրությունը"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Ցուցադրել արժույթի դրոշները"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Ցուցադրել արժույթի պիտակները"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Ակտիվացնել բրենդավորման հղումը"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Պահպանել կարգավորումները"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Կյանքի նախադիտում"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Կարճ կոդ"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Պատճենել"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Պատճենված!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Պատճենեք այս կարճ կոդը և տեղադրեք այն ցանկացած գրառման, էջի կամ վիջետային տարածքում:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Թեմայի համատեղելիություն:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Որոշ WordPress թեմաներ կարող են հակասել վիջետի սցենարին: Եթե դուք հանդիպում եք ցուցադրման խնդիրների, փորձեք օգտագործել iframe ռեժիմը:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe-ի սահմանափակումներ:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Նիհար մենյուները գտնվում են վիջետային տարածքում"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Երկար արժույթի ցուցակները կարող են պահանջել սքրոլինգ վիջետի ներսում"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Լավագույնը փակված արժույթների ցուցադրությունների կամ դիտողի ոճի վիջետների համար"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Լավագույնը փակված արժույթների կամ դիտողի ոճի վիջետների համար"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Կարճ կոդի օրինակներ"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Հիմնական:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Կարճ ալիաս:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Արտաքին արժույթներ:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Մութ թեմա:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Մինի ոճ:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Գծագրով:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Ներդրված կոդ (Արտաքին կայքեր)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Որպեսզի ներդրեք ոչ-WordPress կայքերում (HTML, Shopify, Wix և այլն), օգտագործեք ստորև նշված կոդը:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Սցենար (Առաջարկվող)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Fallback)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Սցենարի ներդրում (Առաջարկվող)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Լրիվ գործառույթներով վիջետ, որը ունի բացվող մենյուներ, որոնք ցուցադրվում են շրջապատող բովանդակության առջև: Լավագույնն է ինտերակտիվ արժույթի ընտրության համար:"
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe ներդրում (Fallback տարբերակ)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Օգտագործեք սա, եթե սցենարի ներդրումը հակասություններ է առաջացնում ձեր կայքի հետ: Աշխատում է մեկուսացված ավազանում:"
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Սահմանափակումներ:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Երկար արժույթի ցուցակները պահանջում են սքրոլինգ վիջետի ներսում"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg Բլոկ"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Դուք կարող եք նաև ավելացնել վիջետը օգտագործելով Gutenberg բլոկի խմբագիր:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Բացեք բլոկի խմբագիրը ցանկացած գրառման կամ էջի մեջ"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Սեղմեք + կոճակը նոր բլոկ ավելացնելու համար"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Որոնեք \"Արժույթի փոխարկիչ\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Կարգավորեք վիջետը բլոկի կարգավորումների կողային վահանակում"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Պետք է օգնություն?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Այցելեք մեր փաստաթղթերը կամ կապվեք աջակցությանը օգնության համար:"
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Դիտել փաստաթղթերը"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Հաճախում եք Արժույթի փոխարկիչի վիջետը?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Ձեր կարծիքը օգնում է մեզ բարելավել: Դա միայն մի պահ է պահանջում:"
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Գնահատեք հիմա"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Հնարավոր է հետագայում"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Փակել"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Օգնություն և աջակցություն"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Օգնություն ստանալու համար Currency Kit-ի հետ"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Իմանալ, թե ինչպես օգտագործել Currency Kit-ը՝ գեղեցիկ արժույթի փոխարկիչ վիջետներ ավելացնելու համար ձեր WordPress կայքում:"
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Օգտագործեք <strong>[currencywiki_converter]</strong> կարճ կոդը՝ վիջետները ավելացնելու համար գրառումների և էջերի մեջ"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Կարգավորեք վիջետի ոճը, թեման և գույները Վահանակից"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Օգտագործեք Currency Kit բլոկը Gutenberg խմբագրիչում՝ տեսողական խմբագրելու համար"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Պատճենեք տեղադրման կոդը՝ արտաքին կայքերում օգտագործելու համար"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Հաճախ տրվող հարցեր"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Ինչպե՞ս կարող եմ արժույթի փոխարկիչ ավելացնել իմ էջում:"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Օգտագործեք [currencywiki_converter] կարճ կոդը կամ ավելացրեք Currency Kit բլոկը Gutenberg խմբագրիչում:"
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Կարո՞ղ եմ կարգավորել վիջետի գույները:"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Այո՛: Գնացեք Currency Kit → Վահանակ և ընտրեք նախընտրելի շեշտակի գույնը գույնի պալիտրից:"
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Ինչքան հաճախ են թղթակցային փոխարժեքները թարմացվում:"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Փոխարժեքները թարմացվում են իրական ժամանակում Currency.Wiki API-ից:"
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Պետք է ավելին օգնություն:"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Կապվեք մեր աջակցության թիմի հետ կամ այցելեք մեր փաստաթղթաբանությունը՝ ավելին իմանալու համար:"
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Ստանալ աջակցություն"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Ձեր կողային սյունակում ցուցադրեք արժույթի փոխարկիչը: (Հին V2 վիջետ - խորհուրդ ենք տալիս օգտագործել Gutenberg բլոկը փոխարենը)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Արժույթի փոխարկիչի վիջետ (Հին)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Հին վիջետ"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Սա հին V2 վիջետ է: Ավելի շատ ֆունկցիաների և ավելի լավ կարգավորման համար օգտագործեք նոր Արժույթի փոխարկիչի բլոկը Gutenberg խմբագրիչում:"
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Վերնագիր:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Արժույթից:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Արժույթին:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Գերազանցված կարգավորումներ"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Գումար"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Մեկից"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Մեկին"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Արդյունք"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Փոխել արժույթները"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Աջակցում է Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Ավելացնել արժույթ"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count מתוך :max արժույթներ"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Վերջին թարմացումը:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7Օ"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14Օ"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30Օ"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90Օ"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "ՀԱՅՏՆԻ"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Փնտրել արժույթ..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Հեռացնել"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Անգլերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Իսպաներեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Ֆրանսերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Գերմաներեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Իտալերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Պորտուգալերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Պորտուգալերեն (Բրազիլիա)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Ռուսերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Ճապոներեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Չինարեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Չինարեն (հեշտացված)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Չինարեն (传统)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Արաբերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Հինդի"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Բենգալերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Կորեերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Հոլանդերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Լեհերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Թուրքերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Վիետնամերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Թաիլերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Ինդոնեզերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Մալայերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Ուկրաիներեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Չեխերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Հունարեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Հեբրայերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Հունգարերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Ռումիներեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Շվեդերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Դանիերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Ֆիններեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Նորվեգերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Սլովակերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Բուլղարերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Կրոաթերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Սերբերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Սլովեներեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Ֆիլիպիներեն"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Աֆրիկանս"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Ամհարերեն"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Բոսնիերեն"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Բիրմաերեն"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Էստոներեն"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Գեորգերեն"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Իսլանդերեն"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Իռլանդերեն"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Կազախերեն"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Խմերերեն"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "լատվիերեն"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "լիտվերեն"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "մալթերեն"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "մոնղոլերեն"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "նեպալերեն"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "պարսկերեն"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "սինհալերեն"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "սվահիլի"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "թամիլերեն"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "թելուգու"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "ուրduu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "ուզբեկերեն"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "հայերեն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "կապույտ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "կանաչ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "մանուշակագույն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "կարմիր"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "նարնջագույն"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "սև"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "վարդագույն"

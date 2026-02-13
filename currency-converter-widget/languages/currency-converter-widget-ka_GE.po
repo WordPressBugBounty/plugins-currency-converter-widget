@@ -1,0 +1,1192 @@
+# Georgian translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:40+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "ვალუტის კონვერტორის ვიჯეტი"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "პარამეტრები"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "მოაწვდეთ ლამაზი, მორგებული ვალუტის კონვერტორის ვიჯეტი თქვენს WordPress საიტზე. რეალურ დროში გაცვლითი კურსები, 11 ვიჯეტის სტილი, 170+ ვალუტა. გაწვდილი Currency.Wiki-ით"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "ვალუტის ნაკრები"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "ვალუტის კონვერტორი"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "აჩვენეთ ვალუტის კონვერტორის ვიჯეტი ცოცხალი გაცვლითი კურსებით."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "ვალუტა"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "კონვერტორი"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "გაცვლა"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "კურსები"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "ფული"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "ვიჯეტის სტილი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "ვალუტები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "გრაფიკის პარამეტრები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "გამოჩენა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "გამოჩენის პარამეტრები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "ნომრის ფორმატი"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "სტილი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "კომპაქტური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "მინი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "კვადრატული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "მაღალი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "შიგნით"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "მინი გრაფიკი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "მინი + გრაფიკი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "მრავალ-კონვერტორი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "მრავალ გაფართოებადი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "მრავალ ფიქსირებული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "გაცვლითი კურსები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "გაცვლითი კურსები + კლასიკური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "ვალუტების გაცვლა - კომპაქტური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "კომპაქტური კურსები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "კურსების მნახველი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "გრაფიკების ჩვენება"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "გრაფიკების ჩვენება - კომპაქტური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "კურსების მნახველი კომპაქტური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "ბრძოლა გვერდი + კლასიკური"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "ზომა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "პატარა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "საშუალო"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "დიდი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "მორგებული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "ნაგულისხმები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "სიგანე (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "სიმაღლე (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "მორგებული ზომები"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "ვალუტა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "ვალუტა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "ნაგულისხმები რაოდენობა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "ვალუტის არჩევის ჩაკეტვა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "ვალუტების ჩაკეტვა (მომხმარებლები ვერ შეცვლიან)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "მომხმარებლების ვალუტების შეცვლის თავიდან აცილება"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "ვალუტების ჩვენება"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "წინასწარ განსაზღვრული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "საუკეთესო 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "საუკეთესო 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "საუკეთესო 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "ყველა ვალუტა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "ყველა (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "ყველა"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "მაქს 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "კომბინირებული ვალუტები (კომით გაწვდილი)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "მაგ., EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "მაგ., USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "აირჩიეთ მაქსიმუმ 10 ვალუტა."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "მაქს 10 ვალუტა Multi-Converter-ისთვის"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "ვალუტის ჩამონათვალის დამატება"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "ჩამონათვალის მენიუს ვალუტები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "ვალუტები ხელმისაწვდომია \"+ ვალუტის დამატება\" ჩამონათვალში"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "ტოპ 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "ყველაზე პოპულარული ვალუტები"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "ყველაზე პოპულარული ვალუტები: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "ვალუტების ძიება..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d ვალუტა ხელმისაწვდომია"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "ტოპ 10 ვალუტა: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "ტოპ 20 ვალუტა, მათ შორის BRL, KRW, SGD, HKD, NZD და სხვა."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "ყველა 170+ ვალუტა ძიების ფუნქციონალით"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "ვალუტების მორგებული არჩევანი"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "ნაგულისხმევი პერიოდი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "პერიოდი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 დღე"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 დღე"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 დღე"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 დღე"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "თემა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "მინიმალური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "ბნელი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "ავტომატური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "ავტომატური (სისტემა)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "ავტომატური (ბრაუზერი)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "აქცენტი ფერი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "ენა"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "ვიჯეტის ენა"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "მდებარეობების ჩვენება"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "მდებარეობების დროშების ჩვენება"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "ლაბელების ჩვენება"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "ლაბელების ჩვენება (განმარტება/მიმართვა)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "მდებარეობების დროშების ზემოთ \\"განმარტება\\" და \\"მიმართვა\\" ლაბელების ჩვენება"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "შეცვლის ღილაკის ჩვენება"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "შეცვლის ღილაკის ჩვენება"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "ბრენდის ჩვენება"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "ბრენდის ჩვენება"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "კლიკაბელური ბრენდი"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "გააკეთეთ \\"Powered by Currency.Wiki\\" კლიკაბელური"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "შეაჩერეთ \\"Powered by Currency.Wiki\\" ბმული"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Powered by Currency.Wiki\\" ყოველთვის იქნება ნაჩვენები. ამ ვარიანტის გამორთვა მხოლოდ კლიკაბელური ბმულის წაშლას ნიშნავს. როდესაც ჩართულია, ბმული იყენებს rel=\\"nofollow\\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "ვალუტის სიმბოლოს ჩვენება"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "ვალუტის სიმბოლოს ჩვენება ISO კოდის ნაცვლად"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "ვალუტის ჩვენების ფორმატი"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO კოდი"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "სიმბოლო"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "აირჩიეთ, როგორ უნდა იყოს ვალუტები ნაჩვენები ვიჯეტში. ISO კოდები (USD, EUR) უნივერსალურია, ხოლო სიმბოლოები ($, €) მომხმარებლებისთვის უფრო ნაცნობი შეიძლება იყოს."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "დეციმალური ადგილები"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (აშშ)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "აშშ (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (ევროპა)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "ევროპა (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (ფრანგული)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "ფრანგული (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (ინდური)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "ინდური (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "ვალუტის გარდამყვანი ვიჯეტის პარამეტრები"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Beautiful currency converter widgets for WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "განვითარებული მშენებელი"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "დოკუმენტაცია"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "ვალუტის პარამეტრები"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "სწრაფი დაწყების წინასწარ განსაზღვრული პარამეტრები"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "მარტივი"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "მინიმალური"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "გვერდითი"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "მრავალვალუტიანი"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "გრაფიკი"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "ვალუტის არჩევანის დაბლოკვა"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "ვალუტის დროშების ჩვენება"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "ვალუტის ეტიკეტების ჩვენება"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "ბრენდინგის ბმულის გაწვდვა"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "პარამეტრების შენახვა"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "ცოცხალი წინასწარი ნახვა"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "შორტკოდი"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "კოპირება"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "კოპირებული!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "კოპირეთ ეს შორტკოდი და ჩასვით იგი ნებისმიერ პოსტში, გვერდზე ან ვიჯეტის არეში:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "თემის თავსებადობა:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "ზოგიერთი WordPress თემები შეიძლება შეუთავსებელი იყოს ვიჯეტის სკრიპტთან. თუ გაქვთ ჩვენების პრობლემები, სცადეთ iframe რეჟიმი:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe-ის შეზღუდვები:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "ჩამოსაშლელი მენიუები ვიჯეტის არეშია"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "გრძელი ვალუტის სიები შეიძლება მოითხოვდეს გადახვევას ვიჯეტის შიგნით"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "საუკეთესოა დაბლოკილი ვალუტის ჩვენებისთვის ან მაყურებლის სტილის ვიჯეტებისთვის"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "საუკეთესოა დაბლოკილი ვალუტების ან მაყურებლის სტილის ვიჯეტებისთვის"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "შორტკოდის მაგალითები"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "ბაზური:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "მოკლე ალტერნატივა:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "კომერციული ვალუტები:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "ბნელი თემის:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "მინი სტილი:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "გრაფიკით:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Embed კოდი (გარე საიტები)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "არასამუშაო ვებსაიტებზე (HTML, Shopify, Wix და სხვა) ჩასმისთვის გამოიყენეთ ქვემოთ მოცემული კოდი:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "სკრიპტი (რეკომენდებულია)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Fallback)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "სკრიპტის ჩასმა (რეკომენდებულია)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "სრული ფუნქციონალური ვიჯეტი ჩამოსაშლელი მენიუებით, რომლებიც გარშემო არსებული შინაარსის წინ ჩნდება. საუკეთესო ინტერაქტიული ვალუტის არჩევისთვის."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe ჩასმა (Fallback ვარიანტი)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "გამოიყენეთ ეს, თუ სკრიპტის ჩასმა კონფლიქტებს იწვევს თქვენს ვებსაიტზე. მუშაობს იზოლირებულ სანდბოქსში."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "შეზღუდვები:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "გრძელი ვალუტის სია საჭიროებს ვიჯეტის შიგნით გადახვევას"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "გუტენბერგის ბლოკი"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "თქვენ ასევე შეგიძლიათ დაამატოთ ვიჯეტი გუტენბერგის ბლოკის რედაქტორის გამოყენებით:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "გახსენით ბლოკის რედაქტორი ნებისმიერ პოსტში ან გვერდზე"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "დააწკაპუნეთ + ღილაკზე ახალი ბლოკის დასამატებლად"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "ძებნა \\"ვალუტის კონვერტორი\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "კონფიგურაცია ვიჯეტის ბლოკის პარამეტრების გვერდზე"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "ჭირდებათ დახმარება?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "მოინახულეთ ჩვენი დოკუმენტაცია ან დაუკავშირდით მხარდაჭერას დახმარებისთვის."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "გადახედეთ დოკუმენტაციას"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "გიყვართ ვალუტის კონვერტორის ვიჯეტი?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "თქვენი გამოხმაურება დაგვეხმარება გაუმჯობესებაში! ეს მხოლოდ რამდენიმე წამი სჭირდება."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "შეფასება ახლა"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "შესაძლოა მოგვიანებით"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "გაუქმება"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "დახმარება და მხარდაჭერა"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "მიიღეთ დახმარება Currency Kit-თან"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "გაიგეთ როგორ უნდა გამოიყენოთ Currency Kit, რომ დაამატოთ ლამაზი ვალუტის კონვერტორის ვიჯეტები თქვენს WordPress საიტზე."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "გამოიყენეთ <strong>[currencywiki_converter]</strong> shortcode ვიჯეტების დამატებისთვის პოსტებსა და გვერდებზე"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "დახმარება ვიჯეტის სტილის, თემის და ფერების მორგებაში Dashboard-დან"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "გამოიყენეთ Currency Kit ბლოკი Gutenberg რედაქტორში ვიზუალური რედაქტირებისთვის"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "კოპირება ჩასაწერი კოდის გამოყენებისთვის გარე ვებსაიტებზე"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "ხშირად დასმული კითხვები"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "როგორ უნდა დავამატო ვალუტის კონვერტორი ჩემს გვერდზე?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "გამოიყენეთ shortcode [currencywiki_converter] ან დაამატეთ Currency Kit ბლოკი Gutenberg რედაქტორში."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "შეგიძლია ვიჯეტის ფერები მორგო?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "დიახ! გადადით Currency Kit → Dashboard და აირჩიეთ თქვენი სასურველი აქცენტური ფერი ფერის პალეტიდან."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "რამდენად ხშირად განახლდება გაცვლითი კურსები?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "გაცვლითი კურსები განახლდება რეალურ დროში Currency.Wiki API-დან."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "ჭირდებათ მეტი დახმარება?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "კონტაქტი ჩვენს მხარდაჭერის გუნდთან ან ეწვიეთ ჩვენს დოკუმენტაციას მეტი ინფორმაციისთვის."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "მიიღეთ მხარდაჭერა"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "აჩვენეთ ვალუტის კონვერტორი თქვენს გვერდის გვერდზე. (Legacy V2 ვიჯეტი - განიხილეთ Gutenberg ბლოკის გამოყენება)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "ვალუტის კონვერტორის ვიჯეტი (Legacy)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Legacy ვიჯეტი"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "ეს არის Legacy V2 ვიჯეტი. მეტი ფუნქციების და უკეთესი მორგებისათვის, გამოიყენეთ ახალი ვალუტის კონვერტორის ბლოკი Gutenberg რედაქტორში."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "სათაური:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "ვალუტიდან:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "ვალუტამდე:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "გადაწყვეტილებები"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "თანხა"
+
+#: Widget Frontend
+msgid "From"
+msgstr "დან"
+
+#: Widget Frontend
+msgid "To"
+msgstr "მდე"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "შედეგი"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "ვალუტების გაცვლა"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "ძალადობს Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ დაამატეთ ვალუტა"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count :max ვალუტიდან"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "ბოლო განახლება:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7 დღე"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14 დღე"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30 დღე"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90 დღე"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "პოპულარული"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "ვალუტის ძებნა..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "წაშლა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "ინგლისური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "ესპანური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "ფრანგული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "გერმანული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "იტალიური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "პორტუგალიური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "პორტუგალიური (ბრაზილია)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "რუსული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "იაპონური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "ჩინური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "ჩინური (მარტივი)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "ჩინური (ტრადიციული)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "არაბული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "ჰინდი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "ბენგალური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "კორეული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "ნიდერლანდური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "პოლონური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "თურქული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "ვიეტნამური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "თაიური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "ინდონეზიური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "მალაიური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "უკრაინული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "ჩეხური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "ბერძნული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "ებრაული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "უნგრული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "რომანული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "შვედური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "დანიური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "ფინური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "ნორვეგიული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "სლოვაკური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "ბულგარიული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "ხორვატული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "სერბული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "სლოვენური"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "ფილიპინური"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "აფრიკანური"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "ამჰარული"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "ბოსნიური"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "ბირმული"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "ესტონური"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "ქართული"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "ისლანდიური"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "ირლანდიური"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "ყაზახური"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "ხმერული"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "ლატვიური"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "ლიტვური"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "მალტური"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "მონღოლური"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "ნეპალური"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "პერსული"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "სინჰალური"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "სუაჰილი"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "ტამილური"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "ტელუგუ"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "ურduu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "უზბეკური"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "არმენიული"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "ლურჯი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "მწვანე"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "ლილა"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "წითელი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "ნარინჯისფერი"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "ქვისფერი"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "ვარდისფერი"

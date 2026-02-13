@@ -1,0 +1,1192 @@
+# Vietnamese translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:26+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Tiện ích Chuyển đổi Tiền tệ"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Cài đặt"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Thêm một tiện ích chuyển đổi tiền tệ đẹp mắt, tùy chỉnh được vào trang WordPress của bạn. Tỷ giá hối đoái theo thời gian thực, 11 kiểu tiện ích, 170+ loại tiền tệ. Được cung cấp bởi Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Bộ Tiền tệ"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Chuyển đổi Tiền tệ"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Hiển thị một tiện ích chuyển đổi tiền tệ với tỷ giá hối đoái trực tiếp."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "tiền tệ"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "chuyển đổi"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "trao đổi"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "tỷ giá"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "tiền"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Kiểu Tiện ích"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Các loại tiền tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Cài đặt Biểu đồ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Giao diện"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Tùy chọn Hiển thị"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Định dạng Số"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Kiểu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Gọn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Nhỏ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Hình vuông"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Cao"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Nội tuyến"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Biểu đồ Nhỏ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Nhỏ + Biểu đồ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Chuyển đổi Đa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Mở rộng Đa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Cố định Đa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Tỷ giá Hối đoái"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Tỷ giá Hối đoái + Cổ điển"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Tỷ Giá - Gọn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Tỷ Giá Gọn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Người Xem Tỷ Giá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Hiển Thị Biểu Đồ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Hiển Thị Biểu Đồ - Gọn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Người Xem Tỷ Giá Gọn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Thanh Bên Cao + Cổ Điển"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Kích Thước"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Nhỏ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Vừa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Lớn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Tùy Chỉnh"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Mặc Định"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Chiều Rộng (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Chiều Cao (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Kích Thước Tùy Chỉnh"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Từ Tiền Tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Đến Tiền Tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Số Tiền Mặc Định"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Khóa Lựa Chọn Tiền Tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Khóa tiền tệ (người dùng không thể thay đổi)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Ngăn người dùng thay đổi tiền tệ"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Hiển Thị Tiền Tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Cài Đặt Sẵn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Top 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Top 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Top 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Tất Cả Tiền Tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Tất Cả (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Tất Cả"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Tối đa 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Tiền tệ tùy chỉnh (cách nhau bằng dấu phẩy)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "ví dụ: EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "ví dụ: USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Chọn tối đa 10 loại tiền tệ."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Tối đa 10 loại tiền tệ cho Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Thêm danh sách thả tiền tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Danh sách thả tiền tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Các loại tiền tệ có sẵn trong danh sách thả \"+ Thêm tiền tệ\""
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "3 loại tiền tệ hàng đầu (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Các loại tiền tệ phổ biến nhất"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Các loại tiền tệ phổ biến nhất: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Tìm kiếm tiền tệ..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d loại tiền tệ có sẵn"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "10 loại tiền tệ hàng đầu: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "20 loại tiền tệ hàng đầu bao gồm BRL, KRW, SGD, HKD, NZD, v.v."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Tất cả 170+ loại tiền tệ với chức năng tìm kiếm"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Lựa chọn tiền tệ tùy chỉnh"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Thời gian mặc định"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Thời gian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 Ngày"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 Ngày"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 Ngày"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 Ngày"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Giao diện"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Sáng"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Tối"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Tự động"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Tự động (Hệ thống)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Tự động (Trình duyệt)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Màu sắc nổi bật"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Ngôn ngữ tiện ích"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Hiển thị cờ"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Hiển thị cờ quốc gia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Hiển thị nhãn"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Hiển thị nhãn (Từ/Đến)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Hiển thị nhãn \"Từ\" và \"Đến\" ở trên các menu thả xuống tiền tệ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Hiển thị nút hoán đổi"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Hiển thị nút hoán đổi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Hiển thị thương hiệu"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Hiển thị thương hiệu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Thương hiệu có thể nhấp"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Làm cho \"Powered by Currency.Wiki\" có thể nhấp"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Hiển thị liên kết \"Powered by Currency.Wiki\""
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\"Powered by Currency.Wiki\" sẽ luôn được hiển thị. Việc tắt tùy chọn này chỉ xóa liên kết có thể nhấp. Khi được bật, liên kết sử dụng rel=\"nofollow\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Hiển thị ký hiệu tiền tệ"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Hiển thị ký hiệu tiền tệ thay vì mã ISO"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Định dạng hiển thị tiền tệ"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "Mã ISO"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Ký hiệu"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Chọn cách hiển thị tiền tệ trong tiện ích. Mã ISO (USD, EUR) là phổ quát, trong khi ký hiệu ($, €) có thể quen thuộc hơn với người dùng."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Số thập phân"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (Mỹ)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "Mỹ (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EU)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EU (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Pháp)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Pháp (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Ấn Độ)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Ấn Độ (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Cài đặt Widget Chuyển đổi Tiền tệ"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Các widget chuyển đổi tiền tệ đẹp cho WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Trình xây dựng nâng cao"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Tài liệu"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Cài đặt Tiền tệ"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Cài đặt Bắt đầu Nhanh"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Đơn giản"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Tối thiểu"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Thanh bên"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Đa tiền tệ"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Biểu đồ"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Khóa lựa chọn tiền tệ"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Hiển thị cờ tiền tệ"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Hiển thị nhãn tiền tệ"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Bật liên kết thương hiệu"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Lưu cài đặt"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Xem trước trực tiếp"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Mã ngắn"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Sao chép"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Đã sao chép!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Sao chép mã ngắn này và dán vào bất kỳ bài viết, trang hoặc khu vực widget nào:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Tương thích Chủ đề:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Một số chủ đề WordPress có thể xung đột với kịch bản widget. Nếu bạn gặp vấn đề hiển thị, hãy thử sử dụng chế độ iframe:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Giới hạn Iframe:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Các menu thả xuống nằm trong khu vực widget"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Danh sách tiền tệ dài có thể yêu cầu cuộn bên trong widget"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Phù hợp nhất cho hiển thị tiền tệ đã khóa hoặc widget kiểu người xem"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Phù hợp nhất cho các loại tiền đã khóa hoặc widget kiểu người xem"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Ví dụ về mã ngắn"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Cơ bản:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Biệt danh ngắn:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Tiền tệ tùy chỉnh:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Chủ đề tối:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Kiểu mini:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Có biểu đồ:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Mã nhúng (Trang web bên ngoài)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Để nhúng trên các trang web không phải WordPress (HTML, Shopify, Wix, v.v.), hãy sử dụng mã bên dưới:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Mã kịch bản (Khuyến nghị)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Tùy chọn dự phòng)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Nhúng mã kịch bản (Khuyến nghị)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Tiện ích đầy đủ tính năng với các menu thả xuống hiển thị trước nội dung xung quanh. Tốt nhất cho việc chọn tiền tệ tương tác."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Nhúng Iframe (Tùy chọn dự phòng)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Sử dụng cái này nếu nhúng mã kịch bản gây ra xung đột với trang web của bạn. Hoạt động trong môi trường cách ly."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Hạn chế:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Danh sách tiền tệ dài yêu cầu cuộn bên trong tiện ích"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Khối Gutenberg"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Bạn cũng có thể thêm tiện ích bằng cách sử dụng trình chỉnh sửa khối Gutenberg:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Mở trình chỉnh sửa khối trong bất kỳ bài viết hoặc trang nào"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Nhấp vào nút + để thêm một khối mới"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Tìm kiếm \\"Bộ chuyển đổi tiền tệ\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Cấu hình tiện ích trong thanh bên cài đặt khối"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Cần giúp đỡ?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Truy cập tài liệu của chúng tôi hoặc liên hệ với hỗ trợ để được trợ giúp."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Xem tài liệu"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Bạn có thích Tiện ích Bộ chuyển đổi tiền tệ không?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Phản hồi của bạn giúp chúng tôi cải thiện! Chỉ mất một chút thời gian."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Đánh giá ngay"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Có thể sau"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Trợ Giúp & Hỗ Trợ"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Nhận trợ giúp với Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Tìm hiểu cách sử dụng Currency Kit để thêm các widget chuyển đổi tiền tệ đẹp mắt vào trang WordPress của bạn."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Sử dụng shortcode <strong>[currencywiki_converter]</strong> để thêm widget vào bài viết và trang"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Tùy chỉnh kiểu dáng, chủ đề và màu sắc của widget từ Bảng điều khiển"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Sử dụng block Currency Kit trong trình chỉnh sửa Gutenberg để chỉnh sửa trực quan"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Sao chép mã nhúng để sử dụng trên các trang web bên ngoài"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Câu Hỏi Thường Gặp"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Làm thế nào để tôi thêm một bộ chuyển đổi tiền tệ vào trang của mình?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Sử dụng shortcode [currencywiki_converter] hoặc thêm block Currency Kit trong trình chỉnh sửa Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Tôi có thể tùy chỉnh màu sắc của widget không?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Có! Đi đến Currency Kit → Bảng điều khiển và chọn màu sắc ưa thích từ bảng màu."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Tần suất cập nhật tỷ giá hối đoái là bao lâu?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Tỷ giá hối đoái được cập nhật theo thời gian thực từ API của Currency.Wiki."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Cần thêm trợ giúp?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Liên hệ với đội ngũ hỗ trợ của chúng tôi hoặc truy cập tài liệu của chúng tôi để biết thêm thông tin."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Nhận Hỗ Trợ"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Hiển thị bộ chuyển đổi tiền tệ trên thanh bên của bạn. (Widget V2 cũ - hãy xem xét sử dụng block Gutenberg thay thế)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Widget Chuyển Đổi Tiền Tệ (Cũ)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Widget Cũ"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Đây là một widget V2 cũ. Để có thêm tính năng và tùy chỉnh tốt hơn, hãy sử dụng block Chuyển Đổi Tiền Tệ mới trong trình chỉnh sửa Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Từ Tiền Tệ:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Đến Tiền Tệ:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Cài Đặt Nâng Cao"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Số Tiền"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Từ"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Đến"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Kết Quả"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Hoán Đổi Tiền Tệ"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Được cung cấp bởi Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Thêm Tiền Tệ"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count của :max tiền tệ"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Cập nhật lần cuối:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7D"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14D"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30D"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90D"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "PHỔ BIẾN"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Tìm kiếm tiền tệ..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Xóa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Tiếng Tây Ban Nha"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Tiếng Pháp"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Tiếng Đức"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Tiếng Ý"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Tiếng Bồ Đào Nha"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Tiếng Bồ Đào Nha (Brazil)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Tiếng Nga"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Tiếng Nhật"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Tiếng Trung"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Tiếng Trung (Đơn giản hóa)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Tiếng Trung (Truyền thống)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Tiếng Ả Rập"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Tiếng Hindi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Tiếng Bengal"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Tiếng Hàn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Tiếng Hà Lan"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Tiếng Ba Lan"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Tiếng Thổ Nhĩ Kỳ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Tiếng Thái"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Tiếng Indonesia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Tiếng Mã Lai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Tiếng Ukraina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Tiếng Séc"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Tiếng Hy Lạp"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Tiếng Hebrew"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Tiếng Hungary"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Tiếng Romania"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Tiếng Thụy Điển"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Tiếng Đan Mạch"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Tiếng Phần Lan"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Tiếng Na Uy"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Tiếng Slovakia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Tiếng Bulgaria"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Tiếng Croatia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Tiếng Serbia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Tiếng Slovenia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Tiếng Filipino"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Tiếng Afrikaans"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Tiếng Amhara"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Tiếng Bosnia"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Tiếng Miến Điện"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Tiếng Estonia"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Tiếng Georgia"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Tiếng Iceland"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Tiếng Ireland"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Tiếng Kazakhstan"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Tiếng Khmer"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Latvia"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Litva"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Maltese"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mông Cổ"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Nepal"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Ba Tư"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sinhala"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Swahili"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Tamil"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Telugu"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Urdu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Armenia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Xanh dương"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Xanh lá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Tím"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Đỏ"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Cam"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Đá slate"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Hồng"

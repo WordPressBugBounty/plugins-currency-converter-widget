@@ -1,0 +1,1192 @@
+# Icelandic translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:22+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Icelandic\n"
+"Language: is_IS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Gjaldmiðlaskipti Vinnslutæki"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Stillingar"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Bættu fallegu, sérsniðnu gjaldmiðlaskipti vinnslutæki við WordPress síðuna þína. Rauntíma gjaldmiðlaskipti, 11 vinnslustílar, 170+ gjaldmiðlar. Drifið af Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Gjaldmiðlasett"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Gjaldmiðlaskipti"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Sýna gjaldmiðlaskipti vinnslutæki með lifandi gjaldmiðlaskiptum."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "gjaldmiðill"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "skipti"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "skiptin"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "verð"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "peningar"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Vinnslustíll"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Gjaldmiðlar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Grafstillingar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Útlit"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Sýningarmöguleikar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Tölufræði"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Stíll"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Þétt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Ferningur"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Hár"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Inline"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Mini Graf"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mini + Graf"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Fjölskipti"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Fjölútvíkkanlegt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Fjölfast"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Skiptin"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Skiptin + Klassískt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Gengisvextir - Þétt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Vextir Þétt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Vextir Skoðari"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Sýna Graf"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Sýna Graf - Þétt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Vextir Skoðari Þétt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Hár Hliðarstika + Klassísk"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Stærð"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Lítill"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Miðlungs"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Stór"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Sérsniðið"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Sjálfgefið"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Breidd (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Hæð (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Sérsniðnar Mál"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Frá Gjaldmiðli"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Til Gjaldmiðils"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Sjálfgefið Magn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Læsa Gjaldmiðilaval"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Læsa gjaldmiðla (notendur geta ekki breytt)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Hindra notendur frá að breyta gjaldmiðlum"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Sýna Gjaldmiðla"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Forsetning"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Top 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Top 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Top 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Allir Gjaldmiðlar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Allir (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Allt"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Max 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Sérsniðnar myntir (aðskildar með kommum)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "t.d., EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "t.d., USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Veldu allt að 10 myntir."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Max 10 myntir fyrir Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Bæta við myntardropplista"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Dropplistamyntir"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Myntir í boði í \" + Bæta við mynt\" dropplista"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Top 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Vinsælustu myntir"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Vinsælustu myntir: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Leita að myntum..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d myntir í boði"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Top 10 myntir: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Top 20 myntir þar á meðal BRL, KRW, SGD, HKD, NZD, o.s.frv."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Allar 170+ myntir með leitarvirkni"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Sérsniðin val á myntum"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Sjálfgefið tímabil"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Tímabil"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 dagar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 dagar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 dagar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 dagar"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Þema"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Ljós"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Dökkt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Sjálfvirkt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Sjálfvirkt (kerfi)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Sjálfvirkt (vafri)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Akkent Litur"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Tungumál"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Vöru Tungumál"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Sýna Fána"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Sýna þjóðfána"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Sýna Merki"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Sýna merki (Frá/Til)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Sýna \"Frá\" og \"Til\" merki fyrir ofan gjaldmiðla valkosti"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Sýna Skipta Takka"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Sýna skipta takka"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Sýna Vörumerki"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Sýna vörumerki"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Smellanlegt Vörumerki"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Gera \"Powered by Currency.Wiki\" smellanlegt"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Sýna \"Powered by Currency.Wiki\" tengil"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\"Powered by Currency.Wiki\" verður alltaf sýnt. Að slökkva á þessari valkost fjarlægir aðeins smellanlega tengilinn. Þegar þetta er virkt, notar tengillinn rel=\"nofollow\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Sýna Gjaldmiðlasymból"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Sýna gjaldmiðlasymból í stað ISO kóða"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Gjaldmiðla Sýningarsnið"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO Kóði"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Symból"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Veldu hvernig gjaldmiðlar eru sýndir í vöru. ISO kóðar (USD, EUR) eru alþjóðlegir, á meðan symból ($, €) kunna að vera þekktari fyrir notendur."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Aðskilnaðartölur"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (US)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "US (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EU)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EU (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Franska)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Franska (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Indverskt)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indverskur (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Stillingar fyrir gjaldmiðlaskiptivirkni"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Fallegar gjaldmiðlaskiptivirkni fyrir WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Fyrirferðarmikill smiður"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Skjalagerð"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Stillingar fyrir gjaldmiðil"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Fljótleg upphafsstillingar"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Einfalt"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Minimal"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Hliðarstika"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Fjöl-gjaldmiðill"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Graf"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Læsa gjaldmiðilval"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Sýna gjaldmiðilsfánar"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Sýna gjaldmiðilsheiti"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Virkja vörumerkis tengil"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Vista stillingar"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Lifandi forsýning"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Skammstafur"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Afrita"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Afritað!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Afritaðu þessa skammstaf og límdu það í hvaða færslu, síðu eða virkni svæði sem er:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Þema samhæfi:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Sum WordPress þemu geta verið í ósamræmi við virkni skriftuna. Ef þú lendir í sýningavandamálum, reyndu að nota iframe ham:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe takmarkanir:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Fellivalmyndir eru inni í virkni svæðinu"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Langar gjaldmiðillista kunna að krafast skrollunar inni í virkni"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Best hentað fyrir læsta gjaldmiðils sýningar eða áhorfanda-stíl virkni"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Best hentað fyrir læsta gjaldmiðla eða áhorfanda-stíl virkni"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Dæmi um skammstaf"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Grunnur:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Stutt nafn:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Sérsniðnar myntir:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Dökk þema:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Mini stíll:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Með grafi:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Fella kóði (Ytri vefsíður)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Til að fella á vefsíður sem ekki eru WordPress (HTML, Shopify, Wix o.s.frv.), notaðu kóðann hér að neðan:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Skiptikóði (Mælt með)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Varafall)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Skiptikóði Fella (Mælt með)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Fullkomin vefgagn með fellivalmyndum sem birtast fyrir framan umhverfis efni. Best fyrir gagnvirka myntaval."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe Fella (Varafall)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Notaðu þetta ef skiptikóðinn veldur árekstrum við vefsíðuna þína. Virkar í einangruðu sandkassa."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Takmarkanir:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Langar myntalistar krafast skrollunar inni í vefgagninu"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg blokk"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Þú getur einnig bætt vefgagninu við með Gutenberg blokkareeditornum:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Opnaðu blokkareeditorn í hvaða færslu eða síðu sem er"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Smelltu á + takkann til að bæta við nýrri blokk"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Leitaðu að \\"Myntavaldari\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Stilltu vefgagnin í blokkastillingar hliðarstikunni"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Þarf aðstoð?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Skoðaðu skjöl okkar eða hafðu samband við stuðning fyrir aðstoð."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Skoða skjöl"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Njóta Currency Converter Widget?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Þínar ábendingar hjálpa okkur að bæta! Það tekur aðeins augnablik."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Metið núna"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Kannski síðar"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Hafna"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Aðstoð & Stuðningur"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Fáðu aðstoð við Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Lærðu hvernig á að nota Currency Kit til að bæta fallegum gjaldmiðlaskiptivirkjum við WordPress síðuna þína."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Notaðu <strong>[currencywiki_converter]</strong> skammstöfunina til að bæta virkjum við færslur og síður"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Sérsníddu útlit, þema og litina á virkjum frá stjórnborðinu"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Notaðu Currency Kit blokkina í Gutenberg ritlinum fyrir sjónræna ritun"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Afritaðu innfellingarkóðann til að nota á ytri vefsíðum"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Algengar spurningar"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Hvernig bætir ég gjaldmiðlaskiptivirkjum við síðuna mína?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Notaðu skammstöfunina [currencywiki_converter] eða bættu Currency Kit blokkina í Gutenberg ritlinum."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Get ég sérsniðið litina á virkjum?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Já! Farðu í Currency Kit → Stjórnborð og veldu þinn uppáhalds áherslulit úr litapalettunni."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Hversu oft eru gengisbreytingar uppfærðar?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Gengisbreytingar eru uppfærðar í rauntíma frá Currency.Wiki API."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Þarf þú frekari aðstoð?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Hafðu samband við stuðningsteymi okkar eða heimsæktu skjöl okkar fyrir frekari upplýsingar."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Fáðu stuðning"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Sýna gjaldmiðlaskiptivirkjun í hliðarstikunni þinni. (Arfleifð V2 virki - íhugaðu að nota Gutenberg blokkina í staðinn)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Gjaldmiðlaskiptivirkjun (Arfleifð)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Arfleifð virki"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Þetta er arfleifð V2 virki. Fyrir fleiri eiginleika og betri sérsnið, notaðu nýju gjaldmiðlaskiptiblokkina í Gutenberg ritlinum."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Titill:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Frá gjaldmiðli:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Til gjaldmiðils:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Fyrirferðarmiklar stillingar"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Upphæð"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Frá"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Til"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Niðurstaða"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Skipta um gjaldmiðla"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Drifið af Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Bæta við mynt"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count af :max myntum"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Síðast uppfært:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7D"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14D"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30D"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90D"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "VINSÆLT"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Leita að mynt..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Fjarlægja"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Enska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Spænska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Franska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Þýska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Ítalska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portúgalska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portúgalska (Brasílía)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Rússneska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Japanska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Kínverska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Kínverska (einföld)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Kínverska (hefðbundin)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Arabíska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hindí"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengalska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Kóreska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Hollenska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Pólska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Tyrkneska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Víetnamska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Taílenska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Indónesíska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Malasíska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Úkraínska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Tékkneska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Gríska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Hebreska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Ungverska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Rúmenska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Sænska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Dönsk"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Finnska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Norska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Slóvakíska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Búlgarska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Króatíska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Serbneska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Slóvenska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Filipínska"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Afríkanska"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Amharíska"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Bosníska"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Búrmneska"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Eistneska"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Georgíska"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Íslenska"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Írska"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Kasakska"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Khmer"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Lettíska"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Litháíska"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Maltéska"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mongólsk"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Nepalska"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Persneska"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sínhalí"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Svahílí"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Tamíl"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Telúgú"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Úrdú"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Úzbekska"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Armeníska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Blár"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Grænn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Fjólublár"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Rauður"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Appelsínugulur"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Slate"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Rósarautt"

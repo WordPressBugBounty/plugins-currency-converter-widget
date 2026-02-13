@@ -1,0 +1,1192 @@
+# Slovak translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:13+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Widget na prevod mien"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Nastavenia"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Pridajte krásny, prispôsobiteľný widget na prevod mien na svoju stránku WordPress. Aktuálne výmenné kurzy, 11 štýlov widgetov, 170+ mien. Napájané Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Súprava mien"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Prevádzač mien"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Zobrazte widget na prevod mien s aktuálnymi výmennými kurzami."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "mena"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "prevádzač"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "výmenný"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "kurzy"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "peniaze"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Štýl widgetu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Meny"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Nastavenia grafu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Vzhľad"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Možnosti zobrazenia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Formát čísla"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Štýl"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Kompaktný"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Štvorcový"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Vysoký"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Inline"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Mini graf"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mini + graf"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Multi-prevádzač"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Multi rozšíriteľný"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Multi pevný"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Výmenné kurzy"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Výmenné kurzy + klasický"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Meny - Kompaktné"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Kompaktné kurzy"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Prehliadač kurzov"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Zobraziť grafy"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Zobraziť grafy - kompaktné"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Prehliadač kurzov kompaktný"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Vysoký bočný panel + klasický"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Veľkosť"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Malý"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Stredný"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Veľký"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Vlastný"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Predvolené"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Šírka (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Výška (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Vlastné rozmery"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Z meny"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Do meny"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Predvolená suma"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Zamknúť výber meny"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Zamknúť meny (používatelia nemôžu meniť)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Zabrániť používateľom v zmene mien"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Zobraziť meny"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Prednastavené"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Top 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Top 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Top 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Všetky meny"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Všetky (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Všetko"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Max 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Vlastné meny (oddelené čiarkami)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "napr. EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "napr. USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Vyberte až 10 mien."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Max 10 mien pre Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Pridať rozbaľovací zoznam mien"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Rozbaľovacie menu mien"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Meny dostupné v \\"+ Pridať menu\\" rozbaľovacom zozname"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Top 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Najpopulárnejšie meny"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Najpopulárnejšie meny: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Hľadať meny..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d mien dostupných"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Top 10 mien: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Top 20 mien vrátane BRL, KRW, SGD, HKD, NZD atď."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Všetky 170+ mien s funkciou vyhľadávania"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Vlastný výber mien"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Predvolený časový úsek"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Časový úsek"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 dní"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 dní"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 dní"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 dní"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Téma"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Svetlá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Tmavá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Automatická"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Automatická (systém)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Automatická (prehliadač)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Akcentová farba"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Jazyk"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Jazyk widgetu"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Zobraziť vlajky"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Zobraziť vlajky krajín"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Zobraziť štítky"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Zobraziť štítky (Od/Do)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Zobraziť štítky \\"Od\\" a \\"Do\\" nad rozbaľovacími ponukami mien"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Zobraziť tlačidlo na výmenu"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Zobraziť tlačidlo na výmenu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Zobraziť značku"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Zobraziť značku"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Klikateľná značka"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Urobiť \\"Poháňa Currency.Wiki\\" klikateľným"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Zobraziť odkaz \\"Poháňa Currency.Wiki\\""
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Poháňa Currency.Wiki\\" bude vždy zobrazené. Deaktivácia tejto možnosti odstráni iba klikateľný odkaz. Po aktivácii sa odkaz používa rel=\\"nofollow\\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Zobraziť symbol meny"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Zobraziť symbol meny namiesto ISO kódu"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Formát zobrazenia meny"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO kód"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Symbol"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Vyberte, ako sa meny zobrazujú vo widgete. ISO kódy (USD, EUR) sú univerzálne, zatiaľ čo symboly ($, €) môžu byť používateľom známejšie."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Desatinné miesta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (US)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "US (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EU)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EU (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (francúzsky)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Francúzsky (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (indický)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indická (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Nastavenia widgetu na prevodník mien"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Krásne widgety na prevodník mien pre WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Pokročilý builder"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Dokumentácia"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Nastavenia mien"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Rýchle štartovacie predvoľby"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Jednoduché"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Minimálne"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Postranný panel"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Viac-mien"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Graf"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Zamknúť výber meny"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Zobraziť vlajky mien"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Zobraziť názvy mien"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Povoliť odkaz na značku"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Uložiť nastavenia"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Živý náhľad"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Krátky kód"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Kopírovať"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Skopírované!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Skopírujte tento krátky kód a vložte ho do akéhokoľvek príspevku, stránky alebo oblasti widgetu:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Kompatibilita témy:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Niektoré WordPress témy môžu byť v konflikte so skriptom widgetu. Ak máte problémy s zobrazením, skúste použiť režim iframe:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Obmedzenia iframe:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Rozbaľovacie menu sú obsiahnuté v oblasti widgetu"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Dlhé zoznamy mien môžu vyžadovať rolovanie vnútri widgetu"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Najlepšie sa hodí pre zamknuté zobrazenia mien alebo widgety v štýle diváka"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Najlepšie sa hodí pre zamknuté meny alebo widgety v štýle diváka"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Príklady krátkych kódov"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Základné:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Krátky alias:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Vlastné meny:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Tmavá téma:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Mini štýl:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "S grafom:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Kód na vloženie (Externé stránky)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Na vloženie na ne-WordPress webové stránky (HTML, Shopify, Wix, atď.), použite nižšie uvedený kód:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Skript (Odporúčané)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Záložná možnosť)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Vloženie skriptu (Odporúčané)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Plne funkčný widget s rozbaľovacími ponukami, ktoré sa zobrazujú pred okolitým obsahom. Najlepšie pre interaktívny výber meny."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Vloženie Iframe (Záložná možnosť)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Použite toto, ak vloženie skriptu spôsobuje konflikty s vašou webovou stránkou. Funguje v izolovanom pieskovisku."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Obmedzenia:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Dlhé zoznamy mien vyžadujú posúvanie vo vnútri widgetu"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg blok"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Widget môžete pridať aj pomocou editora blokov Gutenberg:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Otvorenie editora blokov v akomkoľvek príspevku alebo stránke"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Kliknite na tlačidlo + na pridanie nového bloku"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Hľadajte \"Konvertor mien\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Konfigurujte widget v bočnom paneli nastavení bloku"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Potrebujete pomoc?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Navštívte našu dokumentáciu alebo kontaktujte podporu pre pomoc."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Zobraziť dokumentáciu"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Páči sa vám widget Konvertora mien?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Vaša spätná väzba nám pomáha zlepšovať! Zaberie to len chvíľu."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Ohodnoťte teraz"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Možno neskôr"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Zavrieť"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Pomoc a podpora"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Získajte pomoc s Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Zistite, ako používať Currency Kit na pridanie krásnych widgetov na konverziu mien na vašu stránku WordPress."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Použite <strong>[currencywiki_converter]</strong> skratku na pridanie widgetov do príspevkov a stránok"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Prispôsobte štýl widgetu, tému a farby z ovládacieho panela"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Použite blok Currency Kit v editore Gutenberg na vizuálne úpravy"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Skopírujte kód na vloženie na použitie na externých webových stránkach"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Často kladené otázky"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Ako pridám konvertor mien na svoju stránku?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Použite skratku [currencywiki_converter] alebo pridajte blok Currency Kit v editore Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Môžem prispôsobiť farby widgetu?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Áno! Prejdite na Currency Kit → Ovládací panel a vyberte si preferovanú akcentovú farbu z palety farieb."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Ako často sa aktualizujú výmenné kurzy?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Výmenné kurzy sa aktualizujú v reálnom čase z Currency.Wiki API."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Potrebujete ďalšiu pomoc?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Kontaktujte náš tím podpory alebo navštívte našu dokumentáciu pre viac informácií."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Získať podporu"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Zobrazte konvertor mien na svojom bočnom paneli. (Dedičná V2 widget - zvážte použitie bloku Gutenberg namiesto toho)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Widget na konverziu mien (dedičný)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Dedičný widget"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Toto je dedičný V2 widget. Pre viac funkcií a lepšie prispôsobenie použite nový blok konvertora mien v editore Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Názov:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Z meny:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Do meny:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Pokročilé nastavenia"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Čiastka"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Z"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Do"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Výsledok"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Prehodiť meny"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Poháňané Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Pridať menu"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count z :max mien"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Posledná aktualizácia:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7D"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14D"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30D"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90D"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "POPULÁRNE"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Hľadať menu..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Angličtina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Španielčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Francúzština"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Nemčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Taliančina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portugalčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portugalčina (Brazília)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Ruština"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Japončina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Čínština"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Čínština (zjednodušená)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Čínština (tradičná)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Arabčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hindčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengálčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Kórejčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Holandčina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Poľština"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Turečtina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "vietnamský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "thajský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "indonézsky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "malajský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "ukrajinský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "český"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "grécky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "hebrejský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "maďarský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "rumunský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "švédsky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "dánsky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "fínsky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "nórsky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "slovenský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "bulharský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "chorvátsky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "srbský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "slovinský"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "filipínsky"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "afrikaans"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "amharčina"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "bosniansky"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "barmčina"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "estónsky"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "gruzínsky"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "islandský"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "írsky"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "kazachstanský"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "khmerský"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Lotyšský"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Litovský"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Maltézsky"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mongolský"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Nepálsky"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Perzský"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sinhálsky"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Svahilský"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Tamilski"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Telugský"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Urdu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Uzbecký"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Arménsky"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Modrá"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Zelená"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Fialová"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Červená"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Oranžová"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Šedá"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Ružová"

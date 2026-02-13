@@ -1,0 +1,1192 @@
+# Hungarian translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:06+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Pénzváltó Widget"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Beállítások"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Adj hozzá egy gyönyörű, testreszabható pénzváltó widgetet a WordPress oldaladhoz. Valós idejű árfolyamok, 11 widget stílus, 170+ valuta. A Currency.Wiki működteti"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Pénznem Készlet"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Pénzváltó"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Jeleníts meg egy pénzváltó widgetet élő árfolyamokkal."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "valuta"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "váltó"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "árfolyam"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "árak"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "pénz"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Widget Stílus"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Valuták"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Diagram Beállítások"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Megjelenítési Opciók"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Számformátum"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Stílus"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Kompakt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Négyzet"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Magas"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Inline"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Mini Diagram"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mini + Diagram"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Több Váltó"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Több Kihúzható"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Több Fix"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Árfolyamok"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Árfolyamok + Klasszikus"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Valutaárfolyamok - Kompakt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Árfolyamok Kompakt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Árfolyam Néző"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Diagramok megjelenítése"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Diagramok megjelenítése - Kompakt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Árfolyam Néző Kompakt"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Magas oldalsáv + Klasszikus"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Méret"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Kicsi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Közepes"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Nagy"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Egyedi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Szélesség (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Magasság (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Egyedi méretek"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Valutától"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Valutáig"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Alapértelmezett összeg"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Valuta kiválasztás zárolása"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Valuták zárolása (a felhasználók nem változtathatják meg)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Megakadályozza a felhasználókat a valuták megváltoztatásában"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Valuták megjelenítése"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Előre beállított"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Legjobb 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Legjobb 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Legjobb 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Minden valuta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Minden (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Minden"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Max 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Egyedi valuták (vesszővel elválasztva)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "pl., EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "pl., USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Válassz legfeljebb 10 valutát."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Max 10 valuta a Multi-Converterhez"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Valuta legördülő menü hozzáadása"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Legördülő menü valuták"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Valuták elérhetők a \\"+ Valuta hozzáadása\\" legördülő menüben"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Legjobb 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Legnépszerűbb valuták"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Legnépszerűbb valuták: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Valuták keresése..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d valuta elérhető"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Legjobb 10 valuta: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Legjobb 20 valuta, beleértve a BRL, KRW, SGD, HKD, NZD stb."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Összesen 170+ valuta keresési funkcióval"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Egyedi valuta kiválasztás"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Alapértelmezett időszak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Időszak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 nap"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 nap"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 nap"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 nap"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Téma"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Világos"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Sötét"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Automatikus"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Automatikus (Rendszer)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Automatikus (Böngésző)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Akcent szín"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Nyelv"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Widget nyelv"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Zászlók megjelenítése"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Országzászlók megjelenítése"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Címkék megjelenítése"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Címkék megjelenítése (From/To)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "A \"From\" és \"To\" címkék megjelenítése a deviza legördülő menüje felett"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Csere gomb megjelenítése"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Csere gomb megjelenítése"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Márka megjelenítése"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Márka megjelenítése"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Kattintható márka"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "A \"Powered by Currency.Wiki\" kattinthatóvá tétele"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "A \"Powered by Currency.Wiki\" link megjelenítése"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\"Powered by Currency.Wiki\" mindig megjelenik. Ennek az opciónak a letiltása csak a kattintható linket távolítja el. Ha engedélyezve van, a link rel=\"nofollow\"-t használ."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Deviza szimbólum megjelenítése"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Deviza szimbólum megjelenítése az ISO kód helyett"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Deviza megjelenítési formátum"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO kód"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Szimbólum"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Válassza ki, hogyan jelenjenek meg a valuták a widgetben. Az ISO kódok (USD, EUR) univerzálisak, míg a szimbólumok ($, €) ismerősebbek lehetnek a felhasználók számára."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Tizedesjegyek"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (US)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "US (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EU)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EU (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (francia)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Francia (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (indiai)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indiai (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Pénznem Átváltó Widget Beállítások"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Gyönyörű pénznem átváltó widgetek WordPresshez"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Fejlett Építő"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Pénznem Beállítások"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Gyors Kezdő Presetek"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Egyszerű"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Minimalista"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Oldalsáv"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Többpénznemű"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Diagram"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Zárja le a pénznem kiválasztását"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Pénznem zászlók megjelenítése"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Pénznem címkék megjelenítése"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Márkázási link engedélyezése"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Élő Előnézet"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Rövidkód"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Másolás"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Másolva!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Másolja ezt a rövidkódot, és illessze be bármelyik bejegyzésbe, oldalra vagy widget területre:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Téma Kompatibilitás:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Néhány WordPress téma ütközhet a widget szkripttel. Ha megjelenítési problémákat tapasztal, próbálja meg az iframe módot:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe Korlátozások:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "A legördülő menük a widget területen belül találhatók"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Hosszú pénznemlisták görgetést igényelhetnek a widgeten belül"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Legjobban zárt pénznem megjelenítésekhez vagy nézőstílusú widgetekhez illeszkedik"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Legjobban zárt pénznemekhez vagy nézőstílusú widgetekhez illeszkedik"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Rövidkód Példák"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Alap:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Rövid alias:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Egyedi valuták:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Sötét téma:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Mini stílus:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Diagrammal:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Beágyazási kód (Külső oldalak)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Nem WordPress weboldalakra (HTML, Shopify, Wix stb.) való beágyazáshoz használja az alábbi kódot:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Script (Ajánlott)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Visszaesési lehetőség)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Script beágyazás (Ajánlott)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Teljes funkcionalitású widget legördülő menükkel, amelyek a környező tartalom előtt jelennek meg. Legjobb interaktív valutaválasztáshoz."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe beágyazás (Visszaesési lehetőség)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Használja ezt, ha a script beágyazás konfliktusokat okoz a weboldalával. Izolált homokozóban működik."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Korlátozások:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Hosszú valutalisták görgetést igényelnek a widgeten belül"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg blokk"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "A widgetet a Gutenberg blokk szerkesztő használatával is hozzáadhatja:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Nyissa meg a blokk szerkesztőt bármely bejegyzésben vagy oldalon"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Kattintson a + gombra egy új blokk hozzáadásához"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Keresse meg a \\"Valuta átváltó\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Konfigurálja a widgetet a blokk beállításainál található oldalsávban"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Segítségre van szüksége?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Látogassa meg dokumentációnkat vagy lépjen kapcsolatba a támogatással segítségért."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Dokumentáció megtekintése"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Élvezi a Valuta átváltó widgetet?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Visszajelzése segít nekünk a fejlődésben! Csak egy pillanat."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Értékelje most"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Talán később"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Elutasít"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Segítség és Támogatás"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Segítség a Currency Kit használatában"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Tudja meg, hogyan használhatja a Currency Kit-et, hogy gyönyörű valutaváltó widgeteket adjon hozzá a WordPress webhelyéhez."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Használja a <strong>[currencywiki_converter]</strong> rövidkódot a widgetek hozzáadásához bejegyzésekhez és oldalakhoz"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Testreszabhatja a widget stílusát, témáját és színeit a Vezérlőpulton"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Használja a Currency Kit blokkot a Gutenberg szerkesztőben vizuális szerkesztéshez"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Másolja a beágyazási kódot külső webhelyeken való használathoz"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Gyakran Ismételt Kérdések"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Hogyan adhatok valutaváltót az oldalamhoz?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Használja a [currencywiki_converter] rövidkódot, vagy adja hozzá a Currency Kit blokkot a Gutenberg szerkesztőben."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Testreszabhatom a widget színeit?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Igen! Menjen a Currency Kit → Vezérlőpultba, és válassza ki a kívánt hangsúlyos színt a színpalettából."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Milyen gyakran frissülnek a devizaárfolyamok?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "A devizaárfolyamok valós időben frissülnek a Currency.Wiki API-ból."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "További Segítségre Van Szüksége?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Lépjen kapcsolatba a támogatói csapatunkkal, vagy látogasson el a dokumentációnkra további információkért."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Támogatás Kérése"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Valutaváltó megjelenítése az oldalsávban. (Örökölt V2 widget - érdemes a Gutenberg blokkot használni helyette)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Valutaváltó Widget (Örökölt)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Örökölt Widget"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Ez egy örökölt V2 widget. További funkciókért és jobb testreszabásért használja az új Valutaváltó blokkot a Gutenberg szerkesztőben."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Cím:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Valutából:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Valutába:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Haladó Beállítások"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Összeg"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Ból"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Ba"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Eredmény"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Valuták Felcserélése"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "A Currency.Wiki powered by"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Pénznem hozzáadása"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count a :max pénznemből"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Utolsó frissítés:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7N"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14N"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30N"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90N"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "NÉPSZERŰ"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Pénznem keresése..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Angol"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Spanyol"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Francia"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Német"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Olasz"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portugál"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portugál (Brazília)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Orosz"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Japán"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Kínai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Kínai (Egyszerűsített)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Kínai (Hagyományos)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Arab"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hindi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengáli"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Koreai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Holland"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Lengyel"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Török"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "vietnámi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "thai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "indonéz"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "maláj"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "ukrán"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "cseh"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "görög"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "héber"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "magyar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "román"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "svéd"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "dán"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "finn"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "norvég"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "szlovák"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "bolgár"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "horvát"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "szerb"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "szlovén"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "filippínó"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "afrikaans"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "amhara"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "bosnyák"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "burmai"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "észt"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "grúz"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "izlandi"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "ír"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "kazah"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "khmer"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "lett"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "litván"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "máltai"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "mongol"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "nepáli"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "perzsa"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "szingaléz"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "szvahéli"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "tamil"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "telugu"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "urdú"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "üzbég"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "örmény"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "kék"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "zöld"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "lila"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "piros"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "narancs"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "palaszürke"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "rózsaszín"

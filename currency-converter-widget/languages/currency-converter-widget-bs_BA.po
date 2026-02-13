@@ -1,0 +1,1192 @@
+# Bosnian translation for Currency Converter Widget
+# Copyright (C) 2024 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2024-12-07 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-09 00:25+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Bosnian\n"
+"Language: bs_BA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Widget za konverter valuta"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Postavke"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Dodajte prekrasan, prilagodljiv widget za konverter valuta na vašu WordPress stranicu. Tečajevi u stvarnom vremenu, 11 stilova widgeta, 170+ valuta. Pokreće Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Valutni set"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Konverter valuta"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Prikažite widget za konverter valuta s trenutnim tečajevima."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "valuta"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "konverter"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "razmjena"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "tečajevi"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "novac"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Stil widgeta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Valute"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Postavke grafikona"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Izgled"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Opcije prikaza"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Format brojeva"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Stil"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Kompaktan"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Kvadratni"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Visok"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "U redu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Mini grafikon"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mini + grafikon"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Višekonverter"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Višekonverter s proširenjem"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Višekonverter fiksni"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Tečajevi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Tečajevi + klasični"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Tečajevi - Kompaktni"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Tečajevi Kompaktni"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Pregled Tečajeva"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Prikaži Grafikone"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Prikaži Grafikone - Kompaktni"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Pregled Tečajeva Kompaktni"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Visoka Bočna Traka + Klasično"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Veličina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Mali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Srednji"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Veliki"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Prilagođeno"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Zadano"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Širina (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Visina (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Prilagođene Dimenzije"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Iz valute"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "U valutu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Zadani Iznos"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Zaključaj Odabir Valute"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Zaključaj valute (korisnici ne mogu mijenjati)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Spriječi korisnike da mijenjaju valute"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Prikaži Valute"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Predefinirano"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Top 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Top 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Top 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Sve Valute"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Sve (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Sve"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Max 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Prilagođene valute (odvojene zarezom)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "npr., EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "npr., USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Odaberite do 10 valuta."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Max 10 valuta za Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Dodaj padajući meni valute"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Valute u padajućem meniju"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Valute dostupne u \\"+ Dodaj valutu\\" padajućem meniju"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Top 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Najpopularnije valute"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Najpopularnije valute: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Pretraži valute..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d valuta dostupno"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Top 10 valuta: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Top 20 valuta uključujući BRL, KRW, SGD, HKD, NZD, itd."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Sve 170+ valuta sa funkcionalnošću pretraživanja"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Prilagođeni izbor valuta"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Zadani period"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Period"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "7 dana"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "14 dana"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "30 dana"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "90 dana"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Tema"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Svijetla"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Tamna"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Automatski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Automatski (sistem)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Automatski (pregledač)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Boja akcenta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Jezik"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Jezik widgeta"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Prikaži zastave"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Prikaži zastave zemalja"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Prikaži oznake"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Prikaži oznake (Od/Do)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Prikaži \\"Od\\" i \\"Do\\" oznake iznad padajućih izbornika valuta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Prikaži dugme za zamjenu"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Prikaži dugme za zamjenu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Prikaži brendiranje"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Prikaži brendiranje"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Klikabilno brendiranje"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Učini \\"Powered by Currency.Wiki\\" klikabilnim"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Prikaži \\"Powered by Currency.Wiki\\" link"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Powered by Currency.Wiki\\" će uvijek biti prikazan. Onemogućavanje ove opcije uklanja samo klikabilni link. Kada je omogućeno, link koristi rel=\\"nofollow\\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Prikaži simbol valute"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Prikaži simbol valute umjesto ISO koda"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Format prikaza valute"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO kod"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Simbol"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Odaberite kako će se valute prikazivati u widgetu. ISO kodovi (USD, EUR) su univerzalni, dok su simboli ($, €) možda poznatiji korisnicima."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Decimale"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (SAD)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "SAD (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EU)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EU (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Francuski)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Francuski (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Indijski)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indijski (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Postavke widgeta za konverter valuta"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Prekrasni widgeti za konverter valuta za WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Napredni graditelj"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Postavke valute"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Brzi početak unaprijed postavljenih opcija"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Jednostavno"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Minimalno"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Bočna traka"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Više valuta"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Grafikon"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Zaključaj izbor valute"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Prikaži zastave valuta"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Prikaži oznake valuta"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Omogući link za brendiranje"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Spremi postavke"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Živi pregled"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Kratki kod"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Kopirano!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Kopirajte ovaj kratki kod i zalijepite ga u bilo koju objavu, stranicu ili područje widgeta:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Kompatibilnost teme:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Neke WordPress teme mogu biti u sukobu sa skriptom widgeta. Ako imate problema s prikazom, pokušajte koristiti iframe način:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Ograničenja iframe-a:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Padajući izbornici su sadržani unutar područja widgeta"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Duge liste valuta mogu zahtijevati pomicanje unutar widgeta"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Najbolje odgovara za zaključane prikaze valuta ili widgete u stilu gledatelja"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Najbolje odgovara za zaključane valute ili widgete u stilu gledatelja"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Primjeri kratkog koda"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Osnovno:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Kratki alias:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Prilagođene valute:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Tamna tema:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Mini stil:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Sa grafikon:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Ugradni kod (Eksterni sajtovi)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Za ugradnju na ne-WordPress sajtove (HTML, Shopify, Wix, itd.), koristite kod ispod:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Skripta (Preporučeno)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Alternativa)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Ugradnja skripte (Preporučeno)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Widget sa punim funkcijama sa padajućim menijima koji se prikazuju ispred okruženog sadržaja. Najbolje za interaktivni odabir valute."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe ugradnja (Alternativna opcija)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Koristite ovo ako ugradnja skripte uzrokuje sukobe sa vašim sajtom. Radi u izolovanom sandbox-u."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Ograničenja:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Duge liste valuta zahtevaju pomeranje unutar widget-a"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg blok"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Možete takođe dodati widget koristeći Gutenberg blok editor:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Otvorite blok editor u bilo kojoj objavi ili stranici"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Kliknite na + dugme da dodate novi blok"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Pretražite \\"Konverter valuta\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Konfigurišite widget u bočnoj traci podešavanja bloka"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Treba vam pomoć?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Posetite našu dokumentaciju ili kontaktirajte podršku za pomoć."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Pogledajte dokumentaciju"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Uživate u widgetu za konverter valuta?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Vaše povratne informacije nam pomažu da se poboljšamo! Treba vam samo trenutak."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Ocijenite sada"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Možda kasnije"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Zatvori"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Pomoć i podrška"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Dobijte pomoć sa Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Saznajte kako koristiti Currency Kit za dodavanje prekrasnih widgeta za konverter valuta na vašu WordPress stranicu."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Koristite <strong>[currencywiki_converter]</strong> shortcode za dodavanje widgeta u postove i stranice"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Prilagodite stil widgeta, temu i boje iz kontrolne table"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Koristite Currency Kit blok u Gutenberg editoru za vizuelno uređivanje"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Kopirajte kod za umetanje za korištenje na vanjskim web stranicama"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Često postavljana pitanja"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Kako dodati konverter valuta na moju stranicu?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Koristite shortcode [currencywiki_converter] ili dodajte Currency Kit blok u Gutenberg editoru."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Mogu li prilagoditi boje widgeta?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Da! Idite na Currency Kit → Kontrolna tabla i odaberite svoju omiljenu akcentnu boju iz palete boja."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Koliko često se ažuriraju tečajevi?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Tečajevi se ažuriraju u realnom vremenu putem Currency.Wiki API."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Treba vam više pomoći?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Kontaktirajte naš tim za podršku ili posjetite našu dokumentaciju za više informacija."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Dobijte podršku"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Prikažite konverter valuta na vašoj bočnoj traci. (Legacy V2 widget - razmislite o korištenju Gutenberg bloka umjesto toga)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Widget za konverter valuta (Legacy)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Legacy widget"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Ovo je legacy V2 widget. Za više funkcija i bolju prilagodbu, koristite novi blok konvertera valuta u Gutenberg editoru."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Naslov:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Iz valute:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "U valutu:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Napredne postavke"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Iznos"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Od"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Do"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Rezultat"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Zamijeni valute"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Pokreće Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Dodaj valutu"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count od :max valuta"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Zadnje ažurirano:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7D"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14D"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30D"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90D"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "POPULARNO"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Pretraži valutu..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Ukloni"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Engleski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Španski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Francuski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Nemački"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Italijanski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portugalski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portugalski (Brazil)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Ruski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Japanski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Kineski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Kineski ( pojednostavljeni)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Kineski (tradicionalni)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Arapski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hindi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengalski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Korejski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Holandski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Poljski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Turski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Vijetnamski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Tajlandski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Indonežanski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Malajski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Ukrajinski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Češki"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Grčki"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Hebrejski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Mađarski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Rumunski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Švedski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Danski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Finski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Norveški"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Slovački"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Bugarski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Hrvatski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Srpski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Slovenački"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Filipinski"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Amharski"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Bosanski"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Burmanski"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Estonski"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Gruzijski"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Islandski"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Irski"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Kazahstanski"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Khmerski"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Letonski"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Litvanski"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Malteški"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mongolski"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Nepalski"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Perzijski"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sinhalski"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Svahili"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Tamilski"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Telugu"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Urdu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Uzbečki"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Armenski"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Plava"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Zelena"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Ljubičasta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Crvena"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Narančasta"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Siva"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Roze"

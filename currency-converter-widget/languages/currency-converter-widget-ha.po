@@ -1,0 +1,1192 @@
+# Hausa translation for Currency Converter Widget
+# Copyright (C) 2025 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2025-12-22 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-23 00:56+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Hausa\n"
+"Language: ha\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "Widget Mai Canza Kuɗi"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Saituna"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Ƙara wani kyakkyawan, mai canza kuɗi wanda za'a iya keɓancewa zuwa shafin WordPress ɗinka. Farashin musayar a lokacin gaske, salon widget 11, kuɗaɗen sama da 170. An ƙarfafa ta Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "Kit na Kuɗi"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Mai Canza Kuɗi"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Nuna widget mai canza kuɗi tare da farashin musayar kai tsaye."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "kuɗi"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "mai canza"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "musayar"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "farashi"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "kudi"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Salon Widget"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Kuɗaɗe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Saitunan Zane"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Fuska"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Zaɓuɓɓukan Nuna"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Tsarin Lamba"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Salon"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "Kankani"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "Madaidaici"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "Tsawo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "Cikin Layin"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "Mini Zane"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "Mini + Zane"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "Mai Canza da yawa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "Mai Faɗaɗa da yawa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "Mai Tsayayye da yawa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Farashin Musayar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Farashin Musayar + Klasik"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Farashin Musayar - Mai Takaitawa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Farashin Mai Takaitawa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Mai Duba Farashi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Nuna Zane"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Nuna Zane - Mai Takaitawa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Mai Duba Farashi Mai Takaitawa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "Tall Sidebar + Classic"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Girman"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Karami"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Matsakaici"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Babba"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Na Musamman"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Na Gaba"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Fadin (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Tsawo (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Girman Musamman"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Daga Kuɗi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Zuƙowa Kuɗi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Adadin Na Gaba"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Kulle Zaɓin Kuɗi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Kulle kuɗaɗe (masu amfani ba za su iya canza ba)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Hana masu amfani daga canza kuɗaɗe"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Nuna Kuɗaɗe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "Tsarin"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "Mafi Kyawun 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "Mafi Kyawun 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "Mafi Kyawun 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Duk Kuɗaɗe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Duk (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Duk"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Mafi yawa 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Kudi na Musamman (da alamar comma)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "misali, EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "misali, USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Zaɓi har zuwa kudi 10."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Mafi yawa kudi 10 don Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Ƙara Zaɓin Kudi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Zaɓin Menu na Kudi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Kudaden da ke akwai a \\"+ Ƙara Kudi\\" zaɓin"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Mafi kyawun 3 (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Kudaden da suka fi shahara"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Kudaden da suka fi shahara: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Bincika kudade..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d kudade suna samuwa"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Mafi kyawun 10 kudade: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Mafi kyawun 20 kudade ciki har da BRL, KRW, SGD, HKD, NZD, da sauransu."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Duk kudade 170+ tare da aikin bincike"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Zaɓin kudi na Musamman"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Lokaci na Gaba ɗaya"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Lokaci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "Kwana 7"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "Kwana 14"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "Kwana 30"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "Kwana 90"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Jigo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Haske"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Duhu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Auto"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Auto (Tsarin)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Auto (Mai bincike)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Launin Hasken"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Harshe"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Harshe na Widget"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Nuna Tutar"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Nuna tutocin ƙasa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Nuna Labels"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Nuna labels (Daga/Zu)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Nuna \\"Daga\\" da \\"Zu\\" labels a sama da zaɓin kuɗi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Nuna Maballin Canji"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Nuna maballin canji"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Nuna Alamar"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Nuna alamar"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Alamar da za a danna"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Sa \\"Powered by Currency.Wiki\\" ya zama mai danna"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Nuna hanyar \\"Powered by Currency.Wiki\\""
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Powered by Currency.Wiki\\" za a nuna koyaushe. Kashe wannan zaɓin yana cire kawai hanyar danna. Lokacin da aka kunna, hanyar tana amfani da rel=\\"nofollow\\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Nuna Alamar Kuɗi"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Nuna alamar kuɗi maimakon lambar ISO"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Tsarin Nuna Kuɗi"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "Lambar ISO"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Alama"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Zaɓi yadda za a nuna kuɗaɗen a cikin widget. Lambobin ISO (USD, EUR) suna da amfani, yayin da alamomi ($, €) na iya zama mafi sananne ga masu amfani."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Wurin Decimal"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (Amurka)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "Amurka (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EU)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EU (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Faransa)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Faransa (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Indiya)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indiya (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Saitin Widget Mai Canza Kuɗi"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Kyawawan widgets masu canza kuɗi don WordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Mai Gina Ci gaba"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Dokumenta"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Saitin Kuɗi"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Saitin Fara Da Sauri"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Mai Sauƙi"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Mafi ƙarancin"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "Matsakaici"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "Multi-Kuɗi"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Jadawali"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Kulle zaɓin kuɗi"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Nuna tutocin kuɗi"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Nuna lakabin kuɗi"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Enable branding link"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Ajiye Saituna"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Gani Kai Tsaye"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Kwafi"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "An Kwafi!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Kwafi wannan shortcode kuma liƙa shi a cikin kowanne rubutu, shafi, ko yankin widget:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Daidaicin Jigo:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Wasu jigogi na WordPress na iya sabani da rubutun widget. Idan ka fuskanci matsalolin nunawa, gwada amfani da yanayin iframe:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Iframe Iyakoki:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Menun zabi suna cikin yankin widget"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Jerin kuɗi masu tsawo na iya buƙatar gungura a cikin widget"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Mafi dacewa don nunin kuɗi da aka kulle ko widgets na mai kallo"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Mafi dacewa don kuɗaɗen da aka kulle ko widgets na mai kallo"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Misalan Shortcode"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Asali:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "Gajeren suna:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Kudi na musamman:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Jigon duhu:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Salon mini:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Tare da zane:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Lambar Embed (Shafukan Waje)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Don embed a shafukan yanar gizo na ba na WordPress ba (HTML, Shopify, Wix, da sauransu), yi amfani da lambar da ke ƙasa:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Script (Ana ba da shawarar)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Zabi na Fallback)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Script Embed (Ana ba da shawarar)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "Widget mai cikakken fasali tare da menu na zabi da ke bayyana a gaban abun ciki na kewaye. Mafi kyau don zaɓin kuɗi mai hulɗa."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe Embed (Zabi na Fallback)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Yi amfani da wannan idan embed na script yana haifar da sabani tare da shafin yanar gizonku. Yana aiki a cikin sandbox mai zaman kansa."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Iyakoki:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Jerin kuɗi masu tsawo suna buƙatar gungura a cikin widget"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "Gutenberg Block"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Hakanan zaka iya ƙara widget ta amfani da editan block na Gutenberg:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Buɗe editan block a kowanne rubutu ko shafi"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Danna maɓallin + don ƙara sabon block"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Nemo \\"Mai Canza Kuɗi\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Saita widget a cikin saitin block na gefen"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Kuna buƙatar Taimako?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Ziyarci takaddun mu ko tuntuɓi goyon baya don taimako."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Duba Takaddun"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Shin kuna jin daɗin Widget na Mai Canza Kuɗi?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Ra'ayinku yana taimaka mana inganta! Yana ɗaukar ɗan lokaci kaɗan."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Kimanta Yanzu"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Wataƙila Daga baya"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Watsar"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Taimako & Goyon baya"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Samu taimako tare da Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Koyi yadda ake amfani da Currency Kit don ƙara kyawawan kayan aikin mai canza kuɗi zuwa shafin WordPress ɗinku."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Yi amfani da <strong>[currencywiki_converter]</strong> shortcode don ƙara kayan aikin zuwa rubuce-rubuce da shafuka"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Keɓance salon kayan aikin, jigo, da launuka daga Dashboard"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Yi amfani da block na Currency Kit a cikin editan Gutenberg don gyaran gani"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Kwafi lambar embed don amfani da ita a shafukan yanar gizo na waje"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Tambayoyi Masu Yawan Yi"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Ta yaya zan ƙara mai canza kuɗi zuwa shafina?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Yi amfani da shortcode [currencywiki_converter] ko ƙara block na Currency Kit a cikin editan Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Shin zan iya keɓance launukan kayan aikin?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "I, za ku iya! Je zuwa Currency Kit → Dashboard kuma zaɓi launin da kuka fi so daga palette na launi."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Yaushe ake sabunta farashin musayar?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Ana sabunta farashin musayar a cikin lokaci na gaske daga Currency.Wiki API."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Shin kuna buƙatar ƙarin taimako?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Tuntuɓi ƙungiyar goyon bayanmu ko ziyarta takaddunmu don ƙarin bayani."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Samu Taimako"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Nuna mai canza kuɗi a gefen shafin ku. (Tsohon kayan aiki na V2 - yi la'akari da amfani da block na Gutenberg maimakon haka)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Kayan Aikin Mai Canza Kuɗi (Tsoho)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Tsohon Kayan Aiki"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Wannan kayan aikin tsoho ne na V2. Don ƙarin fasaloli da kyakkyawan keɓancewa, yi amfani da sabon block na Mai Canza Kuɗi a cikin editan Gutenberg."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Suna:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Daga Kuɗi:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Zuƙowa Kuɗi:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Saituna Masu Ci gaba"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Adadi"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Daga"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Zu"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Sakamako"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Canza Kuɗi"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "An gudanar da Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Ƙara Kuɗi"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count na :max kuɗaɗe"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "An sabunta ƙarshe:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7K"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14K"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30K"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90K"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "SHAHARA"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Bincika kuɗi..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Cire"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "Turanci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "Sifaniyanci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "Faransanci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "Jamusanci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "Italiyanci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "Portuguese (Brazil)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "Rasha"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "Jafananci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "Sinanci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "Sinanci (Mai sauƙi)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "Sinanci (Tsoho)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "Larabci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "Hindi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "Bengali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "Koriya"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "Dutch"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "Polish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "Turkish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Vietname"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Thai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Malay"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Czech"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Greek"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Hungarian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Romanian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Swedish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Danish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Finnish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Norwegian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Slovak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Croatian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Serbian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Filipino"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Amharic"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Bosnian"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Burmese"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Estonian"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Georgian"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Icelandic"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Irish"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Khmer"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "Latvian"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "Maltese"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "Mongolian"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "Nepali"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "Persian"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "Sinhala"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "Swahili"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "Tamil"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "Telugu"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "Urdu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "Armenian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Blue"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Green"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Purple"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Red"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Orange"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Slate"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Pink"

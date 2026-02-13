@@ -1,0 +1,1192 @@
+# Xhosa translation for Currency Converter Widget
+# Copyright (C) 2025 Currency Wiki
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Currency Converter Widget 4.0.0\n"
+"Report-Msgid-Bugs-To: https://currency.wiki/contact\n"
+"POT-Creation-Date: 2025-12-22 00:00:00+00:00\n"
+"PO-Revision-Date: 2025-12-23 00:55+0000\n"
+"Last-Translator: OpenAI GPT-4\n"
+"Language-Team: Xhosa\n"
+"Language: xh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name
+#: currency-converter-widget.php
+msgid "Currency Converter Widget"
+msgstr "I-Wijethi yeMali"
+
+#: currency-converter-widget.php
+msgid "Settings"
+msgstr "Izilungiselelo"
+
+#. Plugin Description
+#: currency-converter-widget.php
+msgid "Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki"
+msgstr "Faka i-wijethi ye-mali emnandi, enokwenziwa ngendlela oyifisayo kwi-sayithi yakho ye-WordPress. Izinga lokutshintshiselana ngexesha langempela, iindlela ze-wijethi eziyi-11, iimali ezingama-170+. Iphathwe yi-Currency.Wiki"
+
+#: currency-converter-widget.php
+msgid "Currency Kit"
+msgstr "I-Kit yeMali"
+
+#: assets/js/block-editor.js
+msgid "Currency Converter"
+msgstr "Umguquli weMali"
+
+#: assets/js/block-editor.js
+msgid "Display a currency converter widget with live exchange rates."
+msgstr "Bonisa i-wijethi yomguquli wemali enezinga lokutshintshiselana eliphilayo."
+
+#. Block keywords for search
+#: assets/js/block-editor.js
+msgid "currency"
+msgstr "imali"
+
+#: assets/js/block-editor.js
+msgid "converter"
+msgstr "umguquli"
+
+#: assets/js/block-editor.js
+msgid "exchange"
+msgstr "utshintsho"
+
+#: assets/js/block-editor.js
+msgid "rates"
+msgstr "izinga"
+
+#: assets/js/block-editor.js
+msgid "money"
+msgstr "imali"
+
+#. Panel Titles
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Widget Style"
+msgstr "Uhlobo lweWijethi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies"
+msgstr "Iimali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chart Settings"
+msgstr "Izilungiselelo zeChati"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Appearance"
+msgstr "Uboniso"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Options"
+msgstr "Iindlela Zokubonisa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Number Format"
+msgstr "Ifomathi yeNombolo"
+
+#. Style Labels
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Style"
+msgstr "Uhlobo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Compact"
+msgstr "I-Compact"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini"
+msgstr "I-Mini"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Square"
+msgstr "I-Square"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall"
+msgstr "I-Tall"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Inline"
+msgstr "I-Inline"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini Chart"
+msgstr "I-Mini Chart"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Mini + Chart"
+msgstr "I-Mini + Chart"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi-Converter"
+msgstr "I-Multi-Converter"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Expandable"
+msgstr "I-Multi Expandable"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Multi Fixed"
+msgstr "I-Multi Fixed"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates"
+msgstr "Iizinga Zokutshintshiselana"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates + Classic"
+msgstr "Iizinga Zokutshintshiselana + Classic"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Exchange Rates - Compact"
+msgstr "Iintlawulo Zenguqulo - I-Compact"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Compact"
+msgstr "Iintlawulo I-Compact"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer"
+msgstr "Umphakathi Weentlawulo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts"
+msgstr "Bonisa IiChati"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Charts - Compact"
+msgstr "Bonisa IiChati - I-Compact"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Rates Viewer Compact"
+msgstr "Umphakathi Weentlawulo I-Compact"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Tall Sidebar + Classic"
+msgstr "I-Sidebar Ephakeme + I-Classical"
+
+#. Size Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Size"
+msgstr "Ubungakanani"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Small"
+msgstr "Incinci"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Medium"
+msgstr "Maphakathi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Large"
+msgstr "Nkulu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom"
+msgstr "Okhethekileyo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default"
+msgstr "Okwamkelekileyo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Width (px)"
+msgstr "Ububanzi (px)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Height (px)"
+msgstr "Uphakamiso (px)"
+
+#: templates/admin-page.php
+msgid "Custom Dimensions"
+msgstr "Iimilinganiselo Ezikhethiweyo"
+
+#. Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "From Currency"
+msgstr "Ukusuka kwiMali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "To Currency"
+msgstr "Ukuya kwiMali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Amount"
+msgstr "Umphumo Okwamkelekileyo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock Currency Selection"
+msgstr "Lock Currency Selection"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Lock currencies (users cannot change)"
+msgstr "Lock currencies (users cannot change)"
+
+#: assets/js/block-editor.js
+msgid "Prevent users from changing currencies"
+msgstr "Thintela abasebenzisi ukuba baphonononge iimali"
+
+#. Display Currency Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Display Currencies"
+msgstr "Bonisa IiMali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Preset"
+msgstr "I-Preset"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 3"
+msgstr "I-Top 3"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 10"
+msgstr "I-Top 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Top 20"
+msgstr "I-Top 20"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All Currencies"
+msgstr "Zonke IiMali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "All (170+)"
+msgstr "Zonke (170+)"
+
+#: templates/admin-page.php
+msgid "All"
+msgstr "Zonke"
+
+#: templates/admin-page.php
+msgid "Max 10"
+msgstr "Max 10"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Custom Currencies (comma-separated)"
+msgstr "Iimali ezikhethiweyo (zihlukaniswe ngekhoma)"
+
+#: assets/js/block-editor.js
+msgid "e.g., EUR,GBP,JPY,CAD"
+msgstr "umzekelo, EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js
+msgid "e.g., USD,EUR,GBP,JPY,CAD"
+msgstr "umzekelo, USD,EUR,GBP,JPY,CAD"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Select up to 10 currencies."
+msgstr "Khetha ukuya kwiimali eziyi-10."
+
+#: assets/js/block-editor.js
+msgid "Max 10 currencies for Multi-Converter"
+msgstr "Max 10 iimali ze-Multi-Converter"
+
+#. Dropdown Menu Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Add Currency Dropdown"
+msgstr "Yongeza i-Dropdown yeMali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dropdown Menu Currencies"
+msgstr "Iimali zeMenyu yeDropdown"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Currencies available in \\"+ Add Currency\\" dropdown"
+msgstr "Iimali ezifumanekayo kwi-\"+ Yongeza iMali\" dropdown"
+
+#: templates/admin-page.php
+msgid "Top 3 (EUR, GBP, JPY)"
+msgstr "Eziyi-3 eziphezulu (EUR, GBP, JPY)"
+
+#: templates/admin-page.php
+msgid "Most popular currencies"
+msgstr "Iimali ezidumileyo"
+
+#: templates/admin-page.php
+msgid "Most popular currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Iimali ezidumileyo: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Search currencies..."
+msgstr "Jonga iimali..."
+
+#: templates/admin-page.php
+#, php-format
+msgid "%d currencies available"
+msgstr "%d iimali ezifumanekayo"
+
+#: templates/admin-page.php
+msgid "Top 10 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+msgstr "Iimali eziyi-10 eziphezulu: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, MXN"
+
+#: templates/admin-page.php
+msgid "Top 20 currencies including BRL, KRW, SGD, HKD, NZD, etc."
+msgstr "Iimali eziyi-20 eziphezulu ziquka i-BRL, KRW, SGD, HKD, NZD, njl."
+
+#: templates/admin-page.php
+msgid "All 170+ currencies with search functionality"
+msgstr "Zonke iimali ezingama-170+ ezinefayile yokukhangela"
+
+#: templates/admin-page.php
+msgid "Custom selection of currencies"
+msgstr "Ukukhetha okwenziwe ngokwezifiso kwezimali"
+
+#. Chart Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Default Period"
+msgstr "Ixesha eliqhelekileyo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Period"
+msgstr "Ixesha"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "7 Days"
+msgstr "Iintsuku ezi-7"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "14 Days"
+msgstr "Iintsuku ezi-14"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "30 Days"
+msgstr "Iintsuku ezi-30"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "90 Days"
+msgstr "Iintsuku ezi-90"
+
+#. Theme Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Theme"
+msgstr "Isikhumbuzo"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Light"
+msgstr "Khanya"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dark"
+msgstr "Mnyama"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto"
+msgstr "Auto"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (System)"
+msgstr "Auto (Inkqubo)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Auto (Browser)"
+msgstr "Auto (UmphBrowser)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Accent Color"
+msgstr "Umbala Wokugqamisa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Language"
+msgstr "Ulwimi"
+
+#: templates/admin-page.php
+msgid "Widget Language"
+msgstr "Ulwimi lweWidget"
+
+#. Display Toggle Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Flags"
+msgstr "Bonisa iiflegi"
+
+#: templates/admin-page.php
+msgid "Show country flags"
+msgstr "Bonisa iiflegi zezwe"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Labels"
+msgstr "Bonisa iilayibheli"
+
+#: templates/admin-page.php
+msgid "Show labels (From/To)"
+msgstr "Bonisa iilayibheli (Ukusuka/Kuya)"
+
+#: assets/js/block-editor.js
+msgid "Show \\"From\\" and \\"To\\" labels above currency dropdowns"
+msgstr "Bonisa \\"Ukusuka\\" kunye \\"Kuya\\" iilayibheli ngaphezulu kweedropdown zezimali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Swap Button"
+msgstr "Bonisa Ibhathini Yokutshintsha"
+
+#: templates/admin-page.php
+msgid "Show swap button"
+msgstr "Bonisa ibhathini yokutshintsha"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Branding"
+msgstr "Bonisa Ubugcisa"
+
+#: templates/admin-page.php
+msgid "Show branding"
+msgstr "Bonisa ubugcisa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Clickable Branding"
+msgstr "Ubugcisa Obunokucwangciswa"
+
+#: assets/js/block-editor.js
+msgid "Make \\"Powered by Currency.Wiki\\" clickable"
+msgstr "Yenza \\"Iphuhliswe ngu Currency.Wiki\\" ibe nokucwangciswa"
+
+#: templates/admin-page.php
+msgid "Show \\"Powered by Currency.Wiki\\" link"
+msgstr "Bonisa \\"Iphuhliswe ngu Currency.Wiki\\" ikhonkco"
+
+#: templates/admin-page.php
+msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
+msgstr "\\"Iphuhliswe ngu Currency.Wiki\\" iya kuhlala iboniswa. Ukucima le nketho kukhusela kuphela ikhonkco elinokucwangciswa. Xa ivuliwe, ikhonkco lisebenzisa rel=\\"nofollow\\"."
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Show Currency Symbol"
+msgstr "Bonisa Uphawu lweMali"
+
+#: assets/js/block-editor.js
+msgid "Display currency symbol instead of ISO code"
+msgstr "Bonisa uphawu lwezimali endaweni ye-ISO code"
+
+#: templates/admin-page.php
+msgid "Currency Display Format"
+msgstr "Ifomathi Yokubonisa iMali"
+
+#: templates/admin-page.php
+msgid "ISO Code"
+msgstr "ISO Code"
+
+#: templates/admin-page.php
+msgid "Symbol"
+msgstr "Uphawu"
+
+#: templates/admin-page.php
+msgid "Choose how currencies are displayed in the widget. ISO codes (USD, EUR) are universal, while symbols ($, €) may be more familiar to users."
+msgstr "Khetha indlela iimali eziboniswa ngayo kwi-widget. I-ISO codes (USD, EUR) ziqhelekile, ngelixa iimpawu ($, €) zingaba zaziwa ngakumbi kubasebenzisi."
+
+#. Number Format Settings
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Decimal Places"
+msgstr "Iindawo zeDecimal"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,234.56 (US)"
+msgstr "1,234.56 (US)"
+
+#: templates/admin-page.php
+msgid "US (1,234.56)"
+msgstr "US (1,234.56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1.234,56 (EU)"
+msgstr "1.234,56 (EU)"
+
+#: templates/admin-page.php
+msgid "EU (1.234,56)"
+msgstr "EU (1.234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1 234,56 (French)"
+msgstr "1 234,56 (Frentshi)"
+
+#: templates/admin-page.php
+msgid "French (1 234,56)"
+msgstr "Frentshi (1 234,56)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "1,23,456.78 (Indian)"
+msgstr "1,23,456.78 (Indian)"
+
+#: templates/admin-page.php
+msgid "Indian (1,23,456.78)"
+msgstr "Indiya (1,23,456.78)"
+
+#: templates/admin-page.php
+msgid "Currency Converter Widget Settings"
+msgstr "Isethulo seWijethi yeMali"
+
+#: templates/admin-page.php
+msgid "Beautiful currency converter widgets for WordPress"
+msgstr "Iiwijethi ezilungileyo zokuguqula imali zeWordPress"
+
+#: templates/admin-page.php
+msgid "Advanced Builder"
+msgstr "Umphuhlisi Osezantsi"
+
+#: templates/admin-page.php
+msgid "Documentation"
+msgstr "Ubungqina"
+
+#: templates/admin-page.php
+msgid "Currency Settings"
+msgstr "Isethulo seMali"
+
+#: templates/admin-page.php
+msgid "Quick Start Presets"
+msgstr "Iiphrinta zokuQala eziKhawulezayo"
+
+#: templates/admin-page.php
+msgid "Simple"
+msgstr "Elula"
+
+#: templates/admin-page.php
+msgid "Minimal"
+msgstr "Iminimali"
+
+#: templates/admin-page.php
+msgid "Sidebar"
+msgstr "I-Sidebar"
+
+#: templates/admin-page.php
+msgid "Multi-Currency"
+msgstr "I-Multi-Currency"
+
+#: templates/admin-page.php
+msgid "Chart"
+msgstr "Umfanekiso"
+
+#: templates/admin-page.php
+msgid "Lock currency selection"
+msgstr "Lock currency selection"
+
+#: templates/admin-page.php
+msgid "Show currency flags"
+msgstr "Bonisa iiflegi zemali"
+
+#: templates/admin-page.php
+msgid "Show currency labels"
+msgstr "Bonisa amalebula emali"
+
+#: templates/admin-page.php
+msgid "Enable branding link"
+msgstr "Vula ikhonkco le-branding"
+
+#: templates/admin-page.php
+msgid "Save Settings"
+msgstr "Gcina iSettings"
+
+#: templates/admin-page.php
+msgid "Live Preview"
+msgstr "Uhlolo oluphila"
+
+#: templates/admin-page.php
+msgid "Shortcode"
+msgstr "I-Shortcode"
+
+#: templates/admin-page.php
+msgid "Copy"
+msgstr "Kopisha"
+
+#: templates/admin-page.php
+msgid "Copied!"
+msgstr "Kopishwe!"
+
+#: templates/admin-page.php
+msgid "Copy this shortcode and paste it into any post, page, or widget area:"
+msgstr "Kopisha le shortcode uze uyifake kwi-post, iphepha, okanye indawo ye-widget:"
+
+#: templates/admin-page.php
+msgid "Theme Compatibility:"
+msgstr "Uhlalutyo lweMowudi:"
+
+#: templates/admin-page.php
+msgid "Some WordPress themes may conflict with the widget script. If you experience display issues, try using iframe mode:"
+msgstr "Ezinye iithimu zeWordPress zinokungqubana neskripthi se-widget. Ukuba ubonakala nezinkinga zokubonisa, zama ukusebenzisa imowudi ye-iframe:"
+
+#: templates/admin-page.php
+msgid "Iframe Limitations:"
+msgstr "Imikhawulo yeIframe:"
+
+#: templates/admin-page.php
+msgid "Dropdown menus are contained within the widget area"
+msgstr "Iimenyu ze-Dropdown ziquka ngaphakathi kwindawo ye-widget"
+
+#: templates/admin-page.php
+msgid "Long currency lists may require scrolling inside the widget"
+msgstr "Uluhlu olude lwemali lungafuna ukugudluka ngaphakathi kwiwijethi"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currency displays or viewer-style widgets"
+msgstr "Ilungile kakhulu kwiindawo zemali ezivalekileyo okanye kwi-wijethi ye-Viewer-style"
+
+#: templates/admin-page.php
+msgid "Best suited for locked currencies or viewer-style widgets"
+msgstr "Ilungile kakhulu kwiimali ezivalekileyo okanye kwi-wijethi ye-Viewer-style"
+
+#: templates/admin-page.php
+msgid "Shortcode Examples"
+msgstr "Iimeko ze-Shortcode"
+
+#: templates/admin-page.php
+msgid "Basic:"
+msgstr "Iisiseko:"
+
+#: templates/admin-page.php
+msgid "Short alias:"
+msgstr "I-alias emfutshane:"
+
+#: templates/admin-page.php
+msgid "Custom currencies:"
+msgstr "Iimali ezikhethekileyo:"
+
+#: templates/admin-page.php
+msgid "Dark theme:"
+msgstr "Umxholo omnyama:"
+
+#: templates/admin-page.php
+msgid "Mini style:"
+msgstr "Isitayela esincinci:"
+
+#: templates/admin-page.php
+msgid "With chart:"
+msgstr "Ngechart:"
+
+#: templates/admin-page.php
+msgid "Embed Code (External Sites)"
+msgstr "Ikhowudi yokufaka (Iisayithi zangaphandle)"
+
+#: templates/admin-page.php
+msgid "For embedding on non-WordPress websites (HTML, Shopify, Wix, etc.), use the code below:"
+msgstr "Ukufaka kwiisayithi ezingengayo i-WordPress (HTML, Shopify, Wix, njl.), sebenzisa ikhowudi engezantsi:"
+
+#: templates/admin-page.php
+msgid "Script (Recommended)"
+msgstr "Iskripthi (Kuhlongozwa)"
+
+#: templates/admin-page.php
+msgid "Iframe (Fallback)"
+msgstr "Iframe (Ukwenza kube lula)"
+
+#: templates/admin-page.php
+msgid "Script Embed (Recommended)"
+msgstr "Ukufaka Iskripthi (Kuhlongozwa)"
+
+#: templates/admin-page.php
+msgid "Full-featured widget with dropdown menus that display in front of surrounding content. Best for interactive currency selection."
+msgstr "I-widget enezinto ezipheleleyo ezineemenu eziphumayo ezibonisa phambi kokuqukethwe okukhoyo. Kulungile ukujolisa kwiimali ezikhethiweyo."
+
+#: templates/admin-page.php
+msgid "Iframe Embed (Fallback Option)"
+msgstr "Iframe Faka (Ukhetho Lokuphosa)"
+
+#: templates/admin-page.php
+msgid "Use this if the script embed causes conflicts with your website. Works in isolated sandbox."
+msgstr "Sebenzisa oku ukuba ukufaka iskripthi kubangela iingxaki kwiwebhusayithi yakho. Isebenza kwi-sandbox eyahlukeneyo."
+
+#: templates/admin-page.php
+msgid "Limitations:"
+msgstr "Imiqobo:"
+
+#: templates/admin-page.php
+msgid "Long currency lists require scrolling inside the widget"
+msgstr "Uluhlu lweemali ezinde ludinga ukugudiswa ngaphakathi kwi-widget"
+
+#: templates/admin-page.php
+msgid "Gutenberg Block"
+msgstr "I-Gutenberg Block"
+
+#: templates/admin-page.php
+msgid "You can also add the widget using the Gutenberg block editor:"
+msgstr "Ungongeza i-widget usebenzisa umhleli womboniso we-Gutenberg:"
+
+#: templates/admin-page.php
+msgid "Open the block editor in any post or page"
+msgstr "Vula umhleli womboniso kwi-post okanye iphepha naliphi na"
+
+#: templates/admin-page.php
+msgid "Click the + button to add a new block"
+msgstr "Cofa inkinobho + ukuze ungeze ibhlogo entsha"
+
+#: templates/admin-page.php
+msgid "Search for \\"Currency Converter\\""
+msgstr "Funa \\"Currency Converter\\""
+
+#: templates/admin-page.php
+msgid "Configure the widget in the block settings sidebar"
+msgstr "Cwangcisa i-widget kwi-sidibha yeziqinisekiso zebhlogo"
+
+#: templates/admin-page.php
+msgid "Need Help?"
+msgstr "Ufunani Uncedo?"
+
+#: templates/admin-page.php
+msgid "Visit our documentation or contact support for assistance."
+msgstr "Vakashela kwi-documentation yethu okanye uqhagamshelane nenkxaso ukuze ufumane uncedo."
+
+#: templates/admin-page.php
+msgid "View Documentation"
+msgstr "Jonga iDocument"
+
+#. Review Notice
+#: templates/admin-page.php
+msgid "Enjoying Currency Converter Widget?"
+msgstr "Ujolise kwi-Currency Converter Widget?"
+
+#: templates/admin-page.php
+msgid "Your feedback helps us improve! It only takes a moment."
+msgstr "Impendulo yakho isinceda siphucule! Ithathe umzuzu omncinci."
+
+#: templates/admin-page.php
+msgid "Rate Now"
+msgstr "Bala Ngoku"
+
+#: templates/admin-page.php
+msgid "Maybe Later"
+msgstr "Mhlawumbi Kamva"
+
+#: templates/admin-page.php
+msgid "Dismiss"
+msgstr "Phuma"
+
+#: currency-converter-widget.php
+msgid "Help & Support"
+msgstr "Uncedo & Inkxaso"
+
+#: currency-converter-widget.php
+msgid "Get help with Currency Kit"
+msgstr "Fumana uncedo nge Currency Kit"
+
+#: currency-converter-widget.php
+msgid "Learn how to use Currency Kit to add beautiful currency converter widgets to your WordPress site."
+msgstr "Funda indlela yokusebenzisa i-Currency Kit ukuze wongeze iiwijethi zokuguqula imali ezimnandi kwi-site yakho ye-WordPress."
+
+#: currency-converter-widget.php
+msgid "Use the <strong>[currencywiki_converter]</strong> shortcode to add widgets to posts and pages"
+msgstr "Sebenzisa i<strong>[currencywiki_converter]</strong> shortcode ukuze wongeze iiwijethi kwiiposti nakwiiphepha"
+
+#: currency-converter-widget.php
+msgid "Customize the widget style, theme, and colors from the Dashboard"
+msgstr "Lungisa isitayela seewijethi, umxholo, kunye nemibala kwi-Dashboard"
+
+#: currency-converter-widget.php
+msgid "Use the Currency Kit block in the Gutenberg editor for visual editing"
+msgstr "Sebenzisa i-Currency Kit block kwi-Gutenberg editor yokuhlela ngokubona"
+
+#: currency-converter-widget.php
+msgid "Copy the embed code to use on external websites"
+msgstr "Kopa ikhowudi yokuhlanganisa ukuyisebenzisa kwiwebhusayithi zangaphandle"
+
+#: currency-converter-widget.php
+msgid "Frequently Asked Questions"
+msgstr "Imibuzo Ebuzwa Ng frequently"
+
+#: currency-converter-widget.php
+msgid "How do I add a currency converter to my page?"
+msgstr "Ndingenza njani ukuba ndingeze umguquli wemali kwiiphepha zam?"
+
+#: currency-converter-widget.php
+msgid "Use the shortcode [currencywiki_converter] or add the Currency Kit block in the Gutenberg editor."
+msgstr "Sebenzisa i-shortcode [currencywiki_converter] okanye wongeze i-Currency Kit block kwi-Gutenberg editor."
+
+#: currency-converter-widget.php
+msgid "Can I customize the widget colors?"
+msgstr "Ngaba ndingalungisa imibala yeewijethi?"
+
+#: currency-converter-widget.php
+msgid "Yes! Go to Currency Kit → Dashboard and select your preferred accent color from the color palette."
+msgstr "Ewe! Iya kwi-Currency Kit → Dashboard kwaye ukhethe umbala wakho owuthandayo kwi-palette yemibala."
+
+#: currency-converter-widget.php
+msgid "How often are exchange rates updated?"
+msgstr "Ngaba iimeko zokutshintsha zihlaziywa kangakanani?"
+
+#: currency-converter-widget.php
+msgid "Exchange rates are updated in real-time from Currency.Wiki API."
+msgstr "Iimeko zokutshintsha zihlaziywa ngexesha lokwenyani kwi-Currency.Wiki API."
+
+#: currency-converter-widget.php
+msgid "Need More Help?"
+msgstr "Ufunani Uncedo Olungakumbi?"
+
+#: currency-converter-widget.php
+msgid "Contact our support team or visit our documentation for more information."
+msgstr "Xhumana neqela lethu leenkxaso okanye uvakashele imibhalo yethu ukuze ufumane ulwazi olungakumbi."
+
+#: currency-converter-widget.php
+msgid "Get Support"
+msgstr "Fumana Inkxaso"
+
+#: currency-converter-widget.php
+msgid "Display currency converter on your sidebar. (Legacy V2 widget - consider using the Gutenberg block instead)"
+msgstr "Bonisa umguquli wemali kwi-sidebar yakho. (Legacy V2 widget - qwalasela ukusebenzisa i-Gutenberg block endaweni)"
+
+#: currency-converter-widget.php
+msgid "Currency Converter Widget (Legacy)"
+msgstr "Umguquli Wemali Widget (Legacy)"
+
+#: currency-converter-widget.php
+msgid "Legacy Widget"
+msgstr "Legacy Widget"
+
+#: currency-converter-widget.php
+msgid "This is a legacy V2 widget. For more features and better customization, use the new Currency Converter block in the Gutenberg editor."
+msgstr "Le yi-legacy V2 widget. Ukuze ufumane iimpawu ezingakumbi kunye nolungiso olungcono, sebenzisa i-Currency Converter block entsha kwi-Gutenberg editor."
+
+#: currency-converter-widget.php
+msgid "Title:"
+msgstr "Isihloko:"
+
+#: currency-converter-widget.php
+msgid "From Currency:"
+msgstr "Ukusuka kwiMali:"
+
+#: currency-converter-widget.php
+msgid "To Currency:"
+msgstr "Ukuya kwiMali:"
+
+#: currency-converter-widget.php
+msgid "Advanced Settings"
+msgstr "Isetingi Eziphucukileyo"
+
+#: Widget Frontend
+msgid "Amount"
+msgstr "Umphumo"
+
+#: Widget Frontend
+msgid "From"
+msgstr "Ukusuka"
+
+#: Widget Frontend
+msgid "To"
+msgstr "Ukuya"
+
+#: Widget Frontend
+msgid "Result"
+msgstr "Umphumo"
+
+#: Widget Frontend
+msgid "Swap Currencies"
+msgstr "Guqula Iimali"
+
+#: Widget Frontend
+msgid "Powered by Currency.Wiki"
+msgstr "Iphuhliswe yi-Currency.Wiki"
+
+#: Widget Frontend
+msgid "+ Add Currency"
+msgstr "+ Yongeza iMali"
+
+#: Widget Frontend
+#. Placeholder: :count of :max currencies (e.g., "3 of 20 currencies")
+msgid ":count of :max currencies"
+msgstr ":count ye :max iimali"
+
+#: Widget Frontend
+msgid "Last updated:"
+msgstr "Uhlaziyiwe okokugqibela:"
+
+#: Widget Frontend
+msgid "7D"
+msgstr "7D"
+
+#: Widget Frontend
+msgid "14D"
+msgstr "14D"
+
+#: Widget Frontend
+msgid "30D"
+msgstr "30D"
+
+#: Widget Frontend
+msgid "90D"
+msgstr "90D"
+
+#: Widget Frontend
+msgid "POPULAR"
+msgstr "IIMALI EZIDUMILEYO"
+
+#: Widget Frontend
+msgid "Search currency..."
+msgstr "Funa imali..."
+
+#: Widget Frontend
+msgid "Remove"
+msgstr "Susa"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "English"
+msgstr "IsiNgesi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Spanish"
+msgstr "IsiSpani"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "French"
+msgstr "IsiFrentshi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "German"
+msgstr "IsiJalimane"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Italian"
+msgstr "IsiTaliyane"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese"
+msgstr "IsiPhuthukezi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Portuguese (Brazil)"
+msgstr "IsiPhuthukezi (Brazil)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Russian"
+msgstr "IsiRashiya"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Japanese"
+msgstr "IsiJapane"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese"
+msgstr "IsiTshayina"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Simplified)"
+msgstr "IsiTshayina (Esimfutshane)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Chinese (Traditional)"
+msgstr "IsiTshayina (Esidala)"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Arabic"
+msgstr "IsiArabhu"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hindi"
+msgstr "IsiHindi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bengali"
+msgstr "IsiBengali"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Korean"
+msgstr "IsiKorea"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Dutch"
+msgstr "IsiDutchi"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Polish"
+msgstr "IsiPolish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Turkish"
+msgstr "IsiTurkish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Thai"
+msgstr "Thai"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Malay"
+msgstr "Malay"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Czech"
+msgstr "Czech"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Greek"
+msgstr "Greek"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Hungarian"
+msgstr "Hungarian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Romanian"
+msgstr "Romanian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Swedish"
+msgstr "Swedish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Danish"
+msgstr "Danish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Finnish"
+msgstr "Finnish"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Norwegian"
+msgstr "Norwegian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovak"
+msgstr "Slovak"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Croatian"
+msgstr "Croatian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Serbian"
+msgstr "Serbian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Filipino"
+msgstr "Filipino"
+
+#: assets/js/block-editor.js
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: assets/js/block-editor.js
+msgid "Amharic"
+msgstr "Amharic"
+
+#: assets/js/block-editor.js
+msgid "Bosnian"
+msgstr "Bosnian"
+
+#: assets/js/block-editor.js
+msgid "Burmese"
+msgstr "Burmese"
+
+#: assets/js/block-editor.js
+msgid "Estonian"
+msgstr "Estonian"
+
+#: assets/js/block-editor.js
+msgid "Georgian"
+msgstr "Georgian"
+
+#: assets/js/block-editor.js
+msgid "Icelandic"
+msgstr "Icelandic"
+
+#: assets/js/block-editor.js
+msgid "Irish"
+msgstr "Irish"
+
+#: assets/js/block-editor.js
+msgid "Kazakh"
+msgstr "Kazakh"
+
+#: assets/js/block-editor.js
+msgid "Khmer"
+msgstr "Khmer"
+
+#: assets/js/block-editor.js
+msgid "Latvian"
+msgstr "iLatvian"
+
+#: assets/js/block-editor.js
+msgid "Lithuanian"
+msgstr "iLithuanian"
+
+#: assets/js/block-editor.js
+msgid "Maltese"
+msgstr "iMaltese"
+
+#: assets/js/block-editor.js
+msgid "Mongolian"
+msgstr "iMongolian"
+
+#: assets/js/block-editor.js
+msgid "Nepali"
+msgstr "iNepali"
+
+#: assets/js/block-editor.js
+msgid "Persian"
+msgstr "iPersian"
+
+#: assets/js/block-editor.js
+msgid "Sinhala"
+msgstr "iSinhala"
+
+#: assets/js/block-editor.js
+msgid "Swahili"
+msgstr "iSwahili"
+
+#: assets/js/block-editor.js
+msgid "Tamil"
+msgstr "iTamil"
+
+#: assets/js/block-editor.js
+msgid "Telugu"
+msgstr "iTelugu"
+
+#: assets/js/block-editor.js
+msgid "Urdu"
+msgstr "iUrdu"
+
+#: assets/js/block-editor.js
+msgid "Uzbek"
+msgstr "iUzbek"
+
+#: assets/js/block-editor.js
+msgid "Armenian"
+msgstr "iArmenian"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Blue"
+msgstr "Blue"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Green"
+msgstr "Green"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Purple"
+msgstr "Purple"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Red"
+msgstr "Red"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Orange"
+msgstr "Orange"
+
+#: assets/js/block-editor.js templates/admin-page.php
+msgid "Slate"
+msgstr "Slate"
+
+#: templates/admin-page.php
+msgid "Pink"
+msgstr "Pink"

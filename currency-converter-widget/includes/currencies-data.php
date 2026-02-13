@@ -1,0 +1,213 @@
+<?php
+/**
+ * Currency Data for Currency Wiki Converter
+ *
+ * Contains all supported currencies with their ISO codes, names, and flags.
+ * This file is auto-generated from the main currency database.
+ *
+ * @package CurrencyWikiConverter
+ */
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+/**
+ * Get all available currencies
+ *
+ * @return array Array of currencies keyed by ISO code
+ */
+function cwc_get_all_currencies() {
+    return [
+        'AED' => ['name' => 'United Arab Emirates Dirham', 'flag' => 'ae'],
+        'AFN' => ['name' => 'Afghan Afghani', 'flag' => 'af'],
+        'ALL' => ['name' => 'Albanian Lek', 'flag' => 'al'],
+        'AMD' => ['name' => 'Armenian Dram', 'flag' => 'am'],
+        'ANG' => ['name' => 'Netherlands Antillean Guilder', 'flag' => 'cw'],
+        'AOA' => ['name' => 'Angolan Kwanza', 'flag' => 'ao'],
+        'ARS' => ['name' => 'Argentine Peso', 'flag' => 'ar'],
+        'AUD' => ['name' => 'Australian Dollar', 'flag' => 'au'],
+        'AWG' => ['name' => 'Aruban Florin', 'flag' => 'aw'],
+        'AZN' => ['name' => 'Azerbaijani Manat', 'flag' => 'az'],
+        'BAM' => ['name' => 'Bosnia-Herzegovina Convertible Mark', 'flag' => 'ba'],
+        'BBD' => ['name' => 'Barbadian Dollar', 'flag' => 'bb'],
+        'BDT' => ['name' => 'Bangladeshi Taka', 'flag' => 'bd'],
+        'BGN' => ['name' => 'Bulgarian Lev', 'flag' => 'bg'],
+        'BHD' => ['name' => 'Bahraini Dinar', 'flag' => 'bh'],
+        'BIF' => ['name' => 'Burundian Franc', 'flag' => 'bi'],
+        'BMD' => ['name' => 'Bermudan Dollar', 'flag' => 'bm'],
+        'BND' => ['name' => 'Brunei Dollar', 'flag' => 'bn'],
+        'BOB' => ['name' => 'Bolivian Boliviano', 'flag' => 'bo'],
+        'BRL' => ['name' => 'Brazilian Real', 'flag' => 'br'],
+        'BSD' => ['name' => 'Bahamian Dollar', 'flag' => 'bs'],
+        'BTC' => ['name' => 'Bitcoin', 'flag' => 'bc'],
+        'BTN' => ['name' => 'Bhutanese Ngultrum', 'flag' => 'bt'],
+        'BWP' => ['name' => 'Botswanan Pula', 'flag' => 'bw'],
+        'BYN' => ['name' => 'Belarusian Ruble', 'flag' => 'by'],
+        'BZD' => ['name' => 'Belize Dollar', 'flag' => 'bz'],
+        'CAD' => ['name' => 'Canadian Dollar', 'flag' => 'ca'],
+        'CDF' => ['name' => 'Congolese Franc', 'flag' => 'cd'],
+        'CHF' => ['name' => 'Swiss Franc', 'flag' => 'ch'],
+        'CLF' => ['name' => 'Chilean Unit of Account (UF)', 'flag' => 'cl'],
+        'CLP' => ['name' => 'Chilean Peso', 'flag' => 'cl'],
+        'CNH' => ['name' => 'Chinese Yuan (Offshore)', 'flag' => 'cn'],
+        'CNY' => ['name' => 'Chinese Yuan', 'flag' => 'cn'],
+        'COP' => ['name' => 'Colombian Peso', 'flag' => 'co'],
+        'CRC' => ['name' => 'Costa Rican Colón', 'flag' => 'cr'],
+        'CUC' => ['name' => 'Cuban Convertible Peso', 'flag' => 'cu'],
+        'CUP' => ['name' => 'Cuban Peso', 'flag' => 'cu'],
+        'CVE' => ['name' => 'Cape Verdean Escudo', 'flag' => 'cv'],
+        'CZK' => ['name' => 'Czech Republic Koruna', 'flag' => 'cz'],
+        'DJF' => ['name' => 'Djiboutian Franc', 'flag' => 'dj'],
+        'DKK' => ['name' => 'Danish Krone', 'flag' => 'dk'],
+        'DOP' => ['name' => 'Dominican Peso', 'flag' => 'do'],
+        'DZD' => ['name' => 'Algerian Dinar', 'flag' => 'dz'],
+        'EGP' => ['name' => 'Egyptian Pound', 'flag' => 'eg'],
+        'ERN' => ['name' => 'Eritrean Nakfa', 'flag' => 'er'],
+        'ETB' => ['name' => 'Ethiopian Birr', 'flag' => 'et'],
+        'EUR' => ['name' => 'Euro', 'flag' => 'eu'],
+        'FJD' => ['name' => 'Fijian Dollar', 'flag' => 'fj'],
+        'FKP' => ['name' => 'Falkland Islands Pound', 'flag' => 'fk'],
+        'GBP' => ['name' => 'British Pound Sterling', 'flag' => 'gb'],
+        'GEL' => ['name' => 'Georgian Lari', 'flag' => 'ge'],
+        'GGP' => ['name' => 'Guernsey Pound', 'flag' => 'gg'],
+        'GHS' => ['name' => 'Ghanaian Cedi', 'flag' => 'gh'],
+        'GIP' => ['name' => 'Gibraltar Pound', 'flag' => 'gi'],
+        'GMD' => ['name' => 'Gambian Dalasi', 'flag' => 'gm'],
+        'GNF' => ['name' => 'Guinean Franc', 'flag' => 'gn'],
+        'GTQ' => ['name' => 'Guatemalan Quetzal', 'flag' => 'gt'],
+        'GYD' => ['name' => 'Guyanaese Dollar', 'flag' => 'gy'],
+        'HKD' => ['name' => 'Hong Kong Dollar', 'flag' => 'hk'],
+        'HNL' => ['name' => 'Honduran Lempira', 'flag' => 'hn'],
+        'HRK' => ['name' => 'Croatian Kuna', 'flag' => 'hr'],
+        'HTG' => ['name' => 'Haitian Gourde', 'flag' => 'ht'],
+        'HUF' => ['name' => 'Hungarian Forint', 'flag' => 'hu'],
+        'IDR' => ['name' => 'Indonesian Rupiah', 'flag' => 'id'],
+        'ILS' => ['name' => 'Israeli New Sheqel', 'flag' => 'il'],
+        'IMP' => ['name' => 'Isle of Man Pound', 'flag' => 'im'],
+        'INR' => ['name' => 'Indian Rupee', 'flag' => 'in'],
+        'IQD' => ['name' => 'Iraqi Dinar', 'flag' => 'iq'],
+        'IRR' => ['name' => 'Iranian Rial', 'flag' => 'ir'],
+        'ISK' => ['name' => 'Icelandic Króna', 'flag' => 'is'],
+        'JEP' => ['name' => 'Jersey Pound', 'flag' => 'je'],
+        'JMD' => ['name' => 'Jamaican Dollar', 'flag' => 'jm'],
+        'JOD' => ['name' => 'Jordanian Dinar', 'flag' => 'jo'],
+        'JPY' => ['name' => 'Japanese Yen', 'flag' => 'jp'],
+        'KES' => ['name' => 'Kenyan Shilling', 'flag' => 'ke'],
+        'KGS' => ['name' => 'Kyrgystani Som', 'flag' => 'kg'],
+        'KHR' => ['name' => 'Cambodian Riel', 'flag' => 'kh'],
+        'KMF' => ['name' => 'Comorian Franc', 'flag' => 'km'],
+        'KPW' => ['name' => 'North Korean Won', 'flag' => 'kp'],
+        'KRW' => ['name' => 'South Korean Won', 'flag' => 'kr'],
+        'KWD' => ['name' => 'Kuwaiti Dinar', 'flag' => 'kw'],
+        'KYD' => ['name' => 'Cayman Islands Dollar', 'flag' => 'ky'],
+        'KZT' => ['name' => 'Kazakhstani Tenge', 'flag' => 'kz'],
+        'LAK' => ['name' => 'Laotian Kip', 'flag' => 'la'],
+        'LBP' => ['name' => 'Lebanese Pound', 'flag' => 'lb'],
+        'LKR' => ['name' => 'Sri Lankan Rupee', 'flag' => 'lk'],
+        'LRD' => ['name' => 'Liberian Dollar', 'flag' => 'lr'],
+        'LSL' => ['name' => 'Lesotho Loti', 'flag' => 'ls'],
+        'LYD' => ['name' => 'Libyan Dinar', 'flag' => 'ly'],
+        'MAD' => ['name' => 'Moroccan Dirham', 'flag' => 'ma'],
+        'MDL' => ['name' => 'Moldovan Leu', 'flag' => 'md'],
+        'MGA' => ['name' => 'Malagasy Ariary', 'flag' => 'mg'],
+        'MKD' => ['name' => 'Macedonian Denar', 'flag' => 'mk'],
+        'MMK' => ['name' => 'Myanmar Kyat', 'flag' => 'mm'],
+        'MNT' => ['name' => 'Mongolian Tugrik', 'flag' => 'mn'],
+        'MOP' => ['name' => 'Macanese Pataca', 'flag' => 'mo'],
+        'MRU' => ['name' => 'Mauritanian Ouguiya', 'flag' => 'mr'],
+        'MUR' => ['name' => 'Mauritian Rupee', 'flag' => 'mu'],
+        'MVR' => ['name' => 'Maldivian Rufiyaa', 'flag' => 'mv'],
+        'MWK' => ['name' => 'Malawian Kwacha', 'flag' => 'mw'],
+        'MXN' => ['name' => 'Mexican Peso', 'flag' => 'mx'],
+        'MYR' => ['name' => 'Malaysian Ringgit', 'flag' => 'my'],
+        'MZN' => ['name' => 'Mozambican Metical', 'flag' => 'mz'],
+        'NAD' => ['name' => 'Namibian Dollar', 'flag' => 'na'],
+        'NGN' => ['name' => 'Nigerian Naira', 'flag' => 'ng'],
+        'NIO' => ['name' => 'Nicaraguan Córdoba', 'flag' => 'ni'],
+        'NOK' => ['name' => 'Norwegian Krone', 'flag' => 'no'],
+        'NPR' => ['name' => 'Nepalese Rupee', 'flag' => 'np'],
+        'NZD' => ['name' => 'New Zealand Dollar', 'flag' => 'nz'],
+        'OMR' => ['name' => 'Omani Rial', 'flag' => 'om'],
+        'PAB' => ['name' => 'Panamanian Balboa', 'flag' => 'pa'],
+        'PEN' => ['name' => 'Peruvian Nuevo Sol', 'flag' => 'pe'],
+        'PGK' => ['name' => 'Papua New Guinean Kina', 'flag' => 'pg'],
+        'PHP' => ['name' => 'Philippine Peso', 'flag' => 'ph'],
+        'PKR' => ['name' => 'Pakistani Rupee', 'flag' => 'pk'],
+        'PLN' => ['name' => 'Polish Zloty', 'flag' => 'pl'],
+        'PYG' => ['name' => 'Paraguayan Guarani', 'flag' => 'py'],
+        'QAR' => ['name' => 'Qatari Rial', 'flag' => 'qa'],
+        'RON' => ['name' => 'Romanian Leu', 'flag' => 'ro'],
+        'RSD' => ['name' => 'Serbian Dinar', 'flag' => 'rs'],
+        'RUB' => ['name' => 'Russian Ruble', 'flag' => 'ru'],
+        'RWF' => ['name' => 'Rwandan Franc', 'flag' => 'rw'],
+        'SAR' => ['name' => 'Saudi Riyal', 'flag' => 'sa'],
+        'SBD' => ['name' => 'Solomon Islands Dollar', 'flag' => 'sb'],
+        'SCR' => ['name' => 'Seychellois Rupee', 'flag' => 'sc'],
+        'SDG' => ['name' => 'Sudanese Pound', 'flag' => 'sd'],
+        'SEK' => ['name' => 'Swedish Krona', 'flag' => 'se'],
+        'SGD' => ['name' => 'Singapore Dollar', 'flag' => 'sg'],
+        'SHP' => ['name' => 'Saint Helena Pound', 'flag' => 'sh'],
+        'SLE' => ['name' => 'Sierra Leonean Leone (New)', 'flag' => 'sl'],
+        'SLL' => ['name' => 'Sierra Leonean Leone (Old)', 'flag' => 'sl'],
+        'SOS' => ['name' => 'Somali Shilling', 'flag' => 'so'],
+        'SRD' => ['name' => 'Surinamese Dollar', 'flag' => 'sr'],
+        'SSP' => ['name' => 'South Sudanese Pound', 'flag' => 'ss'],
+        'STD' => ['name' => 'São Tomé & Príncipe Dobra (Old)', 'flag' => 'st'],
+        'STN' => ['name' => 'São Tomé & Príncipe Dobra (New)', 'flag' => 'st'],
+        'SVC' => ['name' => 'Salvadoran Colón', 'flag' => 'sv'],
+        'SYP' => ['name' => 'Syrian Pound', 'flag' => 'sy'],
+        'SZL' => ['name' => 'Swazi Lilangeni', 'flag' => 'sz'],
+        'THB' => ['name' => 'Thai Baht', 'flag' => 'th'],
+        'TJS' => ['name' => 'Tajikistani Somoni', 'flag' => 'tj'],
+        'TMT' => ['name' => 'Turkmenistani Manat', 'flag' => 'tm'],
+        'TND' => ['name' => 'Tunisian Dinar', 'flag' => 'tn'],
+        'TOP' => ['name' => 'Tongan Paʻanga', 'flag' => 'to'],
+        'TRY' => ['name' => 'Turkish Lira', 'flag' => 'tr'],
+        'TTD' => ['name' => 'Trinidad & Tobago Dollar', 'flag' => 'tt'],
+        'TWD' => ['name' => 'New Taiwan Dollar', 'flag' => 'tw'],
+        'TZS' => ['name' => 'Tanzanian Shilling', 'flag' => 'tz'],
+        'UAH' => ['name' => 'Ukrainian Hryvnia', 'flag' => 'ua'],
+        'UGX' => ['name' => 'Ugandan Shilling', 'flag' => 'ug'],
+        'USD' => ['name' => 'United States Dollar', 'flag' => 'us'],
+        'UYU' => ['name' => 'Uruguayan Peso', 'flag' => 'uy'],
+        'UZS' => ['name' => 'Uzbekistan Som', 'flag' => 'uz'],
+        'VES' => ['name' => 'Venezuelan Bolívar Soberano', 'flag' => 've'],
+        'VND' => ['name' => 'Vietnamese Dong', 'flag' => 'vn'],
+        'VUV' => ['name' => 'Vanuatu Vatu', 'flag' => 'vu'],
+        'WST' => ['name' => 'Samoan Tala', 'flag' => 'ws'],
+        'XAF' => ['name' => 'Central African CFA Franc', 'flag' => 'cf'],
+        'XAG' => ['name' => 'Silver (troy ounce)', 'flag' => 'xg'],
+        'XAU' => ['name' => 'Gold (troy ounce)', 'flag' => 'xu'],
+        'XCD' => ['name' => 'East Caribbean Dollar', 'flag' => 'ag'],
+        'XCG' => ['name' => 'Caribbean Guilder', 'flag' => 'cw'],
+        'XDR' => ['name' => 'Special Drawing Rights', 'flag' => 'xr'],
+        'XOF' => ['name' => 'West African CFA Franc', 'flag' => 'sn'],
+        'XPD' => ['name' => 'Palladium (troy ounce)', 'flag' => 'xd'],
+        'XPF' => ['name' => 'CFP Franc', 'flag' => 'pf'],
+        'XPT' => ['name' => 'Platinum (troy ounce)', 'flag' => 'xt'],
+        'YER' => ['name' => 'Yemeni Rial', 'flag' => 'ye'],
+        'ZAR' => ['name' => 'South African Rand', 'flag' => 'za'],
+        'ZMW' => ['name' => 'Zambian Kwacha', 'flag' => 'zm'],
+        'ZWG' => ['name' => 'Zimbabwe Gold', 'flag' => 'zw'],
+        'ZWL' => ['name' => 'Zimbabwean Dollar', 'flag' => 'zw'],
+    ];
+}
+
+/**
+ * Get top 10 currencies
+ *
+ * @return array Array of top 10 currency codes
+ */
+function cwc_get_top10_currencies() {
+    return ['USD', 'EUR', 'GBP', 'JPY', 'CAD', 'AUD', 'CHF', 'CNY', 'INR', 'MXN'];
+}
+
+/**
+ * Get top 20 currencies
+ *
+ * @return array Array of top 20 currency codes
+ */
+function cwc_get_top20_currencies() {
+    return ['USD', 'EUR', 'GBP', 'JPY', 'CAD', 'AUD', 'CHF', 'CNY', 'INR', 'MXN', 'BRL', 'KRW', 'SGD', 'HKD', 'NZD', 'SEK', 'NOK', 'DKK', 'ZAR', 'THB'];
+}

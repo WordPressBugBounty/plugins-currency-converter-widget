@@ -1,0 +1,75 @@
+/**
+ * Currency Converter Widget - Frontend Styles
+ * Version: 3.0.0
+ */
+
+/* Widget Container */
+.cwc-widget-container {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.cwc-widget-container.alignleft {
+    justify-content: flex-start;
+}
+
+.cwc-widget-container.alignright {
+    justify-content: flex-end;
+}
+
+.cwc-widget-container.aligncenter {
+    justify-content: center;
+}
+
+.cwc-widget-container.alignwide,
+.cwc-widget-container.alignfull {
+    width: 100%;
+}
+
+/* Widget iframe */
+.cwc-widget-container iframe {
+    border: none;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .cwc-widget-container iframe {
+        width: 100% !important;
+        max-width: 100%;
+    }
+}
+
+/* WordPress widget area support */
+.widget .cwc-widget-container {
+    justify-content: center;
+}
+
+.widget .cwc-widget-container iframe {
+    max-width: 100%;
+}
+
+/* Gutenberg block alignment support */
+.wp-block-currency-wiki-converter {
+    display: flex;
+    justify-content: center;
+}
+
+.wp-block-currency-wiki-converter.alignleft {
+    justify-content: flex-start;
+}
+
+.wp-block-currency-wiki-converter.alignright {
+    justify-content: flex-end;
+}
+
+.wp-block-currency-wiki-converter.aligncenter {
+    justify-content: center;
+}
+
+.wp-block-currency-wiki-converter.alignwide,
+.wp-block-currency-wiki-converter.alignfull {
+    width: 100%;
+}

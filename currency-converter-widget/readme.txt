@@ -1,73 +1,161 @@
-=== Currency Converter Widget - Exchange Rates ===
-Donate link: http://bit.ly/2AWnjDy
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl.html
-Tags: Currency Converter, Exchange Rates, Currency Calculator, Currency Exchange, Central Bank Rates, Foreign Exchange, Bitcoin, Currency
-Requires at least: 4.6
-Tested up to: 6.7.2
-Stable tag: 4.8
+=== Currency Converter Widget ===
+Contributors: currencywiki
+Tags: currency converter, exchange rates, currency calculator, forex, money converter
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 7.4
+Stable tag: 4.0.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Free, fast, and beautiful currency converter widget with 170+ currencies, live exchange rates, and 11 widget styles.
 
 == Description ==
-Check out the [Widget Demo](https://www.currencyconverterplugin.com) to learn more about this amazing Currency Converter plugin. 
 
-Try chrome extension [Chrome Currency Converter](https://chrome.google.com/webstore/detail/currency-converter-widget/bnpalipgomknhgbmgelaplknnmckljaf)
+**Currency Converter Widget** is the easiest way to add a professional currency converter to your WordPress site. Powered by [Currency.wiki](https://currency.wiki), it offers real-time exchange rates for 170+ world currencies.
 
-Available for Android [Currency Converter App](https://play.google.com/store/apps/details?id=com.currencywiki.currencyconverter)
+[View Full Documentation](https://currency.wiki/tools/wordpress/doc)
 
-WordPress powers over a quarter of the Web and its powerful range of plugins is part of the reason why.  
+= Key Features =
 
-With international business booming, global tourism ever popular and increasing immigration part of our daily lives, a good [Currency Converter](https://www.currency.wiki) can help your site gain the edge over your competitors no matter what field you are in.
+* **11 Widget Styles** - Mini, Square, Tall, Inline, Compact, Mini Chart, Multi Currency, and more
+* **170+ Currencies** - All major world currencies with live exchange rates
+* **Gutenberg Block** - Native WordPress block editor support
+* **Shortcode Support** - Use [currencywiki_converter] anywhere
+* **Customizable** - Themes, colors, languages, and display options
+* **Responsive** - Works perfectly on all devices
+* **Fast & Lightweight** - Loads asynchronously, no impact on page speed
+* **Multi-language** - 13 languages supported
+* **Historical Charts** - Show rate history (selected styles)
 
-The Exchange Rate Widget plugin powered by Currency Wiki may be exactly the simple but versatile option for the job.
+= Widget Styles =
 
-Reach the world with its eight different language options - English, Dutch, French, Hindi, Italian, Russian, Spanish and Ukrainian - all interchangeable with a single click.
+1. **Mini** (250x140) - Minimal footprint
+2. **Square** (250x250) - Perfect for sidebars
+3. **Tall** (200x280) - Vertical layout
+4. **Inline** (480x56) - Single line, great for headers
+5. **Compact** (300x180) - Default balanced style
+6. **Mini Chart** (250x260) - With historical rate chart
+7. **Multi Expandable** (300x320) - Multiple currency converter
+8. **Multi Fixed** (300x300) - Fixed multi-currency view
+9. **Rates Compact** (250x320) - Exchange rates table
+10. **Rates Viewer** (300x500) - Full rates display
+11. **Rates Viewer Compact** (300x400) - Compact rates table
 
-This WordPress Currency Converter is built around ease and functionality. You can set commonly-used currency pairs such as USD/EUR and every conversion is made 'on the fly' as you type - you do not even have to hit 'Enter'.
+= Customization Options =
 
-Instantly customize its visual elements from text to background to font color so it fits seamlessly into your existing theme. If you update your website's look, the handy preview feature lets you adapt the widget with a few clicks.
+* **Theme** - Light, Dark, or Auto (system preference)
+* **Accent Colors** - Blue, Green, Purple, Red, Orange, Slate
+* **Default Currencies** - Set from/to currencies
+* **Display Options** - Flags, labels, swap button, branding
+* **Number Format** - US, European, French, Swiss styles
+* **Decimal Places** - 0 to 6 decimal precision
+* **Lock Currencies** - Prevent user changes
+* **Language** - English, Spanish, French, German, Italian, Portuguese, Russian, Japanese, Korean, Chinese, Arabic
 
-The design from Currency.Wiki even gives you full control. You can even skip the Exchange Rate Widget sidebar altogether - it will generate shortcode so the widget only appears on specific pages or posts.
+= Usage =
 
-Discover how a simple, free WordPress Exchange Rate widget can help create a great user experience and even drive traffic to your page. 
+**Gutenberg Block:**
+Search for "Currency Converter" in the block inserter and customize in the sidebar.
 
-Disclaimer: Our widget has a link to Currency.Wiki (source of exchange rates) if you don't support that, please do not install this widget or check "Widget Demo" above before installation.
+**Shortcode:**
+`[currencywiki_converter]`
 
-> <strong>Report Bugs</strong><br>
-> Please use  [Currency Wiki on GitHub](https://github.com/currencywiki/currency-converter) or [Email](mailto:info@currency.wiki) to report bugs.
+**Short Alias:**
+`[currencywiki]`
 
-= Other info =
-Check out the following pages:
+**With Options:**
+`[currencywiki_converter style="compact" theme="light" from="USD" to="EUR" amount="100"]`
 
-* The [Currency Exchange Widget](https://www.currency.wiki/getwidget).
-* Learn About Currency Wiki official page.
-* Example WordPress post using [Shortcode](http://www.currencyconverterplugin.com/shortcode-demo/) that displays widget w/specific color theme.
-* Example live conversion data for [USD to EUR](https://www.currency.wiki/usd_eur) currency pairs.
-* Follow us on [Facebook](https://www.facebook.com/currency.wiki), [Twitter](https://twitter.com/CurrencyWiki), and [Google+](https://plus.google.com/+CurrencyWiki).
+**All Shortcode Attributes:**
+
+* `style` - Widget style (mini, square, tall, inline, compact, mini-chart, multi-expandable, multi-fixed, rates-compact, rates-viewer, rates-viewer-compact)
+* `theme` - Theme (auto, light, dark)
+* `accent` - Accent color hex without # (2563eb, 059669, 7c3aed, dc2626, ea580c, 475569)
+* `from` - Source currency code (USD, EUR, GBP, etc.)
+* `to` - Target currency code
+* `amount` - Default amount
+* `lang` - Language code (en, es, fr, de, it, pt, pt-BR, ru, ja, ko, zh-CN, zh-TW, ar)
+* `flags` - Show flags (1/0)
+* `labels` - Show labels (1/0)
+* `swap` - Show swap button (1/0)
+* `branding` - Show branding (1/0)
+* `lock` - Lock currency selection (1/0)
+* `format` - Number format (auto, en-US, de-DE, fr-FR, de-CH)
+* `decimals` - Decimal places (0-6)
 
 == Installation ==
 
-= From within WordPress =
-1. Go to:"Plugins > Add New"
-1. Search for "Currency Converter Widget"
-1. Click "Install > Active"
-1. Go to "Appearance > Widgets > Drag & Drop (Currency Converter Widget) into sidebar" 
+1. Upload the `currency-converter-widget` folder to `/wp-content/plugins/`
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Go to Settings > Currency Converter to customize defaults
+4. Use the Gutenberg block or shortcode to add the widget
 
+== Frequently Asked Questions ==
 
-= Manually =
-1. Upload the `currency-converter-widget` folder to the `/wp-content/plugins/` directory
-1. Activate the Currency Converter Widget plugin through the "Plugins" menu in WordPress
-1. Go to "Appearance > Widgets > Drag & Drop (Currency Converter Widget) into sidebar"
+= Is this widget free? =
 
-= Shortcode =
+Yes! The widget is completely free to use with full functionality.
 
-1. Go to "Currency Tool"
-2. Adjust the size, color, currency pair, language, and click "Preview" to generate shortcode below 
+= How often are rates updated? =
+
+Exchange rates are updated every hour from reliable financial data sources.
+
+= Can I use multiple widgets on one page? =
+
+Yes, you can add as many currency converter widgets as needed.
+
+= Does it work with page builders? =
+
+Yes! Use the shortcode [currencywiki_converter] or [currencywiki] in any page builder.
+
+= Is the widget GDPR compliant? =
+
+The widget does not collect any personal user data. It only fetches exchange rates.
+
+= Can I disable the branding? =
+
+You can disable the clickable link, but the branding text is always shown.
+
+* **Settings**: Toggle "Branding Link" off
+* **Shortcode**: `brandinglink="0"` (shows text only, no link)
 
 == Screenshots ==
 
-1. Example of Currency Converter widget for sidebar to change the color, size, language, and default currency pair.
-2. Example parameters to generate shorcode w/specific color.
-3. Example of manual size input for width and height.
-4. Color change example by customizing font as black and style as white.
-5. Example of random color selection.
-6. Example of language selection.
+1. Widget Compact Style - Light Theme
+2. Widget Mini Chart Style - With historical data
+3. Multi Currency Converter
+4. Admin Settings Dashboard
+5. Gutenberg Block Editor - Block Selection
+6. Gutenberg Block Editor - Settings Panel
+
+== Changelog ==
+
+= 4.0.0 =
+* Complete rebuild with new modern widget engine
+* Added 11 beautiful widget styles
+* Added native Gutenberg block support
+* Added multi-language support (50+ languages)
+* Added historical rate charts
+* Added number format options
+* Added decimal precision control
+* New admin dashboard with live preview
+* Performance improvements
+* Backwards compatible with legacy [currency_bcc] shortcode
+* Backwards compatible with legacy sidebar widget
+
+= 3.0.3 =
+* Bug fixes and improvements
+
+= 2.0.0 =
+* Added dark mode support
+* Added more currency options
+* Improved mobile responsiveness
+
+= 1.0.0 =
+* Initial release
+
+== Upgrade Notice ==
+
+= 4.0.0 =
+Major update with completely redesigned widgets, Gutenberg block support, and many new features. Your existing widgets will continue to work - backwards compatibility included!
