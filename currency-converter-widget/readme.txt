@@ -25,7 +25,7 @@ Free, fast, and beautiful currency converter widget with 170+ currencies, live e
 * **Customizable** - Themes, colors, languages, and display options
 * **Responsive** - Works perfectly on all devices
 * **Fast & Lightweight** - Loads asynchronously, no impact on page speed
-* **Multi-language** - 13 languages supported
+* **Multi-language** - 78 languages supported
 * **Historical Charts** - Show rate history (selected styles)
 
 = Widget Styles =
@@ -34,11 +34,11 @@ Free, fast, and beautiful currency converter widget with 170+ currencies, live e
 2. **Square** (250x250) - Perfect for sidebars
 3. **Tall** (200x280) - Vertical layout
 4. **Inline** (480x56) - Single line, great for headers
-5. **Compact** (300x180) - Default balanced style
+5. **Compact** (280x200) - Default balanced style
 6. **Mini Chart** (250x260) - With historical rate chart
-7. **Multi Expandable** (300x320) - Multiple currency converter
-8. **Multi Fixed** (300x300) - Fixed multi-currency view
-9. **Rates Compact** (250x320) - Exchange rates table
+7. **Multi Expandable** (300x400) - Multiple currency converter
+8. **Multi Fixed** (300x340) - Fixed multi-currency view
+9. **Rates Compact** (220x300) - Exchange rates table
 10. **Rates Viewer** (300x500) - Full rates display
 11. **Rates Viewer Compact** (300x400) - Compact rates table
 
@@ -51,7 +51,7 @@ Free, fast, and beautiful currency converter widget with 170+ currencies, live e
 * **Number Format** - US, European, French, Swiss styles
 * **Decimal Places** - 0 to 6 decimal precision
 * **Lock Currencies** - Prevent user changes
-* **Language** - English, Spanish, French, German, Italian, Portuguese, Russian, Japanese, Korean, Chinese, Arabic
+* **Language** - 78 languages including English, Spanish, French, German, Italian, Portuguese, Russian, Japanese, Korean, Chinese, Arabic, Hindi, Thai, Vietnamese, Turkish, Polish, Dutch, Swedish, and many more
 
 = Usage =
 
@@ -75,7 +75,7 @@ Search for "Currency Converter" in the block inserter and customize in the sideb
 * `from` - Source currency code (USD, EUR, GBP, etc.)
 * `to` - Target currency code
 * `amount` - Default amount
-* `lang` - Language code (en, es, fr, de, it, pt, pt-BR, ru, ja, ko, zh-CN, zh-TW, ar)
+* `lang` - Language code - 78 supported (en, es, fr, de, it, pt, pt-br, ru, ja, ko, zh, zh-tw, ar, hi, th, vi, tr, pl, nl, sv, and more)
 * `flags` - Show flags (1/0)
 * `labels` - Show labels (1/0)
 * `swap` - Show swap button (1/0)
@@ -99,7 +99,7 @@ Yes! The widget is completely free to use with full functionality.
 
 = How often are rates updated? =
 
-Exchange rates are updated every hour from reliable financial data sources.
+Exchange rates are updated frequently from reliable financial data sources.
 
 = Can I use multiple widgets on one page? =
 
@@ -135,11 +135,12 @@ You can disable the clickable link, but the branding text is always shown.
 * Fixed: Currency flag images now display correctly in admin dashboard currency pills
 * Fixed: Multi-Expandable base currency dropdown now syncs with Add Currency Dropdown setting
 * Fixed: Widget flags no longer show blank for currencies outside the dropdown preset
+
 = 4.0.0 =
 * Complete rebuild with new modern widget engine
 * Added 11 beautiful widget styles
 * Added native Gutenberg block support
-* Added multi-language support (50+ languages)
+* Added multi-language support (78 languages)
 * Added historical rate charts
 * Added number format options
 * Added decimal precision control
