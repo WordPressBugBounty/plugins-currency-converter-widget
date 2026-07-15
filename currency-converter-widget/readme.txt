@@ -2,7 +2,7 @@
 Contributors: currencywiki
 Tags: currency converter, exchange rates, currency calculator, forex, money converter
 Requires at least: 6.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 4.0.1
 License: GPLv2 or later
@@ -15,6 +15,8 @@ Free, fast, and beautiful currency converter widget with 170+ currencies, live e
 **Currency Converter Widget** is the easiest way to add a professional currency converter to your WordPress site. Powered by [Currency.wiki](https://currency.wiki), it offers real-time exchange rates for 170+ world currencies.
 
 [View Full Documentation](https://currency.wiki/tools/wordpress/doc)
+
+Convert currencies on the go with our free Android app: [Currency Converter App](https://play.google.com/store/apps/details?id=com.currencywiki.app)
 
 = Key Features =
 
