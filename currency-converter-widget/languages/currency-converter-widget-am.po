@@ -446,11 +446,11 @@ msgstr "ከ\\"Currency.Wiki\\" ይታይ"
 
 #: templates/admin-page.php
 msgid "Show \\"Powered by Currency.Wiki\\" link"
-msgstr "\\"Currency.Wiki\\" ሁልጊዜ ይታይ. ይህን አማራጭ ማቋረጥ የተገናኝ አገናኝን ብቻ ይሰርዝ. ተቀባይነት በሚኖር ጊዜ አገናኝ ይጠቀማል rel=\\"nofollow\\"."
+msgstr ""
 
 #: templates/admin-page.php
-msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
-msgstr "የገንዘብ ምልክት ይታይ"
+msgid "\"Powered by Currency.Wiki\" will always be displayed. Disabling this option removes only the clickable link."
+msgstr "\"በCurrency.Wiki የተደገፈ\" ሁልጊዜ ይታያል። ይህን አማራጭ ማሰናከል ሊጫን የሚችለውን አገናኝ ብቻ ያስወግዳል።"
 
 #: assets/js/block-editor.js templates/admin-page.php
 msgid "Show Currency Symbol"

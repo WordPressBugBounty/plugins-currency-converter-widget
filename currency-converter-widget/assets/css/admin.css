@@ -538,6 +538,36 @@
     display: none;
 }
 
+/* Custom accent color swatch (rainbow until a color is chosen) */
+.cwc-color-custom {
+    position: relative;
+    overflow: hidden;
+    background: conic-gradient(from 90deg, #ef4444, #eab308, #22c55e, #06b6d4, #3b82f6, #d946ef, #ef4444);
+}
+
+.cwc-color-custom.selected {
+    background-image: none;
+}
+
+.cwc-color-custom .cwc-accent-custom-picker {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.cwc-accent-custom-hex {
+    margin-top: 10px;
+    width: 120px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
 /* Checkbox Grid */
 .cwc-checkbox-grid {
     display: grid;

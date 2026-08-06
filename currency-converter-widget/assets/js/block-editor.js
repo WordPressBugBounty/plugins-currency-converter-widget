@@ -740,6 +740,14 @@
                                 setAttributes({ accent: value });
                             }
                         }),
+                        el(TextControl, {
+                            label: __('Custom color', 'currency-converter-widget'),
+                            value: attributes.accent ? '#' + attributes.accent : '',
+                            placeholder: '#F66C3B',
+                            onChange: function(value) {
+                                setAttributes({ accent: (value || '').replace(/[^0-9a-fA-F]/g, '').toLowerCase().slice(0, 6) });
+                            }
+                        }),
                         el(SelectControl, {
                             label: __('Language', 'currency-converter-widget'),
                             value: attributes.language,

@@ -583,6 +583,11 @@ $accent_colors = [
                         <div class="cwc-form-row">
                             <div class="cwc-form-group">
                                 <label><?php esc_html_e('Accent Color', 'currency-converter-widget'); ?></label>
+                                <?php
+                                $cwc_preset_accents   = array_keys($accent_colors);
+                                $cwc_is_custom_accent = ! in_array($options['accent'], $cwc_preset_accents, true);
+                                $cwc_custom_accent    = $cwc_is_custom_accent ? $options['accent'] : '2563eb';
+                                ?>
                                 <div class="cwc-color-options">
                                     <?php foreach ($accent_colors as $color_val => $color_name) : ?>
                                         <label class="cwc-color-option <?php echo $options['accent'] === $color_val ? 'selected' : ''; ?>" style="background-color: #<?php echo esc_attr($color_val); ?>;">
@@ -590,7 +595,18 @@ $accent_colors = [
                                             <span class="screen-reader-text"><?php echo esc_html($color_name); ?></span>
                                         </label>
                                     <?php endforeach; ?>
+                                    <label class="cwc-color-option cwc-color-custom <?php echo $cwc_is_custom_accent ? 'selected' : ''; ?>"
+                                           title="<?php esc_attr_e('Custom color', 'currency-converter-widget'); ?>"
+                                           style="<?php echo $cwc_is_custom_accent ? 'background-color:#' . esc_attr($cwc_custom_accent) . ';background-image:none;' : ''; ?>">
+                                        <input type="radio" name="cwc_widget_options[accent]" value="<?php echo esc_attr($cwc_is_custom_accent ? $cwc_custom_accent : ''); ?>" class="cwc-accent-custom-radio" <?php checked($cwc_is_custom_accent); ?>>
+                                        <input type="color" class="cwc-accent-custom-picker" value="#<?php echo esc_attr($cwc_custom_accent); ?>" aria-label="<?php esc_attr_e('Custom color', 'currency-converter-widget'); ?>">
+                                        <span class="screen-reader-text"><?php esc_html_e('Custom color', 'currency-converter-widget'); ?></span>
+                                    </label>
                                 </div>
+                                <input type="text" class="cwc-accent-custom-hex" maxlength="7" spellcheck="false"
+                                       placeholder="#2563EB"
+                                       value="<?php echo $cwc_is_custom_accent ? '#' . esc_attr(strtoupper($cwc_custom_accent)) : ''; ?>"
+                                       aria-label="<?php esc_attr_e('Custom color', 'currency-converter-widget'); ?>">
                             </div>
                             <div class="cwc-form-group">
                                 <label for="cwc_language"><?php esc_html_e('Widget Language', 'currency-converter-widget'); ?></label>
@@ -665,7 +681,7 @@ $accent_colors = [
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 <p style="font-size: 12px; color: #1e40af; margin: 0; line-height: 1.5;">
-                                    <?php esc_html_e('"Powered by Currency.Wiki" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel="nofollow".', 'currency-converter-widget'); ?>
+                                    <?php esc_html_e('"Powered by Currency.Wiki" will always be displayed. Disabling this option removes only the clickable link.', 'currency-converter-widget'); ?>
                                 </p>
                             </div>
                         </div>

@@ -449,8 +449,8 @@ msgid "Show \\"Powered by Currency.Wiki\\" link"
 msgstr "\\"Currency.Wiki\\" లింక్ చూపించు"
 
 #: templates/admin-page.php
-msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
-msgstr "\\"Currency.Wiki\\" ఎప్పుడూ ప్రదర్శించబడుతుంది. ఈ ఎంపికను ఆపడం కేవలం క్లిక్కబుల్ లింక్‌ను మాత్రమే తొలగిస్తుంది. ఇది ప్రారంభించబడినప్పుడు, లింక్ rel=\\"nofollow\\" ఉపయోగిస్తుంది."
+msgid "\"Powered by Currency.Wiki\" will always be displayed. Disabling this option removes only the clickable link."
+msgstr "\"Powered by Currency.Wiki\" ఎల్లప్పుడూ ప్రదర్శించబడుతుంది. ఈ ఎంపికను నిలిపివేయడం వలన క్లిక్ చేయగల లింక్ మాత్రమే తొలగించబడుతుంది."
 
 #: assets/js/block-editor.js templates/admin-page.php
 msgid "Show Currency Symbol"

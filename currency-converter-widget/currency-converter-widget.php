@@ -3,7 +3,7 @@
  * Plugin Name: Currency Converter Widget
  * Plugin URI: https://wordpress.org/plugins/currency-converter-widget/
  * Description: Add a beautiful, customizable currency converter widget to your WordPress site. Real-time exchange rates, 11 widget styles, 170+ currencies. Powered by Currency.Wiki
- * Version: 4.0.1
+ * Version: 4.1.0
  * Author: Currency.Wiki
  * Author URI: https://currency.wiki
  * License: GPL v2 or later
@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('CWC_VERSION', '4.0.1');
+define('CWC_VERSION', '4.1.0');
 define('CWC_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('CWC_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('CWC_PLUGIN_BASENAME', plugin_basename(__FILE__));

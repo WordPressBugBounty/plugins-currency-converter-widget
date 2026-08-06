@@ -313,14 +313,48 @@
 
     // Color Selection
     function initColorSelection() {
-        $('.cwc-color-option').on('click', function() {
+        // Preset swatches
+        $('.cwc-color-option').not('.cwc-color-custom').on('click', function() {
             $('.cwc-color-option').removeClass('selected');
+            $('.cwc-color-custom').removeAttr('style');
+            $('.cwc-accent-custom-hex').val('');
             $(this).addClass('selected');
             $(this).find('input[type="radio"]').prop('checked', true);
             updatePreview();
             updateShortcode();
             updateEmbedCode();
         });
+
+        // Custom color (native picker + hex text input)
+        $('.cwc-accent-custom-picker').on('input change', function() {
+            applyCustomAccent($(this).val());
+        });
+        $('.cwc-accent-custom-hex').on('change', function() {
+            applyCustomAccent($(this).val());
+        });
+    }
+
+    // Normalize a hex string to lowercase #rrggbb / #rgb, or '' if invalid
+    function normalizeAccentHex(value) {
+        value = (value || '').trim();
+        if (value && value.charAt(0) !== '#') value = '#' + value;
+        if (/^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/.test(value)) return value.toLowerCase();
+        return '';
+    }
+
+    // Apply a custom accent: sync the hidden radio, swatch, picker and hex field
+    function applyCustomAccent(value) {
+        var hex = normalizeAccentHex(value);
+        if (!hex) return;
+        var bare = hex.replace('#', '');
+        $('.cwc-color-option').removeClass('selected');
+        $('.cwc-color-custom').addClass('selected').css({ 'background-color': hex, 'background-image': 'none' });
+        $('.cwc-accent-custom-radio').val(bare).prop('checked', true);
+        $('.cwc-accent-custom-picker').val(hex);
+        $('.cwc-accent-custom-hex').val(hex.toUpperCase());
+        updatePreview();
+        updateShortcode();
+        updateEmbedCode();
     }
 
     // Presets
@@ -347,6 +381,8 @@
             // Update accent color
             $('input[name="cwc_widget_options[accent]"]').val([preset.accent]);
             $('.cwc-color-option').removeClass('selected');
+            $('.cwc-color-custom').removeAttr('style');
+            $('.cwc-accent-custom-hex').val('');
             $('.cwc-color-option input[value="' + preset.accent + '"]').closest('.cwc-color-option').addClass('selected');
 
             // Update checkboxes
@@ -579,6 +615,7 @@
     function updateShortcode() {
         const style = $('input[name="cwc_widget_options[style]"]:checked').val() || 'compact';
         const theme = $('input[name="cwc_widget_options[theme]"]:checked').val() || 'auto';
+        const accent = $('input[name="cwc_widget_options[accent]"]:checked').val() || '2563eb';
         const from = $('#cwc_from').val() || 'USD';
         const to = $('#cwc_to').val() || 'EUR';
         const size = $('#cwc_size').val() || 'medium';
@@ -603,6 +640,10 @@
         if (to !== 'EUR') {
             shortcode += ' to="' + to + '"';
             iframeShortcode += ' to="' + to + '"';
+        }
+        if (accent && accent !== '2563eb') {
+            shortcode += ' accent="' + accent + '"';
+            iframeShortcode += ' accent="' + accent + '"';
         }
 
         // Only add custom dimensions if using custom size

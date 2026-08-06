@@ -449,8 +449,8 @@ msgid "Show \\"Powered by Currency.Wiki\\" link"
 msgstr "عرض رابط \\"مدعوم بواسطة Currency.Wiki\\""
 
 #: templates/admin-page.php
-msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
-msgstr "\\"مدعوم بواسطة Currency.Wiki\\" سيتم عرضه دائماً. تعطيل هذا الخيار يزيل فقط الرابط القابل للنقر. عند التمكين، يستخدم الرابط rel=\\"nofollow\\"."
+msgid "\"Powered by Currency.Wiki\" will always be displayed. Disabling this option removes only the clickable link."
+msgstr "سيتم دائمًا عرض \"Powered by Currency.Wiki\". يؤدي تعطيل هذا الخيار إلى إزالة الرابط القابل للنقر فقط."
 
 #: assets/js/block-editor.js templates/admin-page.php
 msgid "Show Currency Symbol"

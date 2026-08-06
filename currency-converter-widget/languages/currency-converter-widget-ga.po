@@ -449,8 +449,8 @@ msgid "Show \\"Powered by Currency.Wiki\\" link"
 msgstr "Taispeáin naisc \\"Tacaítear ag Currency.Wiki\\""
 
 #: templates/admin-page.php
-msgid "\\"Powered by Currency.Wiki\\" will always be displayed. Disabling this option removes only the clickable link. When enabled, the link uses rel=\\"nofollow\\"."
-msgstr "\\"Tacaítear ag Currency.Wiki\\" beidh sé i gcónaí le feiceáil. Má dhéantar an rogha seo a dhíchumasú, baintear ach an nasc inrochtana. Nuair a bhíonn sé gníomhach, úsáidtear rel=\\"nofollow\\" don nasc."
+msgid "\"Powered by Currency.Wiki\" will always be displayed. Disabling this option removes only the clickable link."
+msgstr "Taispeánfar \"Powered by Currency.Wiki\" i gcónaí. Ní bhainfidh an rogha seo a dhíchumasú ach an nasc inchliceáilte."
 
 #: assets/js/block-editor.js templates/admin-page.php
 msgid "Show Currency Symbol"
