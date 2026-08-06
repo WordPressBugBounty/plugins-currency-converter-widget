@@ -69,7 +69,7 @@ $widget_styles = [
     'mini' => ['name' => 'Mini', 'desc' => 'Compact (250x140)', 'icon' => 'minus', 'width' => 250, 'height' => 140],
     'square' => ['name' => 'Square', 'desc' => '1:1 Ratio (250x250)', 'icon' => 'grid-view', 'width' => 250, 'height' => 250],
     'tall' => ['name' => 'Tall Sidebar + Classic', 'desc' => 'Vertical (200x280)', 'icon' => 'align-right', 'width' => 200, 'height' => 280],
-    'inline' => ['name' => 'Inline', 'desc' => 'Horizontal (480x56)', 'icon' => 'minus', 'width' => 480, 'height' => 56],
+    'inline' => ['name' => 'Inline', 'desc' => 'Horizontal (480x44)', 'icon' => 'minus', 'width' => 480, 'height' => 44],
     'compact' => ['name' => 'Compact', 'desc' => 'Standard (280x200)', 'icon' => 'screenoptions', 'width' => 280, 'height' => 200],
     'mini-chart' => ['name' => 'Mini + Chart', 'desc' => 'With Sparkline (250x260)', 'icon' => 'chart-line', 'width' => 250, 'height' => 260],
     'multi-expandable' => ['name' => 'Multi-Converter', 'desc' => 'Multiple Currencies (300x400)', 'icon' => 'list-view', 'width' => 300, 'height' => 400],
@@ -95,9 +95,9 @@ $size_options = [
         'custom' => ['label' => 'Custom', 'width' => 200, 'height' => 280],
     ],
     'inline' => [
-        'inline' => ['label' => 'Default (480x56)', 'width' => 480, 'height' => 56],
-        'wide' => ['label' => 'Wide (600x60)', 'width' => 600, 'height' => 60],
-        'custom' => ['label' => 'Custom', 'width' => 480, 'height' => 56],
+        'inline' => ['label' => 'Default (480x44)', 'width' => 480, 'height' => 44],
+        'comfortable' => ['label' => 'Comfortable (480x56)', 'width' => 480, 'height' => 56],
+        'custom' => ['label' => 'Custom', 'width' => 480, 'height' => 44],
     ],
     'compact' => [
         'medium' => ['label' => 'Default (280x200)', 'width' => 280, 'height' => 200],

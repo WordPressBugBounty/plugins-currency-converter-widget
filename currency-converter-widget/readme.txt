@@ -4,7 +4,7 @@ Tags: currency converter, exchange rates, currency calculator, forex, money conv
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 4.1.0
+Stable tag: 4.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -132,6 +132,12 @@ You can disable the clickable link, but the branding text is always shown.
 6. Gutenberg Block Editor - Settings Panel
 
 == Changelog ==
+= 4.1.2 =
+* Fixed: Smoother live preview in the admin when switching widget styles (no more resize flicker)
+
+= 4.1.1 =
+* Fixed: Block editor preview now displays the widget at its true size (removed the extra empty space below the widget)
+
 = 4.1.0 =
 * Added: Custom accent color — choose any hex color in addition to the preset swatches, in both the Advanced Builder and the WordPress dashboard
 * Improved: Generated shortcode now carries your accent color when it differs from the default

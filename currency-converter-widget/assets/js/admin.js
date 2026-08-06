@@ -598,6 +598,30 @@
             scale = maxPreviewWidth / dimensions.width;
         }
 
+        // When the widget style/size changes, briefly hide the iframe so the old
+        // widget isn't shown at the new size while the new one reloads. This
+        // removes the "resize -> swap -> resize" flicker when switching styles.
+        // Same-size updates (e.g. typing an amount) skip this so they don't blink.
+        var sizeKey = style + '|' + dimensions.width + 'x' + previewHeight + '|' + scale;
+        var sizeChanged = $iframe.data('cwcSizeKey') !== undefined && $iframe.data('cwcSizeKey') !== sizeKey;
+        $iframe.data('cwcSizeKey', sizeKey);
+
+        if (sizeChanged) {
+            // Hide instantly (no transition) so the resize happens off-screen...
+            $iframe[0].style.transition = 'none';
+            $iframe[0].style.opacity = '0';
+            // ...then fade back in once the new widget has loaded.
+            $iframe.off('load._cwcPreview').on('load._cwcPreview', function () {
+                this.style.transition = 'opacity 0.18s ease';
+                this.style.opacity = '1';
+            });
+            // Safety net: never leave the preview hidden if load doesn't fire.
+            clearTimeout(window._cwcPreviewFadeTimer);
+            window._cwcPreviewFadeTimer = setTimeout(function () {
+                $iframe[0].style.opacity = '1';
+            }, 2000);
+        }
+
         $iframe.attr({
             src: url,
             width: dimensions.width,

@@ -29,7 +29,7 @@
         'mini': { width: 250, height: 140 },
         'square': { width: 250, height: 250 },
         'tall': { width: 200, height: 280 },
-        'inline': { width: 480, height: 56 },
+        'inline': { width: 480, height: 44 },
         'compact': { width: 280, height: 200 },  // Fixed: was swapped
         'mini-chart': { width: 250, height: 260 },
         'multi-expandable': { width: 300, height: 320 },
@@ -843,7 +843,7 @@
                         el('iframe', {
                             src: embedUrl,
                             width: dimensions.width,
-                            height: dimensions.height + Math.max(0, 180 - dimensions.height * 0.3), // Dynamic padding: less for taller widgets
+                            height: dimensions.height, // Match the widget's real size (same as the published page)
                             frameBorder: '0',
                             scrolling: 'no',
                             style: {
