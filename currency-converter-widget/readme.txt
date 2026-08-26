@@ -4,7 +4,7 @@ Tags: currency converter, exchange rates, currency calculator, forex, money conv
 Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 4.1.2
+Stable tag: 4.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,6 +86,25 @@ Search for "Currency Converter" in the block inserter and customize in the sideb
 * `format` - Number format (auto, en-US, de-DE, fr-FR, de-CH)
 * `decimals` - Decimal places (0-6)
 
+== External services ==
+
+This plugin relies on an external service to render the widget and to supply live exchange rates: **Currency.Wiki**, operated by CurrencyWiki Technologies LLC.
+
+**What the service is and what it is used for**
+
+The widget is drawn by a small JavaScript embed hosted at `widget.currency.wiki`. Live exchange rates (and, for the chart styles, historical data) are read from `api.currency.wiki`, and currency flag images are loaded from `cdn.currency.wiki`. The plugin does not bundle the widget, the rates, or the flag images; it builds an embed URL and loads them from the service. This is what keeps the plugin small and lets exchange rates stay current without a plugin update.
+
+**What data is sent, and when**
+
+* **On every page view where the widget is displayed**, the visitor's browser loads the widget from `https://widget.currency.wiki/v3/` — either the `script.js` injector or the `/v3/embed` iframe, depending on the embed method you chose. To show live numbers it then requests current rates, and for chart styles historical data, from `https://api.currency.wiki`, and flag images from `https://cdn.currency.wiki/flags/`. These requests carry the display settings you configured — currency pair, amount, style, theme, accent color, language, and similar display options — as URL parameters. As with any web request, the visitor's IP address and user agent are visible to the server.
+* **No personal data is collected, and no cookies are set.** Exchange rates and flags are public reference data; nothing about your visitor is sent beyond the ordinary contents of an HTTP request.
+* **In the WordPress admin**, live previews are loaded from `https://widget.currency.wiki/v3/embed` (flagged `preview=1` so they are not counted as a site using the widget) on two screens: the settings dashboard, which shows a live preview and an "All Widget Styles" gallery, and the block editor, which previews the block as you configure it. These send the same display settings listed above; no personal data is sent from the admin.
+
+**Terms and privacy**
+
+* Terms of Service: https://currency.wiki/terms-of-service
+* Privacy Policy: https://currency.wiki/privacy-policy
+
 == Installation ==
 
 1. Upload the `currency-converter-widget` folder to `/wp-content/plugins/`
@@ -132,6 +151,9 @@ You can disable the clickable link, but the branding text is always shown.
 6. Gutenberg Block Editor - Settings Panel
 
 == Changelog ==
+= 4.2.0 =
+* Added: "All Widget Styles" live gallery on the settings dashboard — every style rendered with live rates, each shown in a different accent color so you can see all eleven at a glance and copy the shortcode for the one you want
+
 = 4.1.2 =
 * Fixed: Smoother live preview in the admin when switching widget styles (no more resize flicker)
 
@@ -173,6 +195,9 @@ You can disable the clickable link, but the branding text is always shown.
 * Initial release
 
 == Upgrade Notice ==
+
+= 4.2.0 =
+Adds an "All Widget Styles" live gallery to the settings dashboard so you can preview every style at once.
 
 = 4.0.0 =
 Major update with completely redesigned widgets, Gutenberg block support, and many new features. Your existing widgets will continue to work - backwards compatibility included!

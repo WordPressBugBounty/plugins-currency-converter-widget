@@ -940,6 +940,82 @@ $accent_colors = [
             </div>
         </div>
     </div>
+
+    <?php
+    // All-styles gallery: every widget style rendered live, each with a
+    // distinct accent so the differences are easy to see at a glance. The
+    // chart styles get warm amber/orange tones. preview=1 keeps these
+    // dashboard renders out of the install tracker.
+    $cwc_gallery_accents = [
+        'mini'                 => '2563eb', // blue
+        'square'               => '7c3aed', // violet
+        'tall'                 => '059669', // emerald
+        'inline'               => '4f46e5', // indigo
+        'compact'              => 'db2777', // pink
+        'mini-chart'           => 'f59e0b', // amber  (chart)
+        'multi-expandable'     => '0d9488', // teal
+        'multi-fixed'          => '0891b2', // cyan
+        'rates-compact'        => 'e11d48', // rose
+        'rates-viewer'         => 'ea580c', // orange (chart)
+        'rates-viewer-compact' => 'd97706', // amber  (chart)
+    ];
+    // The 480px-wide inline embed gets a full-width row so it is not clipped.
+    $cwc_wide_styles = ['inline'];
+    $cwc_gallery_lang = !empty($options['language']) ? $options['language'] : 'en';
+    ?>
+    <div class="cwc-card cwc-style-gallery-card">
+        <div class="cwc-card-header">
+            <h2><span class="dashicons dashicons-images-alt2"></span> <?php esc_html_e('All Widget Styles — Live Preview', 'currency-converter-widget'); ?></h2>
+        </div>
+        <div class="cwc-card-body">
+            <p class="cwc-gallery-lead">
+                <?php esc_html_e('Every style with live rates, updating right here in your browser. Each preview uses a different accent color so you can see how any color looks — pick your own under Appearance above.', 'currency-converter-widget'); ?>
+            </p>
+            <div class="cwc-style-gallery">
+                <?php foreach ($widget_styles as $cwc_gk => $cwc_gs) :
+                    $cwc_acc     = isset($cwc_gallery_accents[$cwc_gk]) ? $cwc_gallery_accents[$cwc_gk] : $options['accent'];
+                    $cwc_gw      = (int) (isset($cwc_gs['width']) ? $cwc_gs['width'] : 300);
+                    $cwc_gh      = (int) (isset($cwc_gs['height']) ? $cwc_gs['height'] : 200);
+                    $cwc_is_wide = in_array($cwc_gk, $cwc_wide_styles, true);
+                    $cwc_url     = 'https://widget.currency.wiki/v3/embed?' . http_build_query([
+                        'style'        => $cwc_gk,
+                        'theme'        => $options['theme'],
+                        'accent'       => $cwc_acc,
+                        'from'         => 'USD',
+                        'to'           => 'EUR',
+                        'amount'       => '1',
+                        'lang'         => $cwc_gallery_lang,
+                        'flags'        => '1',
+                        'labels'       => '1',
+                        'swap'         => '1',
+                        'branding'     => '1',
+                        'brandinglink' => '0',
+                        'preview'      => '1',
+                    ]);
+                ?>
+                    <div class="cwc-gallery-item<?php echo $cwc_is_wide ? ' is-wide' : ''; ?>">
+                        <div class="cwc-gallery-frame">
+                            <iframe
+                                src="<?php echo esc_url($cwc_url); ?>"
+                                width="<?php echo esc_attr($cwc_gw); ?>"
+                                height="<?php echo esc_attr($cwc_gh); ?>"
+                                title="<?php echo esc_attr($cwc_gs['name']); ?>"
+                                loading="lazy"
+                                frameborder="0"
+                                scrolling="no"
+                                style="border:none;max-width:100%;"
+                            ></iframe>
+                        </div>
+                        <div class="cwc-gallery-meta">
+                            <span class="cwc-gallery-name"><?php echo esc_html($cwc_gs['name']); ?></span>
+                            <span class="cwc-gallery-dim"><?php echo esc_html($cwc_gw . ' × ' . $cwc_gh); ?></span>
+                        </div>
+                        <code class="cwc-gallery-shortcode">[currencywiki_converter style="<?php echo esc_attr($cwc_gk); ?>" accent="<?php echo esc_attr($cwc_acc); ?>"]</code>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript">
